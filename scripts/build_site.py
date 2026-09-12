@@ -6,6 +6,12 @@ import json
 from pathlib import Path
 import re
 import shutil
+import sys
+
+sys.dont_write_bytecode = True
+from refresh_embedded_resources import refresh_embedded_resources
+from build_reader_design import apply_design
+from audit_learning_content import audit_learning_content
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -17,6 +23,7 @@ IGNORE = shutil.ignore_patterns(
 
 
 def main():
+    audit_learning_content(ROOT)
     # Only this generated directory is replaced; the original bundle stays intact.
     if OUTPUT.exists():
         shutil.rmtree(OUTPUT)
@@ -28,6 +35,9 @@ def main():
     for name in ("cover.png", "imsmanifest.xml"):
         shutil.copy2(ROOT / name, OUTPUT / name)
     (OUTPUT / ".nojekyll").touch()
+
+    apply_design(OUTPUT)
+    refresh_embedded_resources(OUTPUT)
 
     preloader_path = OUTPUT / "assets/offline-preloader.js"
     preloader = preloader_path.read_text(encoding="utf-8")
@@ -76,6 +86,7 @@ def main():
     size = sum(p.stat().st_size for p in OUTPUT.rglob("*") if p.is_file())
     if size >= 1_000_000_000:
         raise ValueError(f"Published site exceeds the 1 GB budget: {size:,} bytes")
+    audit_learning_content(OUTPUT)
     print(f"Shared {removed_count:,} duplicate audio files; saved {saved_bytes:,} bytes.")
     print(f"GitHub Pages output: {size:,} bytes in {OUTPUT}")
 

@@ -1,0 +1,106 @@
+/* Chapter Two: the source's circular badge, blue introduction and live activity. */
+#content.page-numbers .chapter-opening {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin: 2rem 4.5rem 2rem 0;
+  padding: 0 1rem 0 2rem;
+  border: 0;
+  min-height: 10rem;
+}
+#content.page-numbers .chapter-opening::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 2.5rem 0 0;
+  border-radius: 0 2rem 2rem 0;
+  background: linear-gradient(#007fae, #d9ecf4 45%, white);
+}
+#content.page-numbers .chapter-disc {
+  display: grid;
+  place-items: center;
+  flex: 0 0 9.5rem;
+  min-height: 9.5rem;
+  padding: 1.3rem;
+  border: 5px solid #abd079;
+  border-radius: 50%;
+  outline: 6px solid white;
+  box-shadow: inset 0 0 0 2px #4f8a38, inset 0 -8px 12px #4e812755;
+  background:
+    repeating-radial-gradient(ellipse at 100% 25%, transparent 0 18px, #46ae5033 20px 26px, transparent 30px 37px),
+    linear-gradient(130deg, #95b526, #4b9849);
+  color: white;
+  font: 700 1.75rem/1.2 Arial, sans-serif;
+  text-align: center;
+}
+#content.page-numbers .chapter-disc span { color: inherit; }
+#content.page-numbers .chapter-opening h1 {
+  flex: 1;
+  min-width: 0;
+  margin: 2.5rem 0 0;
+  padding: 1.25rem 0.5rem;
+  border-radius: 1.5rem 0 1.5rem 0;
+  background: white;
+  box-shadow: 0 3px 8px #b3e0ed;
+  color: #0073bd;
+  font-size: 2rem;
+  text-align: center;
+}
+#content.page-numbers .practice-body { margin: 0 4.5rem 3rem 5.5rem; }
+#content.page-numbers .practice-body > p { margin: 0; }
+#content.page-numbers .numbers-introduction {
+  overflow: hidden;
+  border: 1px solid #8ed3eb;
+  border-radius: 0 1rem 1rem 1rem;
+  background: #d8eef5;
+}
+#content.page-numbers .introduction-label {
+  display: inline-block;
+  margin: 0;
+  padding: 0.4rem 1.25rem;
+  border-bottom-right-radius: 1rem;
+  background: linear-gradient(100deg, #527e27, #388447);
+  color: white;
+  font-size: var(--book-text);
+}
+#content.page-numbers .numbers-introduction > p { margin: 0; padding: 1rem 1.25rem; font-style: italic; }
+#content.page-numbers .numbers-heading {
+  margin: 1.25rem 0 0.2rem;
+  color: var(--book-green);
+  font-size: 1.25rem;
+}
+#content.page-numbers .activity-panel { margin-top: 1.5rem; }
+#content.page-numbers math { math-style: normal; }
+#content.page-numbers .numbered-prompt {
+  display: grid;
+  grid-template-columns: 1.3em minmax(0, 1fr);
+  gap: 0.4rem;
+  margin: 0;
+}
+#content.page-numbers .front-rail {
+  left: auto;
+  right: 1.5rem;
+  border-right: 0;
+  border-left: 2px dotted #00add2;
+  border-radius: 3rem 0 0 0;
+}
+#content.page-numbers .front-publisher { left: auto; right: 0; border-radius: 3rem 0 0 3rem; }
+#content.page-numbers .front-book-name { left: auto; right: 0; border-radius: 0 0 2rem 0; }
+#content.page-numbers .front-top-rule {
+  background:
+    repeating-linear-gradient(90deg, #ffffff66 0 2px, transparent 2px 5px),
+    linear-gradient(90deg, #86c861, #c6e9ef 12%, #00acd2 70%, #d5eef2 94%, #00aed2);
+}
+@media (max-width: 760px) {
+  #content.page-numbers .practice-body { margin-inline: 1rem 4rem; }
+  #content.page-numbers .chapter-opening { padding-left: 0.5rem; }
+}
+@media (max-width: 640px) {
+  #content.page-numbers .practice-body { margin: 0 0 3rem; }
+  #content.page-numbers .chapter-opening { margin: 1.5rem 0; gap: 1rem; padding: 0; min-height: 7rem; flex-wrap: wrap; justify-content: center; }
+  #content.page-numbers .chapter-disc { flex-basis: 6.25rem; min-height: 6.25rem; padding: 0.5rem; font-size: 1.25rem; }
+  #content.page-numbers .chapter-opening h1 { flex-basis: 8rem; margin-top: 1rem; font-size: 1.75rem; overflow-wrap: anywhere; }
+  #content.page-numbers .numbers-introduction > p { padding: 1rem; }
+}

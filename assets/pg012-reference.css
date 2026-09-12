@@ -1,0 +1,123 @@
+/* Page 6 in the printed book: live activity and exercise panels. */
+#content.page-practice .front-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 72rem;
+}
+
+#content.page-practice .front-top-rule {
+  flex-shrink: 0;
+  background:
+    repeating-linear-gradient(90deg, #ffffff66 0 2px, transparent 2px 5px),
+    linear-gradient(90deg, #00aed2, #d5eef2 6%, #00acd2 30%, #c6e9ef 88%, #86c861);
+}
+
+#content.page-practice .practice-body { margin: 3.5rem 5.5rem 4rem; }
+#content.page-practice .practice-panel + .practice-panel { margin-top: 1.75rem; }
+#content.page-practice .activity-panel { background: #d8eef3; }
+#content.page-practice .exercise-panel { background: #d8edd3; }
+
+#content.page-practice .practice-heading {
+  margin: 0;
+  padding: 0.6rem 1.25rem;
+  color: white;
+  font-size: var(--book-text);
+  font-weight: 700;
+  line-height: 1.4;
+  text-wrap: pretty;
+}
+
+#content.page-practice .activity-panel .practice-heading {
+  border-left: 4px solid #00b7d7;
+  padding-left: calc(1.25rem - 4px);
+  background: linear-gradient(100deg, #007b96, #006780);
+}
+
+#content.page-practice .activity-number { color: #fff200; }
+#content.page-practice .exercise-panel .practice-heading {
+  background:
+    repeating-radial-gradient(ellipse at 15% -140%, transparent 0 24px, #94bd3222 26px 31px, transparent 34px 43px),
+    linear-gradient(100deg, #527720, #2c7338);
+}
+
+#content.page-practice .practice-panel-body { padding: 1rem 1.25rem 1.25rem; }
+#content.page-practice .practice-panel-body > p { margin: 0; }
+#content.page-practice .practice-response-label {
+  display: block;
+  margin: 1rem 0 0.5rem;
+  font-size: var(--book-text);
+  font-weight: 700;
+}
+
+#content.page-practice .practice-question-block + .practice-question-block { margin-top: 1.5rem; }
+#content.page-practice .practice-question {
+  display: block;
+  margin: 0 0 0.75rem;
+  padding-left: 1.5em;
+  text-indent: -1.5em;
+}
+
+#content.page-practice .exercise-number {
+  display: inline-block;
+  width: 1.25em;
+  text-indent: 0;
+  color: var(--book-green);
+}
+
+#content.page-practice .practice-answer {
+  display: block;
+  border-radius: 0.2rem;
+  resize: vertical;
+}
+
+#content.page-practice .practice-answer[rows="2"] { min-height: 4.5rem; }
+#content.page-practice .practice-panel-body > .practice-status {
+  margin-top: 0.75rem;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #365663;
+}
+
+#content.page-practice .front-rail {
+  right: auto;
+  left: 1.5rem;
+  border-left: 0;
+  border-right: 2px dotted #00add2;
+  border-radius: 0 3rem 0 0;
+}
+
+#content.page-practice .front-publisher {
+  right: auto;
+  left: 0;
+  border-radius: 0 3rem 3rem 0;
+}
+
+#content.page-practice .front-publisher,
+#content.page-practice .front-book-name { font-size: var(--book-text); }
+#content.page-practice .front-book-name {
+  right: auto;
+  left: 0;
+  min-height: 17rem;
+  border-radius: 0 0 0 2rem;
+  text-align: center;
+}
+
+#content.page-practice .front-footer {
+  margin-top: auto;
+  flex-shrink: 0;
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='7'%3E%3Cpath d='M0 3 Q3 0 6 3 T12 3 T18 3 T24 3' fill='none' stroke='%2300a9c6' stroke-opacity='.5' stroke-width='.7'/%3E%3C/svg%3E"),
+    linear-gradient(90deg, #00aed3, #d8f0f4 5%, #00aed3 30%, #a9dfeb 55%, #daf1f3 92%, #71c866);
+}
+
+@media (max-width: 760px) {
+  #content.page-practice .practice-body { margin-inline: 4rem 1rem; }
+}
+
+@media (max-width: 640px) {
+  #content.page-practice .front-page { min-height: 0; }
+  #content.page-practice .practice-body { margin: 2rem 0 3rem; }
+  #content.page-practice .practice-heading { padding: 0.65rem 1rem; }
+  #content.page-practice .activity-panel .practice-heading { padding-left: calc(1rem - 4px); }
+  #content.page-practice .practice-panel-body { padding: 1rem; }
+}

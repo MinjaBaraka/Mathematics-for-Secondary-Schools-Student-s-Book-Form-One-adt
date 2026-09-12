@@ -1,0 +1,1979 @@
+{
+  "source": "Mathematics form 1 (09 APRIL 2026).pdf",
+  "source_pages": 212,
+  "source_body": "Times New Roman, 12 pt",
+  "note": "Heading roles and colours checked against the source PDF; sizes adapted for screen reading.",
+  "pages": {
+    "index.html": {
+      "Mathematics": {
+        "role": "display",
+        "ink": "blue"
+      },
+      "for Secondary Schools": {
+        "role": "display-subtitle",
+        "ink": "blue"
+      },
+      "Student’s Book": {
+        "role": "display-subtitle",
+        "ink": "blue"
+      },
+      "Form One": {
+        "role": "display-subtitle",
+        "ink": "blue"
+      }
+    },
+    "pg002_sec001.html": {},
+    "pg003_sec001.html": {
+      "Table of contents": {
+        "role": "front",
+        "ink": "black"
+      }
+    },
+    "pg004_sec001.html": {},
+    "pg005_sec001.html": {
+      "Acknowledgments": {
+        "role": "front",
+        "ink": "black"
+      }
+    },
+    "pg006_sec001.html": {},
+    "pg007_sec001.html": {
+      "Concept of Mathematics": {
+        "role": "chapter",
+        "ink": "blue"
+      },
+      "Introduction": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Meaning of Mathematics": {
+        "role": "section",
+        "ink": "green"
+      },
+      "Branches of Mathematics": {
+        "role": "section",
+        "ink": "green"
+      }
+    },
+    "pg008_sec001.html": {
+      "Arithmetic": {
+        "role": "subsection",
+        "ink": "blue"
+      },
+      "Algebra": {
+        "role": "subsection",
+        "ink": "blue"
+      },
+      "Geometry": {
+        "role": "subsection",
+        "ink": "blue"
+      },
+      "Relationship between Mathematics and other subjects": {
+        "role": "section",
+        "ink": "green"
+      },
+      "Mathematics and Agriculture": {
+        "role": "subsection",
+        "ink": "blue"
+      }
+    },
+    "pg009_sec001.html": {
+      "Mathematics and Biology": {
+        "role": "subsection",
+        "ink": "blue"
+      },
+      "Mathematics and Chemistry": {
+        "role": "subsection",
+        "ink": "blue"
+      },
+      "Mathematics and Physics": {
+        "role": "subsection",
+        "ink": "blue"
+      },
+      "Mathematics and Information and Communications Technology": {
+        "role": "subsection",
+        "ink": "blue"
+      }
+    },
+    "pg010_sec001.html": {
+      "Mathematics and Business Studies": {
+        "role": "subsection",
+        "ink": "blue"
+      },
+      "Mathematics and Geography": {
+        "role": "subsection",
+        "ink": "blue"
+      },
+      "Mathematics and History": {
+        "role": "subsection",
+        "ink": "blue"
+      },
+      "Mathematics and Literature": {
+        "role": "subsection",
+        "ink": "blue"
+      },
+      "Mathematics and Music": {
+        "role": "subsection",
+        "ink": "blue"
+      }
+    },
+    "pg011_sec001.html": {
+      "Mathematics in Sports and Games": {
+        "role": "subsection",
+        "ink": "blue"
+      },
+      "Activity 1.2: Exploring the use of Mathematics in other fields": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Importance of Mathematics": {
+        "role": "section",
+        "ink": "green"
+      },
+      "Financial Management": {
+        "role": "subsection",
+        "ink": "blue"
+      },
+      "Problem-solving skills": {
+        "role": "subsection",
+        "ink": "blue"
+      },
+      "Time management": {
+        "role": "subsection",
+        "ink": "blue"
+      }
+    },
+    "pg012_sec001.html": {},
+    "pg013_sec001.html": {
+      "Chapter Two": {
+        "role": "subsection",
+        "ink": "black"
+      },
+      "Numbers": {
+        "role": "chapter",
+        "ink": "blue"
+      },
+      "Introduction": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Concept of numbers": {
+        "role": "section",
+        "ink": "green"
+      },
+      "Activity 2.1: Categorising numbers": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Rational numbers": {
+        "role": "section",
+        "ink": "green"
+      }
+    },
+    "pg014_sec001.html": {
+      "Representation of rational numbers on a number line": {
+        "role": "subsection",
+        "ink": "blue"
+      },
+      "Activity 2.2: Locating numbers on a number line": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Example 2.1": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg015_sec001.html": {
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Example 2.2": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Example 2.3": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg016_sec001.html": {
+      "Exercise 2.1": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg017_sec001.html": {
+      "Repeating decimals": {
+        "role": "subsection",
+        "ink": "blue"
+      }
+    },
+    "pg018_sec001.html": {
+      "Activity 2.3: Expressing measurements of quantities in decimals": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Example 2.4": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      }
+    },
+    "pg019_sec001.html": {
+      "Converting repeating decimals into fractions": {
+        "role": "subsection",
+        "ink": "blue"
+      },
+      "Example 2.5": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      }
+    },
+    "pg020_sec001.html": {
+      "7.5": {
+        "role": "subsection",
+        "ink": "black"
+      }
+    },
+    "pg021_sec001.html": {
+      "Example 2.6": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      }
+    },
+    "pg022_sec001.html": {
+      "Exercise 2.2": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg023_sec001.html": {
+      "Converting fractions into repeating decimals": {
+        "role": "subsection",
+        "ink": "blue"
+      },
+      "Example 2.7": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      }
+    },
+    "pg024_sec001.html": {
+      "Example 2.8": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      }
+    },
+    "pg025_sec001.html": {
+      "Example 2.9": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Exercise 2.3": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg026_sec001.html": {
+      "Irrational numbers": {
+        "role": "section",
+        "ink": "green"
+      }
+    },
+    "pg027_sec001.html": {
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Note:": {
+        "role": "subsection",
+        "ink": "blue"
+      },
+      "Example 2.11": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg028_sec001.html": {
+      "Real numbers": {
+        "role": "section",
+        "ink": "green"
+      }
+    },
+    "pg029_sec001.html": {
+      "Note:": {
+        "role": "subsection",
+        "ink": "blue"
+      }
+    },
+    "pg030_sec001.html": {
+      "Inequalities in real numbers": {
+        "role": "section",
+        "ink": "green"
+      }
+    },
+    "pg031_sec001.html": {
+      "Note:": {
+        "role": "subsection",
+        "ink": "blue"
+      },
+      "Example 2.12": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      }
+    },
+    "pg032_sec001.html": {
+      "Example 2.13": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Example 2.14": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg033_sec001.html": {
+      "Example 2.15": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      }
+    },
+    "pg034_sec001.html": {
+      "Representing real numbers on a number line": {
+        "role": "subsection",
+        "ink": "blue"
+      }
+    },
+    "pg035_sec001.html": {
+      "Note:": {
+        "role": "subsection",
+        "ink": "blue"
+      },
+      "Example 2.16": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      }
+    },
+    "pg036_sec001.html": {
+      "Example 2.17": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg037_sec001.html": {
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Example 2.18": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Exercise 2.6": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg038_sec001.html": {},
+    "pg039_sec001.html": {
+      "Absolute value of a real number": {
+        "role": "section",
+        "ink": "green"
+      },
+      "Example 2.19": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Example 2.20": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg040_sec001.html": {
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Example 2.21": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Exercise 2.7": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg041_sec001.html": {},
+    "pg042_sec001.html": {
+      "Revision exercise 2": {
+        "role": "subsection",
+        "ink": "black"
+      }
+    },
+    "pg043_sec001.html": {},
+    "pg044_sec001.html": {},
+    "pg045_sec001.html": {
+      "Project: Appreciating numbers in daily live": {
+        "role": "subsection",
+        "ink": "black"
+      }
+    },
+    "pg046_sec001.html": {
+      "Chapter Three": {
+        "role": "subsection",
+        "ink": "black"
+      },
+      "Approximations": {
+        "role": "chapter",
+        "ink": "blue"
+      },
+      "Introduction": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Meaning of approximations": {
+        "role": "section",
+        "ink": "green"
+      },
+      "Activity 3.1: Estimating challenge": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Rounding off numbers": {
+        "role": "section",
+        "ink": "green"
+      }
+    },
+    "pg047_sec001.html": {
+      "Rounding off numbers by place values": {
+        "role": "subsection",
+        "ink": "blue"
+      },
+      "Note:": {
+        "role": "subsection",
+        "ink": "blue"
+      },
+      "Example 3.1": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Example 3.2": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg048_sec001.html": {
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Example 3.3": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Example 3.4": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg049_sec001.html": {
+      "Example 3.5": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Example 3.6": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg050_sec001.html": {
+      "Example 3.7": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Exercise 3.1": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg051_sec001.html": {
+      "Rounding off by number of decimal places": {
+        "role": "subsection",
+        "ink": "blue"
+      },
+      "Example 3.8": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      }
+    },
+    "pg052_sec001.html": {
+      "Example 3.9": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Example 3.10": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg053_sec001.html": {
+      "Example 3.11": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Example 3.12": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Example 3.13": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg054_sec001.html": {
+      "Exercise 3.2": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg055_sec001.html": {
+      "Significant figures": {
+        "role": "section",
+        "ink": "green"
+      },
+      "Rules for significant figures": {
+        "role": "subsection",
+        "ink": "black"
+      }
+    },
+    "pg056_sec001.html": {
+      "Note:": {
+        "role": "subsection",
+        "ink": "blue"
+      },
+      "Rounding off numbers by significant figures": {
+        "role": "subsection",
+        "ink": "blue"
+      },
+      "Example 3.14": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Example 3.15": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg057_sec001.html": {
+      "Example 3.16": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Example 3.17": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg058_sec001.html": {},
+    "pg059_sec001.html": {
+      "Approximations in calculations": {
+        "role": "section",
+        "ink": "green"
+      },
+      "Example 3.18": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      }
+    },
+    "pg060_sec001.html": {
+      "Example 3.19": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Example 3.20": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Example 3.21": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Example 3.22": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg061_sec001.html": {
+      "Exercise 3.4": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Chapter summary": {
+        "role": "subsection",
+        "ink": "black"
+      }
+    },
+    "pg062_sec001.html": {
+      "Revision exercise 3": {
+        "role": "subsection",
+        "ink": "black"
+      }
+    },
+    "pg063_sec001.html": {},
+    "pg064_sec001.html": {},
+    "pg065_sec001.html": {},
+    "pg066_sec001.html": {
+      "Project: Estimating the value of pi": {
+        "role": "subsection",
+        "ink": "black"
+      }
+    },
+    "pg067_sec001.html": {
+      "Ratios and proportions": {
+        "role": "chapter",
+        "ink": "blue"
+      },
+      "Introduction": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Ratios": {
+        "role": "section",
+        "ink": "green"
+      },
+      "Activity 4.1: Ratios in daily life": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg068_sec001.html": {
+      "Example 4.1": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Example 4.2": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Example 4.3": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Example 4.4": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg069_sec001.html": {
+      "Example 4.5": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Example 4.6": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Example 4.7": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg070_sec001.html": {
+      "Example 4.8": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      }
+    },
+    "pg071_sec001.html": {},
+    "pg072_sec001.html": {
+      "Proportions": {
+        "role": "section",
+        "ink": "green"
+      },
+      "Activity 4.2: Relating quantities": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Example 4.9": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      }
+    },
+    "pg073_sec001.html": {
+      "Example 4.10": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Example 4.11": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Example 4.12": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg074_sec001.html": {
+      "Exercise 4.2": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg075_sec001.html": {
+      "Chapter summary": {
+        "role": "subsection",
+        "ink": "black"
+      },
+      "Revision exercise 4": {
+        "role": "subsection",
+        "ink": "black"
+      }
+    },
+    "pg076_sec001.html": {},
+    "pg077_sec001.html": {
+      "Project: Planning for a catering of an event": {
+        "role": "subsection",
+        "ink": "black"
+      }
+    },
+    "pg078_sec001.html": {
+      "Chapter Five": {
+        "role": "subsection",
+        "ink": "black"
+      },
+      "Algebra": {
+        "role": "chapter",
+        "ink": "blue"
+      },
+      "Introduction": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Algebraic expressions": {
+        "role": "section",
+        "ink": "green"
+      }
+    },
+    "pg079_sec001.html": {
+      "Simplification of algebraic expressions": {
+        "role": "subsection",
+        "ink": "black"
+      },
+      "Addition and subtraction of algebraic expressions": {
+        "role": "subsection",
+        "ink": "black"
+      }
+    },
+    "pg080_sec001.html": {
+      "Example 5.4": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Exercise 5.1": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg081_sec001.html": {
+      "Multiplication and division of algebraic expressions": {
+        "role": "subsection",
+        "ink": "black"
+      }
+    },
+    "pg082_sec001.html": {
+      "Example 5.5": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Example 5.6": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg083_sec001.html": {
+      "Example 5.7": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Example 5.8": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Exercise 5.2": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg084_sec001.html": {
+      "Algebraic expressions involving fractions and brackets": {
+        "role": "subsection",
+        "ink": "black"
+      }
+    },
+    "pg085_sec001.html": {
+      "Example 5.10": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Example 5.11": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg086_sec001.html": {
+      "Activity 5.1:": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Using algebraic expressions in daily life experiences": {
+        "role": "subsection",
+        "ink": "black"
+      },
+      "Algebraic equations": {
+        "role": "section",
+        "ink": "green"
+      },
+      "Linear equations": {
+        "role": "subsection",
+        "ink": "black"
+      },
+      "Formulation of linear equations": {
+        "role": "subsection",
+        "ink": "black"
+      }
+    },
+    "pg087_sec001.html": {
+      "Example 5.12": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Example 5.13": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Example 5.14": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Example 5.15": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg088_sec001.html": {
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Exercise 5.4": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solving linear equations with one unknown": {
+        "role": "subsection",
+        "ink": "black"
+      }
+    },
+    "pg089_sec001.html": {
+      "Example 5.16": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Example 5.17": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Example 5.18": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Example 5.19": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg090_sec001.html": {
+      "Example 5.20": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Example 5.21": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Example 5.22": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Example 5.23": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Example 5.24": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg091_sec001.html": {
+      "Example 5.25": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      }
+    },
+    "pg092_sec001.html": {},
+    "pg093_sec001.html": {},
+    "pg094_sec001.html": {
+      "Solving word problems involving linear equations": {
+        "role": "subsection",
+        "ink": "black"
+      },
+      "Example 5.26": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Example 5.27": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Example 5.28": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Example 5.29": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg095_sec001.html": {
+      "Activity 5.3: Algebra in cooking": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Exercise 5.6": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg096_sec001.html": {
+      "Linear simultaneous equations": {
+        "role": "section",
+        "ink": "green"
+      }
+    },
+    "pg097_sec001.html": {
+      "Solving linear simultaneous equations": {
+        "role": "subsection",
+        "ink": "black"
+      },
+      "Solving linear simultaneous equations by elimination method": {
+        "role": "subsection",
+        "ink": "black"
+      },
+      "Example 5.30": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      }
+    },
+    "pg098_sec001.html": {
+      "Example 5.31": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      }
+    },
+    "pg099_sec001.html": {
+      "Example 5.32": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      }
+    },
+    "pg100_sec001.html": {
+      "Example 5.33": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      }
+    },
+    "pg101_sec001.html": {
+      "Exercise 5.7": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg102_sec001.html": {
+      "Solving linear simultaneous equations by substitution method": {
+        "role": "subsection",
+        "ink": "black"
+      },
+      "Example 5.34": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Example 5.35": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg103_sec001.html": {
+      "Example 5.36": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      }
+    },
+    "pg104_sec001.html": {
+      "Exercise 5.8": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solving word problems on linear simultaneous equations": {
+        "role": "subsection",
+        "ink": "black"
+      }
+    },
+    "pg105_sec001.html": {
+      "Example 5.37": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Example 5.38": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg106_sec001.html": {
+      "Example 5.39": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      }
+    },
+    "pg107_sec001.html": {
+      "Activity 5.4: Demonstrating occurrence of simultaneous events": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Exercise 5.9": {
+        "role": "label",
+        "ink": "black"
+      },
+      "4.": {
+        "role": "subsection",
+        "ink": "black"
+      }
+    },
+    "pg108_sec001.html": {
+      "Solution of inequalities with one unknown": {
+        "role": "section",
+        "ink": "green"
+      },
+      "Example 5.40": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "green"
+      }
+    },
+    "pg109_sec001.html": {
+      "Example 5.41": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Example 5.42": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Example 5.43": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Example 5.44": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg110_sec001.html": {
+      "Example 5.45": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Example 5.46": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg111_sec001.html": {
+      "Exercise 5.10": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg112_sec001.html": {
+      "Word problems involving inequalities": {
+        "role": "subsection",
+        "ink": "black"
+      }
+    },
+    "pg113_sec001.html": {
+      "Example 5.47": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Example 5.48": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Example 5.49": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg114_sec001.html": {
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Exercise 5.11": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Chapter summary": {
+        "role": "subsection",
+        "ink": "black"
+      }
+    },
+    "pg115_sec001.html": {
+      "Revision exercise 5": {
+        "role": "subsection",
+        "ink": "black"
+      }
+    },
+    "pg116_sec001.html": {},
+    "pg117_sec001.html": {},
+    "pg118_sec001.html": {},
+    "pg119_sec001.html": {},
+    "pg120_sec001.html": {},
+    "pg121_sec001.html": {
+      "Chapter Six": {
+        "role": "subsection",
+        "ink": "black"
+      },
+      "Coordinate geometry": {
+        "role": "chapter",
+        "ink": "blue"
+      },
+      "Introduction": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Basic concepts of coordinate geometry": {
+        "role": "section",
+        "ink": "green"
+      }
+    },
+    "pg122_sec001.html": {
+      "Activity 6.1: Reading coordinates of points on xy-plane": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Example 6.1": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg123_sec001.html": {
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Example 6.2": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg124_sec001.html": {
+      "Exercise 6.1": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg125_sec001.html": {},
+    "pg126_sec001.html": {
+      "Gradient of a straight line": {
+        "role": "section",
+        "ink": "green"
+      },
+      "Activity 6.2: Recognising the gradient of a straight line": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg127_sec001.html": {
+      "Note:": {
+        "role": "subsection",
+        "ink": "blue"
+      }
+    },
+    "pg128_sec001.html": {
+      "Example 6.3": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Example 6.4": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg129_sec001.html": {
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      }
+    },
+    "pg130_sec001.html": {
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      }
+    },
+    "pg131_sec001.html": {
+      "Example 6.6": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      }
+    },
+    "pg132_sec001.html": {},
+    "pg133_sec001.html": {},
+    "pg134_sec001.html": {
+      "Example 6.7": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Example 6.8": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg135_sec001.html": {
+      "Exercise 6.2": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg136_sec001.html": {},
+    "pg137_sec001.html": {
+      "Equation of a straight line": {
+        "role": "section",
+        "ink": "green"
+      }
+    },
+    "pg138_sec001.html": {
+      "Example 6.9": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      }
+    },
+    "pg139_sec001.html": {
+      "Example 6.10": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      }
+    },
+    "pg140_sec001.html": {
+      "Example 6.11": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      }
+    },
+    "pg141_sec001.html": {
+      "Example 6.12": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      }
+    },
+    "pg142_sec001.html": {
+      "Exercise 6.3": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg143_sec001.html": {
+      "General equation of a straight line": {
+        "role": "section",
+        "ink": "green"
+      }
+    },
+    "pg144_sec001.html": {
+      "Example 6.13": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Example 6.14": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg145_sec001.html": {
+      "Example 6.15": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Example 6.16": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg146_sec001.html": {
+      "Exercise 6.4": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg147_sec001.html": {
+      "Equation of a straight line when given a gradient and a point": {
+        "role": "subsection",
+        "ink": "black"
+      },
+      "Example 6.17": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      }
+    },
+    "pg148_sec001.html": {
+      "Example 6.18": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      }
+    },
+    "pg149_sec001.html": {
+      "Example 6.19": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Example 6.20": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg150_sec001.html": {
+      "Finding the equation of a straight line given the gradient and x or y-intercepts": {
+        "role": "subsection",
+        "ink": "blue"
+      },
+      "Example 6.21": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Example 6.22": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg151_sec001.html": {
+      "Example 6.23": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      }
+    },
+    "pg152_sec001.html": {
+      "Exercise 6.5": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg153_sec001.html": {
+      "Graphing linear equations": {
+        "role": "section",
+        "ink": "green"
+      },
+      "Graphing linear equations using table of values": {
+        "role": "subsection",
+        "ink": "black"
+      }
+    },
+    "pg154_sec001.html": {
+      "Example 6.24": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      }
+    },
+    "pg155_sec001.html": {
+      "Example 6.25": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Example 6.26": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg156_sec001.html": {
+      "Graphing linear equations using x and y-intercepts": {
+        "role": "subsection",
+        "ink": "blue"
+      },
+      "Example 6.27": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      }
+    },
+    "pg157_sec001.html": {
+      "Example 6.28": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      }
+    },
+    "pg158_sec001.html": {
+      "Example 6.29": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      }
+    },
+    "pg159_sec001.html": {
+      "Activity 6.3: Graphing linear equations using graphing tools": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Exercise 6.6": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg160_sec001.html": {},
+    "pg161_sec001.html": {
+      "Solving linear simultaneous equations graphically": {
+        "role": "section",
+        "ink": "green"
+      },
+      "Activity 6.4: Recognising the point of intersection of two linear equations": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg162_sec001.html": {
+      "Example 6.30": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Table of values for y=2x−1": {
+        "role": "subsection",
+        "ink": "black"
+      },
+      "Table of values for y=−x+2": {
+        "role": "subsection",
+        "ink": "black"
+      }
+    },
+    "pg163_sec001.html": {
+      "Example 6.31": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      }
+    },
+    "pg164_sec001.html": {
+      "Example 6.32": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Solution": {
+        "role": "solution",
+        "ink": "blue"
+      },
+      "Example 6.33": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg165_sec001.html": {
+      "Activity 6.5: Solving linear simultaneous equations graphically by mathematical software": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg166_sec001.html": {},
+    "pg167_sec001.html": {
+      "Chapter summary": {
+        "role": "subsection",
+        "ink": "black"
+      },
+      "Revision exercise 6": {
+        "role": "subsection",
+        "ink": "black"
+      }
+    },
+    "pg168_sec001.html": {},
+    "pg169_sec001.html": {},
+    "pg170_sec001.html": {},
+    "pg171_sec001.html": {},
+    "pg172_sec001.html": {},
+    "pg173_sec001.html": {},
+    "pg174_sec001.html": {
+      "Answers to Odd-Numbered Questions": {
+        "role": "subsection",
+        "ink": "black"
+      },
+      "Chapter Two": {
+        "role": "subsection",
+        "ink": "blue"
+      },
+      "Exercise 2.1": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg175_sec001.html": {
+      "Exercise 2.2": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Exercise 2.3": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg176_sec001.html": {
+      "Exercise 2.4": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Exercise 2.5": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg177_sec001.html": {},
+    "pg178_sec001.html": {
+      "Exercise 2.7": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Revision Exercise 2": {
+        "role": "subsection",
+        "ink": "black"
+      }
+    },
+    "pg179_sec001.html": {},
+    "pg180_sec001.html": {
+      "Chapter Three": {
+        "role": "subsection",
+        "ink": "blue"
+      },
+      "Exercise 3.1": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Exercise 3.2": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Exercise 3.3": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg181_sec001.html": {
+      "Revision exercise 3": {
+        "role": "subsection",
+        "ink": "black"
+      },
+      "Chapter Four": {
+        "role": "subsection",
+        "ink": "blue"
+      },
+      "Exercise 4.1": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg182_sec001.html": {
+      "Exercise 4.2": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Revision exercise 4": {
+        "role": "subsection",
+        "ink": "black"
+      },
+      "Chapter Five": {
+        "role": "subsection",
+        "ink": "blue"
+      },
+      "Exercise 5.1": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg183_sec001.html": {
+      "Exercise 5.2": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Exercise 5.3": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Exercise 5.4": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Exercise 5.5": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg184_sec001.html": {},
+    "pg185_sec001.html": {
+      "Exercise 5.9": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Exercise 5.10": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Exercise 5.11": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg186_sec001.html": {},
+    "pg187_sec001.html": {},
+    "pg188_sec001.html": {
+      "Chapter Six": {
+        "role": "subsection",
+        "ink": "blue"
+      },
+      "Exercise 6.1": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg189_sec001.html": {},
+    "pg190_sec001.html": {},
+    "pg191_sec001.html": {},
+    "pg192_sec001.html": {},
+    "pg193_sec001.html": {},
+    "pg194_sec001.html": {},
+    "pg195_sec001.html": {},
+    "pg196_sec001.html": {},
+    "pg197_sec001.html": {},
+    "pg198_sec001.html": {
+      "Exercise 6.4": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg199_sec001.html": {
+      "Exercise 6.5": {
+        "role": "label",
+        "ink": "black"
+      },
+      "Exercise 6.6": {
+        "role": "label",
+        "ink": "black"
+      }
+    },
+    "pg200_sec001.html": {},
+    "pg201_sec001.html": {},
+    "pg202_sec001.html": {},
+    "pg203_sec001.html": {},
+    "pg204_sec001.html": {},
+    "pg205_sec001.html": {},
+    "pg206_sec001.html": {},
+    "pg207_sec001.html": {},
+    "pg208_sec001.html": {},
+    "pg209_sec001.html": {
+      "Glossary": {
+        "role": "front",
+        "ink": "black"
+      }
+    },
+    "pg210_sec001.html": {
+      "Bibliography": {
+        "role": "front",
+        "ink": "black"
+      }
+    },
+    "pg211_sec001.html": {},
+    "pg212_sec001.html": {
+      "Index": {
+        "role": "subsection",
+        "ink": "black"
+      }
+    }
+  },
+  "chapters": {
+    "pg007_sec001.html": "Concept of Mathematics",
+    "pg013_sec001.html": "Numbers",
+    "pg046_sec001.html": "Approximations",
+    "pg067_sec001.html": "Ratios and proportions",
+    "pg078_sec001.html": "Algebra",
+    "pg121_sec001.html": "Coordinate geometry"
+  }
+}

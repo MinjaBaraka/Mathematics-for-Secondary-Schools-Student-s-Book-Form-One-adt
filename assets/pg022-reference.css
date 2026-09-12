@@ -1,0 +1,54 @@
+/* Screenshot reference: worked example followed by Exercise 2.2. */
+#content.page-recurring .worked-example {
+  padding: 1rem 1.5rem 1.5rem;
+  margin-bottom: 1.5rem;
+  background: #eaf5f5;
+  border: 1px solid #d2e4e7;
+  box-shadow: inset -2px -2px 2px #adc7ce;
+}
+#content.page-recurring .worked-example > p { margin: 0 0 0.75rem; }
+#content.page-recurring .worked-equation {
+  max-width: 100%;
+  overflow-x: auto;
+  padding: 0.35rem 0;
+  text-align: center;
+  font-size: var(--book-text);
+}
+#content.page-recurring .worked-example > .worked-result { margin: 1rem 0 0; }
+#content.page-recurring .numbered-prompt {
+  display: grid;
+  grid-template-columns: 1.6em minmax(0, 1fr);
+  gap: 0.25rem;
+  margin: 0 0 0.75rem;
+}
+#content.page-recurring .question-number { white-space: nowrap; }
+#content.page-recurring .answer-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem 1.25rem;
+}
+#content.page-recurring .answer-cell { min-width: 0; }
+#content.page-recurring .answer-prompt { display: block; margin: 0 0 0.5rem; }
+#content.page-recurring .rational-options {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.75rem;
+  padding-block: 0.5rem 1rem;
+}
+#content.page-recurring .mixed-answer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+#content.page-recurring .practice-panel-body > .practice-status { margin: 0 0 1rem; }
+#content.page-recurring .practice-question-block + .practice-question-block {
+  padding-top: 1.5rem;
+  border-top: 1px solid #afcfa6;
+}
+#content.page-recurring math { vertical-align: middle; math-style: normal; }
+@media (max-width: 640px) {
+  #content.page-recurring .worked-example { padding: 1rem; }
+  #content.page-recurring .answer-grid,
+  #content.page-recurring .mixed-answer-grid { grid-template-columns: minmax(0, 1fr); }
+  #content.page-recurring .rational-options { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}

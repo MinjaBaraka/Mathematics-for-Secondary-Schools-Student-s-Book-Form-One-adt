@@ -1,0 +1,50 @@
+/* Live textbook activities, exercises and worked examples. */
+#content .book-learning-panel {
+  margin-block: 1.5rem;
+  border: 1px solid var(--book-rule);
+  background: var(--book-activity);
+  border-radius: .3rem;
+  overflow: hidden;
+}
+#content .book-learning-panel[data-learning-kind="exercise"] {
+  background: var(--book-exercise);
+  border-color: #bbd5bb;
+}
+#content :is(.book-learning-title, .book-revealed-title) {
+  padding: .65rem 1.25rem;
+  margin: 0 0 .75rem;
+  background: var(--book-blue);
+  color: white;
+  font-size: var(--book-text);
+  font-weight: 700;
+  line-height: 1.4;
+}
+#content :is(.book-learning-title, .book-revealed-title)[data-learning-heading="exercise"],
+#content .book-learning-panel[data-learning-kind="exercise"] > .book-learning-title {
+  background: var(--book-green);
+}
+#content .book-learning-body { padding: 1rem 1.25rem; }
+#content .book-learning-body > p { margin-block: .6rem; }
+#content .book-solution-title { margin-block: 1rem .5rem; color: var(--book-blue); font-weight: bold; }
+#content .book-question-list { list-style: decimal; padding-left: 1.5rem; margin-block: .75rem; }
+#content .book-question-list > li { padding-left: .25rem; margin-block: 1.1rem; }
+#content .book-question-list ol { list-style: lower-alpha; margin: .5rem 0; padding-left: 1.5rem; }
+#content .book-question-list li > .adt-body { padding-block: .3rem; }
+#content .book-response-label { display: block; margin-block: .7rem .35rem; color: #334b54; }
+#content .book-content-figure {
+  display: block;
+  width: auto;
+  max-width: min(100%, 36rem);
+  height: auto;
+  margin: 1rem auto;
+  background: white;
+}
+#content .book-restored-panel { padding: 1rem 1.25rem; }
+#content .book-restored-text { margin-block: .6rem; line-height: 1.55; }
+#content .book-restored-text p > [data-id] { display: block; margin-block: .4rem; }
+#content .book-example-blank { display: inline-block; min-width: 2rem; }
+#content .book-save-status { padding: .75rem 1rem; margin: 1rem 0; font: .9rem/1.5 system-ui, sans-serif; color: #425b65; }
+@media (max-width: 600px) {
+  #content :is(.book-learning-body, .book-restored-panel) { padding: .85rem; }
+  #content :is(.book-learning-title, .book-revealed-title) { padding: .65rem .85rem; }
+}

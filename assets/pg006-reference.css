@@ -1,0 +1,89 @@
+/* The Preface reference is a left-hand page, with a centered reading column. */
+#content.page-preface .front-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 72rem;
+}
+
+#content.page-preface .front-top-rule {
+  flex-shrink: 0;
+  background:
+    repeating-linear-gradient(90deg, #ffffff66 0 2px, transparent 2px 5px),
+    linear-gradient(90deg, #00aed2, #d5eef2 6%, #00acd2 30%, #c6e9ef 88%, #86c861);
+}
+
+#content.page-preface .front-header { margin: 3rem 5.5rem 1.25rem; }
+#content.page-preface .front-title { min-width: min(100%, 17.5rem); }
+#content.page-preface .front-body { margin: 0 5.5rem 4rem; }
+#content.page-preface .preface-paragraph { margin: 0 0 1.75rem; }
+#content.page-preface .preface-resources { margin: 0 0 0.5rem; }
+
+#content.page-preface .front-body a {
+  color: #0066cc;
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+  overflow-wrap: anywhere;
+}
+
+#content.page-preface .preface-qr {
+  display: block;
+  width: 4.75rem;
+  max-width: 100%;
+}
+
+#content.page-preface .preface-qr img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#content.page-preface .preface-imprint {
+  margin: 4.5rem 0 0;
+  font-weight: 700;
+  text-align: right;
+}
+
+#content.page-preface .front-rail {
+  right: auto;
+  left: 1.5rem;
+  border-left: 0;
+  border-right: 2px dotted #00add2;
+  border-radius: 0 3rem 0 0;
+}
+
+#content.page-preface .front-publisher {
+  right: auto;
+  left: 0;
+  border-radius: 0 3rem 3rem 0;
+}
+
+#content.page-preface .front-publisher,
+#content.page-preface .front-book-name { font-size: var(--book-text); }
+
+#content.page-preface .front-book-name {
+  right: auto;
+  left: 0;
+  min-height: 17rem;
+  border-radius: 0 0 0 2rem;
+  text-align: center;
+}
+
+#content.page-preface .front-footer {
+  margin-top: auto;
+  flex-shrink: 0;
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='7'%3E%3Cpath d='M0 3 Q3 0 6 3 T12 3 T18 3 T24 3' fill='none' stroke='%2300a9c6' stroke-opacity='.5' stroke-width='.7'/%3E%3C/svg%3E"),
+    linear-gradient(90deg, #00aed3, #d8f0f4 5%, #00aed3 30%, #a9dfeb 55%, #daf1f3 92%, #71c866);
+}
+
+@media (max-width: 760px) {
+  #content.page-preface .front-header { margin-inline: 4rem 1rem; }
+  #content.page-preface .front-body { margin-inline: 4rem 1rem; }
+}
+
+@media (max-width: 640px) {
+  #content.page-preface .front-page { min-height: 0; }
+  #content.page-preface .front-header { margin: 2rem 0 1.5rem; }
+  #content.page-preface .front-body { margin: 0 0 3rem; }
+  #content.page-preface .preface-imprint { margin-top: 2.5rem; }
+}

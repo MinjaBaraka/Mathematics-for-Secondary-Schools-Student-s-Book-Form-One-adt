@@ -1,0 +1,238 @@
+/* PDF-derived reader design. Keep this separate from the compiled runtime/CSS. */
+:root {
+  --book-font: "Times New Roman", Times, "Liberation Serif", serif;
+  --book-text: 1.125rem;
+  --book-ink: #222222;
+  --book-blue: #006d99;
+  --book-green: #2f7438;
+  --book-rule: #b8d5df;
+  --book-paper: #ffffff;
+  --book-activity: #e9f5fa;
+  --book-exercise: #e3f0e3;
+  scroll-padding-block: 1.5rem 7rem;
+}
+
+body:has(#content) {
+  display: block;
+  margin: 0;
+  background: #f2f5f5;
+}
+
+#content {
+  box-sizing: border-box;
+  width: min(100%, 52rem);
+  max-width: 52rem;
+  margin: 1.5rem auto 7rem;
+  color: var(--book-ink);
+  font-family: var(--book-font);
+  font-size: var(--book-text);
+  line-height: 1.55;
+}
+
+#content :where(p, h1, h2, h3, h4, h5, h6, span, div, button, input, textarea, select, label, li, td, th) {
+  font-family: inherit;
+}
+
+/* Width utilities on hidden source artwork must not create a page scrollbar. */
+#content .sr-only {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  max-width: 1px;
+  min-width: 0;
+  height: 1px;
+  min-height: 0;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+#content [data-book-page] {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: none;
+  padding: 2.5rem 3rem;
+  overflow: visible;
+  background: var(--book-paper);
+  border: 1px solid #d7e1e4;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 12px #183b4710;
+  color: var(--book-ink);
+}
+
+#content :where(.adt-body, p, li, td, th, label) {
+  font-size: var(--book-text);
+  line-height: 1.55;
+}
+
+#content .adt-body {
+  color: var(--book-ink);
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+#content .adt-body:is(.font-medium, .font-semibold) { font-weight: 400; }
+#content :where(.adt-caption, figcaption) { font-size: 1rem; line-height: 1.4; }
+#content :is(.adt-h1, .adt-h2, .adt-h3, .adt-h4, .adt-h5, .adt-h6) {
+  font-size: var(--book-text);
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+#content [data-book-heading] {
+  font-size: var(--book-text);
+  font-weight: 700;
+  line-height: 1.3;
+  margin-block: 1.3em 0.4em;
+  text-wrap: pretty;
+  background-image: none;
+}
+
+#content [data-book-heading="chapter"] { font-size: 1.875rem; margin: 0; }
+#content [data-book-heading="front"] { font-size: 1.5rem; }
+#content [data-book-heading="section"] { font-size: 1.25rem; }
+#content [data-book-heading="display"] { font-size: 3rem; line-height: 1.15; }
+#content [data-book-heading="display-subtitle"] { font-size: 1.75rem; line-height: 1.2; }
+#content [data-book-heading="label"][class*="bg-gradient"] {
+  background: transparent;
+  border: 0;
+  padding: 0.4rem 0;
+}
+#content [data-book-ink="blue"] { color: var(--book-blue); }
+#content [data-book-ink="green"] { color: var(--book-green); }
+#content [data-book-ink="black"] { color: var(--book-ink); }
+#content [data-book-heading]:first-child { margin-top: 0; }
+
+#content .book-chapter {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding-block: 0.25rem 1.5rem;
+  margin-bottom: 1.75rem;
+  border-bottom: 2px solid var(--book-rule);
+}
+#content .book-chapter-badge {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 0 0 6rem;
+  min-height: 6rem;
+  padding: 1rem;
+  border-radius: 50%;
+  background: var(--book-green);
+  color: white;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.25;
+  text-align: center;
+}
+#content .book-chapter [data-book-heading="chapter"] { margin: 0; }
+#content .book-chapter-badge > * { margin: 0; color: inherit; font: inherit; }
+
+#content [data-book-page="front_cover"] > div { padding: 1rem 0; }
+#content [data-book-page="front_cover"] [data-book-heading] { margin: 0; }
+#content [data-book-page="front_cover"] .max-w-2xl { max-width: 26rem; margin-top: 1.5rem; gap: 0.5rem; }
+#content [data-book-page="front_cover"] [data-book-box] { border-radius: 999px; padding: 0.45rem 1rem; }
+#content [data-book-page="front_cover"] .max-w-xl { max-width: 22rem; margin-top: 2rem; }
+#content [data-book-page="front_cover"] > div > p { margin-top: 2rem; font-weight: 700; }
+
+#content [data-book-box] {
+  border-radius: 0.3rem;
+  border-width: 1px;
+  border-color: var(--book-rule);
+  box-shadow: none;
+  --tw-ring-shadow: 0 0 #0000;
+}
+
+#content :is(div, aside)[data-book-padding] { padding: 1.1rem 1.25rem; }
+#content [data-book-surface] { background-image: none; }
+#content [data-book-surface="plain"] { background-color: transparent; }
+#content [data-book-surface="exercise"] { background-color: var(--book-exercise); border-color: #bbd5bb; }
+#content [data-book-surface="blue"] { background-color: var(--book-activity); }
+#content [data-book-surface="blue-bar"] { background: var(--book-blue); color: white; }
+#content [data-book-surface="green-bar"] { background: var(--book-green); color: white; }
+#content [data-book-surface$="-bar"] { padding: 0.65rem 1.25rem; border-radius: 0; }
+#content [data-book-surface$="-bar"] [data-book-heading] { color: white; margin: 0; }
+#content [data-book-surface$="-bar"] [data-book-heading] span { color: inherit; }
+
+#content [data-book-answer-card] {
+  background: transparent;
+  padding: 0.25rem 0;
+  border: 0;
+  box-shadow: none;
+}
+
+#content [data-book-stack] > :not([hidden]) { margin-block: 0; }
+#content [data-book-stack] > :not([hidden]) ~ :not([hidden]) { margin-top: 1rem; }
+#content [data-book-stack] > [data-book-heading] { margin-top: 1.5rem; }
+#content [data-book-stack] > [data-book-heading]:first-child { margin-top: 0; }
+#content [data-book-stack] > [data-book-heading] + :not([hidden]) { margin-top: 0.4rem; }
+
+#content :is(input, textarea, math-field)[data-activity-item] {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  min-height: 2.75rem;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid #7298a6;
+  border-radius: 0.3rem;
+  background: white;
+  color: var(--book-ink);
+  font-size: var(--book-text);
+  line-height: 1.5;
+  box-shadow: none;
+  scroll-margin-block: 2rem 8rem;
+}
+
+#content textarea[data-activity-item] { min-height: 6rem; resize: vertical; }
+#content :is(input, textarea, math-field)[data-activity-item]:focus-within {
+  border-color: var(--book-blue);
+  outline: 2px solid var(--book-blue);
+  outline-offset: 2px;
+  box-shadow: none;
+}
+
+#content :where(img, svg) { max-width: 100%; }
+#content img { object-fit: contain; }
+#content [data-book-decoration] { display: none; }
+#content [data-book-running] { display: none; }
+#content div:has(> [data-book-decoration]) { display: none; }
+#content :where(.grid, .flex) > * { min-width: 0; }
+#content .flex-1 { min-width: 0; max-width: 100%; }
+#content [data-book-number] { flex-shrink: 0; white-space: nowrap; }
+#content .overflow-x-auto { max-width: 100%; min-width: 0; overflow-x: auto; }
+#content table { max-width: 100%; }
+#content th { font-weight: 700; }
+#content :where(pre, code) { font-family: ui-monospace, monospace; }
+
+/* Preserve MathML's own metrics: prose line-height must not flatten fractions. */
+#content math, #content math * { font-family: initial; line-height: normal; }
+#content math { font-size: 1em; }
+#content math[display="block"] { max-width: 100%; overflow-x: auto; padding-block: 0.4em; }
+#content .adt-body:has(math) { overflow-x: auto; padding-block: 0.15em; }
+#content a:focus-visible, #content button:focus-visible { outline: 2px solid var(--book-blue); outline-offset: 3px; }
+
+@media (max-width: 640px) {
+  #content { margin-top: 0; margin-bottom: 6rem; }
+  #content [data-book-page] { padding: 1.5rem 1rem; border: 0; border-radius: 0; }
+  #content div[data-book-padding] { padding: 0.85rem; }
+  #content [data-book-surface$="-bar"] { padding: 0.65rem 0.85rem; }
+  #content [data-book-answer-card] { padding: 0.25rem 0; }
+  #content [data-book-heading="chapter"] { font-size: 1.875rem; }
+  #content .book-chapter { gap: 1rem; }
+  #content .book-chapter-badge { flex-basis: 4.5rem; min-height: 4.5rem; padding: 0.65rem; }
+  #content .grid { grid-template-columns: minmax(0, 1fr); gap: 1rem; }
+  #content .grid > * { grid-column: auto; grid-row: auto; }
+  #content table { display: block; min-width: 0; overflow-x: auto; }
+  #content :where(pre, .whitespace-pre-wrap) { white-space: pre-wrap; overflow-wrap: anywhere; }
+}
+
+@media print {
+  body:has(#content) { background: white; }
+  #content { width: 100%; max-width: none; margin: 0; }
+  #content [data-book-page] { border: 0; box-shadow: none; }
+  #nav-container, #interface-container { display: none !important; }
+}

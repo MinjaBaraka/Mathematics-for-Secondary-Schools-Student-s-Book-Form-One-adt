@@ -1,0 +1,3765 @@
+{
+  "description": "Source-checked learning-content audit, 2026-09-11. Examples and the answer key are read-only; activities, exercises and projects accept saved responses. Diagram crops preserve source figures without rasterized instructions.",
+  "counts": {
+    "activity": 21,
+    "exercise": 37,
+    "example": 137,
+    "project": 5,
+    "answer-key": 36
+  },
+  "retired_image_sources": [
+    "images/pg007_im004.png",
+    "images/pg014_im004.png",
+    "images/pg023_im004.png",
+    "images/pg024_im006.png",
+    "images/pg025_im004.png",
+    "images/pg025_im006.png",
+    "images/pg026_im005.png",
+    "images/pg026_im006.png",
+    "images/pg027_im007.png",
+    "images/pg030_im003.png",
+    "images/pg031_im003.png",
+    "images/pg032_im005.png",
+    "images/pg033_im004.png",
+    "images/pg033_im007.png",
+    "images/pg037_im004.png",
+    "images/pg037_im007.png",
+    "images/pg038_im004.png",
+    "images/pg040_im009.png",
+    "images/pg041_im004.png",
+    "images/pg042_im004.png",
+    "images/pg044_im001.png",
+    "images/pg045_im004.png",
+    "images/pg046_im002.png",
+    "images/pg046_im006.png",
+    "images/pg048_im002.png",
+    "images/pg048_im007.png",
+    "images/pg050_im003.png",
+    "images/pg050_im006.png",
+    "images/pg054_im004.png",
+    "images/pg056_im006.png",
+    "images/pg057_im004.png",
+    "images/pg057_im007.png",
+    "images/pg057_im008.png",
+    "images/pg060_im011.png",
+    "images/pg061_im005.png",
+    "images/pg061_im006.png",
+    "images/pg061_im007.png",
+    "images/pg062_im004.png",
+    "images/pg066_im003.png",
+    "images/pg067_im006.png",
+    "images/pg068_im007.png",
+    "images/pg071_im004.png",
+    "images/pg072_im006.png",
+    "images/pg073_im005.png",
+    "images/pg073_im010.png",
+    "images/pg077_im003.png",
+    "images/pg079_im007.png",
+    "images/pg079_im008.png",
+    "images/pg079_im009.png",
+    "images/pg079_im010.png",
+    "images/pg079_im011.png",
+    "images/pg080_im008.png",
+    "images/pg080_im009.png",
+    "images/pg082_im004.png",
+    "images/pg082_im005.png",
+    "images/pg084_im005.png",
+    "images/pg084_im007.png",
+    "images/pg085_im006.png",
+    "images/pg085_im007.png",
+    "images/pg086_im004.png",
+    "images/pg086_im005.png",
+    "images/pg088_im002.png",
+    "images/pg088_im006.png",
+    "images/pg089_im004.png",
+    "images/pg089_im010.png",
+    "images/pg091_im005.png",
+    "images/pg092_im004.png",
+    "images/pg092_im005.png",
+    "images/pg094_im003.png",
+    "images/pg094_im010.png",
+    "images/pg097_im004.png",
+    "images/pg097_im005.png",
+    "images/pg102_im003.png",
+    "images/pg104_im006.png",
+    "images/pg105_im006.png",
+    "images/pg105_im009.png",
+    "images/pg107_im003.png",
+    "images/pg107_im004.png",
+    "images/pg107_im005.png",
+    "images/pg110_im005.png",
+    "images/pg110_im006.png",
+    "images/pg115_im004.png",
+    "images/pg120_im004.png",
+    "images/pg121_im003.png",
+    "images/pg122_im003.png",
+    "images/pg122_im004.png",
+    "images/pg124_im005.png",
+    "images/pg126_im004.png",
+    "images/pg130_im002.png",
+    "images/pg130_im004.png",
+    "images/pg131_im004.png",
+    "images/pg140_im002.png",
+    "images/pg140_im005.png",
+    "images/pg142_im004.png",
+    "images/pg146_im004.png",
+    "images/pg152_im004.png",
+    "images/pg159_im005.png",
+    "images/pg159_im006.png",
+    "images/pg161_im004.png",
+    "images/pg162_im004.png",
+    "images/pg165_im004.png",
+    "images/pg166_im004.png",
+    "images/pg173_im003.png",
+    "images/pg174_im004.png",
+    "images/pg176_im003.png",
+    "images/pg176_im004.png",
+    "images/pg177_im005.png",
+    "images/pg178_im003.png",
+    "images/pg180_im003.png",
+    "images/pg181_im004.png",
+    "images/pg181_im005.png",
+    "images/pg182_im006.png",
+    "images/pg182_im007.png",
+    "images/pg183_im005.png",
+    "images/pg183_im006.png",
+    "images/pg184_im004.png",
+    "images/pg184_im005.png",
+    "images/pg184_im006.png",
+    "images/pg185_im003.png",
+    "images/pg185_im004.png",
+    "images/pg186_im003.png",
+    "images/pg197_im006.png",
+    "images/pg199_im004.png",
+    "images/pg201_im004.png",
+    "images/pg201_im005.png",
+    "images/pg204_im001.png"
+  ],
+  "restored_text_ids": [
+    "pg042_im004_figure1",
+    "pg091_im005_figure1",
+    "pg110_im005_figure1",
+    "pg121_im003_figure1",
+    "pg122_im004_figure1",
+    "pg124_im005_figure1",
+    "pg130_im002_figure1",
+    "pg162_im004_figure1",
+    "pg174_im004_figure1",
+    "pg178_im003_figure1",
+    "pg178_im003_figure2",
+    "pg199_im004_figure1",
+    "pg204_im001_figure1",
+    "pg204_im001_figure2",
+    "pg086_live001",
+    "pg086_live002",
+    "pg086_live003",
+    "pg086_live004",
+    "pg086_live005",
+    "pg086_live006",
+    "pg086_live007",
+    "pg086_live008",
+    "pg086_live009",
+    "pg086_live010",
+    "pg086_live011",
+    "pg086_live012",
+    "pg086_live013",
+    "pg104_live001",
+    "pg104_live002",
+    "pg104_live003",
+    "pg104_live004",
+    "pg104_live005",
+    "pg104_live006",
+    "pg104_live007",
+    "pg104_live008",
+    "pg104_live009",
+    "pg122_live001",
+    "pg122_live002",
+    "pg122_live003",
+    "pg122_live004",
+    "pg122_live005",
+    "pg122_live006",
+    "pg110_live4501",
+    "pg110_live4502",
+    "pg110_live4503",
+    "pg110_live4504",
+    "pg110_live4505",
+    "pg110_live4506",
+    "pg110_live4507",
+    "pg110_live4508",
+    "pg110_live4601",
+    "pg110_live4602",
+    "pg110_live4603",
+    "pg110_n0006",
+    "pg199_live001"
+  ],
+  "diagram_crops": {
+    "pg042_im004": [
+      [
+        65,
+        495,
+        590,
+        660
+      ]
+    ],
+    "pg091_im005": [
+      [
+        120,
+        785,
+        710,
+        865
+      ]
+    ],
+    "pg110_im005": [
+      [
+        125,
+        430,
+        700,
+        555
+      ]
+    ],
+    "pg121_im003": [
+      [
+        135,
+        835,
+        565,
+        1270
+      ]
+    ],
+    "pg122_im004": [
+      [
+        159,
+        109,
+        622,
+        477
+      ]
+    ],
+    "pg124_im005": [
+      [
+        189,
+        231,
+        583,
+        627
+      ]
+    ],
+    "pg130_im002": [
+      [
+        263,
+        219,
+        818,
+        831
+      ]
+    ],
+    "pg162_im004": [
+      [
+        225,
+        513,
+        608,
+        908
+      ]
+    ],
+    "pg174_im004": [
+      [
+        27,
+        68,
+        778,
+        1140
+      ]
+    ],
+    "pg178_im003": [
+      [
+        69,
+        23,
+        490,
+        271
+      ],
+      [
+        60,
+        486,
+        585,
+        875
+      ]
+    ],
+    "pg199_im004": [
+      [
+        138,
+        456,
+        463,
+        893
+      ]
+    ],
+    "pg204_im001": [
+      [
+        239,
+        79,
+        768,
+        459
+      ],
+      [
+        239,
+        475,
+        751,
+        905
+      ]
+    ]
+  },
+  "pages": {
+    "index.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg002_sec001.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg003_sec001.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg004_sec001.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg005_sec001.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg006_sec001.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg007_sec001.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg008_sec001.html": {
+      "responses": {
+        "item-1": "activity",
+        "item-2": "activity",
+        "item-3": "activity"
+      },
+      "headings": [
+        {
+          "kind": "activity",
+          "text": "Activity 1.1: Discovering the use of Mathematics in daily lives"
+        }
+      ]
+    },
+    "pg009_sec001.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg010_sec001.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg011_sec001.html": {
+      "responses": {
+        "item-1": "activity"
+      },
+      "headings": [
+        {
+          "kind": "activity",
+          "text": "Activity 1.2: Exploring the use of Mathematics in other fields"
+        }
+      ]
+    },
+    "pg012_sec001.html": {
+      "responses": {
+        "item-1": "activity",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "activity",
+          "text": "Activity 1.3: Exploring the importance of Mathematics"
+        },
+        {
+          "kind": "exercise",
+          "text": "Exercise 1.1"
+        }
+      ]
+    },
+    "pg013_sec001.html": {
+      "responses": {
+        "item-1": "activity",
+        "item-2": "activity"
+      },
+      "headings": [
+        {
+          "kind": "activity",
+          "text": "Activity 2.1: Categorising numbers"
+        }
+      ]
+    },
+    "pg014_sec001.html": {
+      "responses": {
+        "activity-2-2-response": "activity"
+      },
+      "headings": [
+        {
+          "kind": "activity",
+          "text": "Activity 2.2: Locating numbers on a number line"
+        },
+        {
+          "kind": "example",
+          "text": "Example 2.1"
+        }
+      ]
+    },
+    "pg015_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 2.2"
+        },
+        {
+          "kind": "example",
+          "text": "Example 2.3"
+        }
+      ]
+    },
+    "pg016_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise",
+        "item-19": "exercise",
+        "item-20": "exercise",
+        "item-21": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "exercise",
+          "text": "Exercise 2.1"
+        }
+      ]
+    },
+    "pg017_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise",
+        "item-19": "exercise",
+        "item-20": "exercise",
+        "item-21": "exercise",
+        "item-22": "exercise",
+        "item-23": "exercise"
+      },
+      "headings": []
+    },
+    "pg018_sec001.html": {
+      "responses": {
+        "item-1": "activity",
+        "item-2": "activity",
+        "item-3": "activity"
+      },
+      "headings": [
+        {
+          "kind": "activity",
+          "text": "Activity 2.3: Expressing measurements of quantities in decimals"
+        },
+        {
+          "kind": "example",
+          "text": "Example 2.4"
+        }
+      ]
+    },
+    "pg019_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 2.5"
+        }
+      ]
+    },
+    "pg020_sec001.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg021_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 2.6"
+        }
+      ]
+    },
+    "pg022_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise",
+        "item-19": "exercise",
+        "item-20": "exercise",
+        "item-21": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "exercise",
+          "text": "Exercise 2.2"
+        }
+      ]
+    },
+    "pg023_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 2.7"
+        }
+      ]
+    },
+    "pg024_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 2.8"
+        }
+      ]
+    },
+    "pg025_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 2.9"
+        },
+        {
+          "kind": "exercise",
+          "text": "Exercise 2.3"
+        }
+      ]
+    },
+    "pg026_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "activity",
+        "item-6": "activity",
+        "item-7": "activity"
+      },
+      "headings": [
+        {
+          "kind": "activity",
+          "text": "Activity 2.4: Differentiating types of decimal numbers"
+        },
+        {
+          "kind": "example",
+          "text": "Example 2.10"
+        }
+      ]
+    },
+    "pg027_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 2.11"
+        },
+        {
+          "kind": "exercise",
+          "text": "Exercise 2.4"
+        }
+      ]
+    },
+    "pg028_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise"
+      },
+      "headings": []
+    },
+    "pg029_sec001.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg030_sec001.html": {
+      "responses": {
+        "item-1": "activity",
+        "item-2": "activity"
+      },
+      "headings": [
+        {
+          "kind": "activity",
+          "text": "Activity 2.5: Comparing quantities in real life"
+        }
+      ]
+    },
+    "pg031_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 2.12"
+        }
+      ]
+    },
+    "pg032_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 2.13"
+        },
+        {
+          "kind": "example",
+          "text": "Example 2.14"
+        }
+      ]
+    },
+    "pg033_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 2.15"
+        },
+        {
+          "kind": "exercise",
+          "text": "Exercise 2.5"
+        }
+      ]
+    },
+    "pg034_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise",
+        "item-19": "exercise",
+        "item-20": "exercise",
+        "item-21": "exercise",
+        "item-22": "exercise"
+      },
+      "headings": []
+    },
+    "pg035_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 2.16"
+        }
+      ]
+    },
+    "pg036_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 2.17"
+        }
+      ]
+    },
+    "pg037_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 2.18"
+        },
+        {
+          "kind": "exercise",
+          "text": "Exercise 2.6"
+        }
+      ]
+    },
+    "pg038_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "activity",
+        "item-16": "activity",
+        "item-17": "activity"
+      },
+      "headings": [
+        {
+          "kind": "activity",
+          "text": "Activity 2.6: Representing real numbers on a number line by using graphing tools"
+        }
+      ]
+    },
+    "pg039_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 2.19"
+        },
+        {
+          "kind": "example",
+          "text": "Example 2.20"
+        }
+      ]
+    },
+    "pg040_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 2.21"
+        },
+        {
+          "kind": "exercise",
+          "text": "Exercise 2.7"
+        }
+      ]
+    },
+    "pg041_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise"
+      },
+      "headings": []
+    },
+    "pg042_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise",
+        "item-19": "exercise",
+        "item-20": "exercise",
+        "item-21": "exercise",
+        "item-22": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "exercise",
+          "text": "Revision exercise 2"
+        }
+      ]
+    },
+    "pg043_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise",
+        "item-19": "exercise",
+        "item-20": "exercise",
+        "item-21": "exercise",
+        "item-22": "exercise",
+        "item-23": "exercise",
+        "item-24": "exercise",
+        "item-25": "exercise",
+        "item-26": "exercise",
+        "item-27": "exercise",
+        "item-28": "exercise",
+        "item-29": "exercise",
+        "item-30": "exercise",
+        "item-31": "exercise",
+        "item-32": "exercise",
+        "item-33": "exercise",
+        "item-34": "exercise",
+        "item-35": "exercise",
+        "item-36": "exercise",
+        "item-37": "exercise",
+        "item-38": "exercise"
+      },
+      "headings": []
+    },
+    "pg044_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise"
+      },
+      "headings": []
+    },
+    "pg045_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "project"
+      },
+      "headings": [
+        {
+          "kind": "project",
+          "text": "Project: Appreciating numbers in daily live"
+        }
+      ]
+    },
+    "pg046_sec001.html": {
+      "responses": {
+        "item-1": "activity",
+        "item-2": "activity",
+        "item-3": "activity"
+      },
+      "headings": [
+        {
+          "kind": "activity",
+          "text": "Activity 3.1: Estimating challenge"
+        }
+      ]
+    },
+    "pg047_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 3.1"
+        },
+        {
+          "kind": "example",
+          "text": "Example 3.2"
+        }
+      ]
+    },
+    "pg048_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 3.3"
+        },
+        {
+          "kind": "example",
+          "text": "Example 3.4"
+        }
+      ]
+    },
+    "pg049_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 3.5"
+        },
+        {
+          "kind": "example",
+          "text": "Example 3.6"
+        }
+      ]
+    },
+    "pg050_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise",
+        "item-19": "exercise",
+        "item-20": "exercise",
+        "item-21": "exercise",
+        "item-22": "exercise",
+        "item-23": "exercise",
+        "item-24": "exercise",
+        "item-25": "exercise",
+        "item-26": "exercise",
+        "item-27": "exercise",
+        "item-28": "exercise",
+        "item-29": "exercise",
+        "item-30": "exercise",
+        "item-31": "exercise",
+        "item-32": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 3.7"
+        },
+        {
+          "kind": "exercise",
+          "text": "Exercise 3.1"
+        }
+      ]
+    },
+    "pg051_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 3.8"
+        }
+      ]
+    },
+    "pg052_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 3.9"
+        },
+        {
+          "kind": "example",
+          "text": "Example 3.10"
+        }
+      ]
+    },
+    "pg053_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 3.11"
+        },
+        {
+          "kind": "example",
+          "text": "Example 3.12"
+        },
+        {
+          "kind": "example",
+          "text": "Example 3.13"
+        }
+      ]
+    },
+    "pg054_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise",
+        "item-19": "exercise",
+        "item-20": "exercise",
+        "item-21": "exercise",
+        "item-22": "exercise",
+        "item-23": "exercise",
+        "item-24": "exercise",
+        "item-25": "exercise",
+        "item-26": "exercise",
+        "item-27": "exercise",
+        "item-28": "exercise",
+        "item-29": "exercise",
+        "item-30": "exercise",
+        "item-31": "exercise",
+        "item-32": "exercise",
+        "item-33": "exercise",
+        "item-34": "exercise",
+        "item-35": "exercise",
+        "item-36": "exercise",
+        "item-37": "exercise",
+        "item-38": "exercise",
+        "item-39": "exercise",
+        "item-40": "exercise",
+        "item-41": "exercise",
+        "item-42": "exercise",
+        "item-43": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "exercise",
+          "text": "Exercise 3.2"
+        }
+      ]
+    },
+    "pg055_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise"
+      },
+      "headings": []
+    },
+    "pg056_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 3.14"
+        },
+        {
+          "kind": "example",
+          "text": "Example 3.15"
+        }
+      ]
+    },
+    "pg057_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 3.16"
+        },
+        {
+          "kind": "example",
+          "text": "Example 3.17"
+        },
+        {
+          "kind": "exercise",
+          "text": "Exercise 3.3"
+        }
+      ]
+    },
+    "pg058_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise",
+        "item-19": "exercise",
+        "item-20": "exercise",
+        "item-21": "exercise"
+      },
+      "headings": []
+    },
+    "pg059_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 3.18"
+        }
+      ]
+    },
+    "pg060_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 3.19"
+        },
+        {
+          "kind": "example",
+          "text": "Example 3.20"
+        },
+        {
+          "kind": "example",
+          "text": "Example 3.21"
+        },
+        {
+          "kind": "example",
+          "text": "Example 3.22"
+        }
+      ]
+    },
+    "pg061_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise",
+        "item-19": "exercise",
+        "item-20": "exercise",
+        "item-21": "exercise",
+        "item-22": "exercise",
+        "item-23": "exercise",
+        "item-24": "exercise",
+        "item-25": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "exercise",
+          "text": "Exercise 3.4"
+        }
+      ]
+    },
+    "pg062_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise",
+        "item-19": "exercise",
+        "item-20": "exercise",
+        "item-21": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "exercise",
+          "text": "Revision exercise 3"
+        }
+      ]
+    },
+    "pg063_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise",
+        "item-19": "exercise",
+        "item-20": "exercise",
+        "item-21": "exercise",
+        "item-22": "exercise",
+        "item-23": "exercise",
+        "item-24": "exercise",
+        "item-25": "exercise",
+        "item-26": "exercise",
+        "item-27": "exercise",
+        "item-28": "exercise",
+        "item-29": "exercise",
+        "item-30": "exercise",
+        "item-31": "exercise",
+        "item-32": "exercise",
+        "item-33": "exercise",
+        "item-34": "exercise",
+        "item-35": "exercise",
+        "item-36": "exercise",
+        "item-37": "exercise",
+        "item-38": "exercise",
+        "item-39": "exercise",
+        "item-40": "exercise",
+        "item-41": "exercise"
+      },
+      "headings": []
+    },
+    "pg064_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise",
+        "item-19": "exercise",
+        "item-20": "exercise",
+        "item-21": "exercise",
+        "item-22": "exercise"
+      },
+      "headings": []
+    },
+    "pg065_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise",
+        "item-19": "exercise",
+        "item-20": "exercise",
+        "item-21": "exercise",
+        "item-22": "exercise",
+        "item-23": "exercise",
+        "item-24": "exercise"
+      },
+      "headings": []
+    },
+    "pg066_sec001.html": {
+      "responses": {
+        "item-1": "project",
+        "item-2": "project",
+        "item-3": "project",
+        "item-4": "project",
+        "item-5": "project",
+        "item-6": "project"
+      },
+      "headings": [
+        {
+          "kind": "project",
+          "text": "Project: Estimating the value of pi"
+        }
+      ]
+    },
+    "pg067_sec001.html": {
+      "responses": {
+        "item-1": "activity",
+        "item-2": "activity",
+        "item-3": "activity",
+        "item-4": "activity"
+      },
+      "headings": [
+        {
+          "kind": "activity",
+          "text": "Activity 4.1: Ratios in daily life"
+        }
+      ]
+    },
+    "pg068_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 4.1"
+        },
+        {
+          "kind": "example",
+          "text": "Example 4.2"
+        },
+        {
+          "kind": "example",
+          "text": "Example 4.3"
+        },
+        {
+          "kind": "example",
+          "text": "Example 4.4"
+        }
+      ]
+    },
+    "pg069_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 4.5"
+        },
+        {
+          "kind": "example",
+          "text": "Example 4.6"
+        },
+        {
+          "kind": "example",
+          "text": "Example 4.7"
+        }
+      ]
+    },
+    "pg070_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 4.8"
+        }
+      ]
+    },
+    "pg071_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise",
+        "item-19": "exercise",
+        "item-20": "exercise",
+        "item-21": "exercise",
+        "item-22": "exercise",
+        "item-23": "exercise",
+        "item-24": "exercise",
+        "item-25": "exercise",
+        "item-26": "exercise",
+        "item-27": "exercise",
+        "item-28": "exercise",
+        "item-29": "exercise",
+        "item-30": "exercise",
+        "item-31": "exercise",
+        "item-32": "exercise",
+        "item-33": "exercise",
+        "item-34": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "exercise",
+          "text": "Exercise 4.1"
+        }
+      ]
+    },
+    "pg072_sec001.html": {
+      "responses": {
+        "item-1": "activity",
+        "item-2": "activity",
+        "item-3": "activity"
+      },
+      "headings": [
+        {
+          "kind": "activity",
+          "text": "Activity 4.2: Relating quantities"
+        },
+        {
+          "kind": "example",
+          "text": "Example 4.9"
+        }
+      ]
+    },
+    "pg073_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 4.10"
+        },
+        {
+          "kind": "example",
+          "text": "Example 4.11"
+        },
+        {
+          "kind": "example",
+          "text": "Example 4.12"
+        }
+      ]
+    },
+    "pg074_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise",
+        "item-19": "exercise",
+        "item-20": "exercise",
+        "item-21": "exercise",
+        "item-22": "exercise",
+        "item-23": "exercise",
+        "item-24": "exercise",
+        "item-25": "exercise",
+        "item-26": "exercise",
+        "item-27": "exercise",
+        "item-28": "exercise",
+        "item-29": "exercise",
+        "item-30": "exercise",
+        "item-31": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "exercise",
+          "text": "Exercise 4.2"
+        }
+      ]
+    },
+    "pg075_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise",
+        "item-19": "exercise",
+        "item-20": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "exercise",
+          "text": "Revision exercise 4"
+        }
+      ]
+    },
+    "pg076_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise",
+        "item-19": "exercise",
+        "item-20": "exercise",
+        "item-21": "exercise",
+        "item-22": "exercise",
+        "item-23": "exercise",
+        "item-24": "exercise",
+        "item-25": "exercise",
+        "item-26": "exercise",
+        "item-27": "exercise",
+        "item-28": "exercise",
+        "item-29": "exercise",
+        "item-30": "exercise"
+      },
+      "headings": []
+    },
+    "pg077_sec001.html": {
+      "responses": {
+        "item-1": "project",
+        "item-2": "project"
+      },
+      "headings": [
+        {
+          "kind": "project",
+          "text": "Project: Planning for a catering of an event"
+        }
+      ]
+    },
+    "pg078_sec001.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg079_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 5.1"
+        },
+        {
+          "kind": "example",
+          "text": "Example 5.2"
+        },
+        {
+          "kind": "example",
+          "text": "Example 5.3"
+        }
+      ]
+    },
+    "pg080_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 5.4"
+        },
+        {
+          "kind": "exercise",
+          "text": "Exercise 5.1"
+        }
+      ]
+    },
+    "pg081_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise",
+        "item-19": "exercise",
+        "item-20": "exercise",
+        "item-21": "exercise"
+      },
+      "headings": []
+    },
+    "pg082_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 5.5"
+        },
+        {
+          "kind": "example",
+          "text": "Example 5.6"
+        }
+      ]
+    },
+    "pg083_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise",
+        "item-19": "exercise",
+        "item-20": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 5.7"
+        },
+        {
+          "kind": "example",
+          "text": "Example 5.8"
+        },
+        {
+          "kind": "exercise",
+          "text": "Exercise 5.2"
+        }
+      ]
+    },
+    "pg084_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 5.9"
+        }
+      ]
+    },
+    "pg085_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 5.10"
+        },
+        {
+          "kind": "example",
+          "text": "Example 5.11"
+        }
+      ]
+    },
+    "pg086_sec001.html": {
+      "responses": {
+        "exercise-5-3-1": "exercise",
+        "exercise-5-3-2": "exercise",
+        "exercise-5-3-3": "exercise",
+        "exercise-5-3-4": "exercise",
+        "exercise-5-3-5": "exercise",
+        "exercise-5-3-6": "exercise",
+        "exercise-5-3-7": "exercise",
+        "exercise-5-3-8": "exercise",
+        "exercise-5-3-9": "exercise",
+        "exercise-5-3-10": "exercise",
+        "exercise-5-3-11": "exercise",
+        "exercise-5-3-12": "exercise",
+        "item-1": "activity",
+        "item-2": "activity"
+      },
+      "headings": [
+        {
+          "kind": "exercise",
+          "text": "Exercise 5.3"
+        },
+        {
+          "kind": "activity",
+          "text": "Activity 5.1:"
+        }
+      ]
+    },
+    "pg087_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 5.12"
+        },
+        {
+          "kind": "example",
+          "text": "Example 5.13"
+        },
+        {
+          "kind": "example",
+          "text": "Example 5.14"
+        },
+        {
+          "kind": "example",
+          "text": "Example 5.15"
+        }
+      ]
+    },
+    "pg088_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "exercise",
+          "text": "Exercise 5.4"
+        }
+      ]
+    },
+    "pg089_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 5.16"
+        },
+        {
+          "kind": "example",
+          "text": "Example 5.17"
+        },
+        {
+          "kind": "example",
+          "text": "Example 5.18"
+        },
+        {
+          "kind": "example",
+          "text": "Example 5.19"
+        }
+      ]
+    },
+    "pg090_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 5.20"
+        },
+        {
+          "kind": "example",
+          "text": "Example 5.21"
+        },
+        {
+          "kind": "example",
+          "text": "Example 5.22"
+        },
+        {
+          "kind": "example",
+          "text": "Example 5.23"
+        },
+        {
+          "kind": "example",
+          "text": "Example 5.24"
+        }
+      ]
+    },
+    "pg091_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 5.25"
+        }
+      ]
+    },
+    "pg092_sec001.html": {
+      "responses": {
+        "item-1": "activity",
+        "item-2": "activity",
+        "item-3": "activity",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise",
+        "item-19": "exercise",
+        "item-20": "exercise",
+        "item-21": "exercise",
+        "item-22": "exercise",
+        "item-23": "exercise",
+        "item-24": "exercise",
+        "item-25": "exercise",
+        "item-26": "exercise",
+        "item-27": "exercise",
+        "item-28": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "activity",
+          "text": "Activity 5.2: Solving linear equations by using mathematical software"
+        },
+        {
+          "kind": "exercise",
+          "text": "Exercise 5.5"
+        }
+      ]
+    },
+    "pg093_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise",
+        "item-19": "exercise",
+        "item-20": "exercise"
+      },
+      "headings": []
+    },
+    "pg094_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 5.26"
+        },
+        {
+          "kind": "example",
+          "text": "Example 5.27"
+        },
+        {
+          "kind": "example",
+          "text": "Example 5.28"
+        },
+        {
+          "kind": "example",
+          "text": "Example 5.29"
+        }
+      ]
+    },
+    "pg095_sec001.html": {
+      "responses": {
+        "item-1": "activity",
+        "item-2": "activity",
+        "item-3": "activity",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "activity",
+          "text": "Activity 5.3: Algebra in cooking"
+        },
+        {
+          "kind": "exercise",
+          "text": "Exercise 5.6"
+        }
+      ]
+    },
+    "pg096_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise",
+        "item-19": "exercise",
+        "item-20": "exercise",
+        "item-21": "exercise"
+      },
+      "headings": []
+    },
+    "pg097_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 5.30"
+        }
+      ]
+    },
+    "pg098_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 5.31"
+        }
+      ]
+    },
+    "pg099_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 5.32"
+        }
+      ]
+    },
+    "pg100_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 5.33"
+        }
+      ]
+    },
+    "pg101_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "exercise",
+          "text": "Exercise 5.7"
+        }
+      ]
+    },
+    "pg102_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 5.34"
+        },
+        {
+          "kind": "example",
+          "text": "Example 5.35"
+        }
+      ]
+    },
+    "pg103_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 5.36"
+        }
+      ]
+    },
+    "pg104_sec001.html": {
+      "responses": {
+        "exercise-5-8-1": "exercise",
+        "exercise-5-8-2": "exercise",
+        "exercise-5-8-3": "exercise",
+        "exercise-5-8-4": "exercise",
+        "exercise-5-8-5": "exercise",
+        "exercise-5-8-6": "exercise",
+        "exercise-5-8-7": "exercise",
+        "exercise-5-8-8": "exercise",
+        "exercise-5-8-9": "exercise",
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "exercise",
+          "text": "Exercise 5.8"
+        }
+      ]
+    },
+    "pg105_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 5.37"
+        },
+        {
+          "kind": "example",
+          "text": "Example 5.38"
+        }
+      ]
+    },
+    "pg106_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 5.39"
+        }
+      ]
+    },
+    "pg107_sec001.html": {
+      "responses": {
+        "item-1": "activity",
+        "item-2": "activity",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "activity",
+          "text": "Activity 5.4: Demonstrating occurrence of simultaneous events"
+        },
+        {
+          "kind": "exercise",
+          "text": "Exercise 5.9"
+        }
+      ]
+    },
+    "pg108_sec001.html": {
+      "responses": {
+        "exercise-5-9-10a": "exercise",
+        "exercise-5-9-10b": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 5.40"
+        }
+      ]
+    },
+    "pg109_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 5.41"
+        },
+        {
+          "kind": "example",
+          "text": "Example 5.42"
+        },
+        {
+          "kind": "example",
+          "text": "Example 5.43"
+        },
+        {
+          "kind": "example",
+          "text": "Example 5.44"
+        }
+      ]
+    },
+    "pg110_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 5.45"
+        },
+        {
+          "kind": "example",
+          "text": "Example 5.46"
+        }
+      ]
+    },
+    "pg111_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise",
+        "item-19": "exercise",
+        "item-20": "exercise",
+        "item-21": "exercise",
+        "item-22": "exercise",
+        "item-23": "exercise",
+        "item-24": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "exercise",
+          "text": "Exercise 5.10"
+        }
+      ]
+    },
+    "pg112_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise"
+      },
+      "headings": []
+    },
+    "pg113_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 5.47"
+        },
+        {
+          "kind": "example",
+          "text": "Example 5.48"
+        },
+        {
+          "kind": "example",
+          "text": "Example 5.49"
+        }
+      ]
+    },
+    "pg114_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "exercise",
+          "text": "Exercise 5.11"
+        }
+      ]
+    },
+    "pg115_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise",
+        "item-19": "exercise",
+        "item-20": "exercise",
+        "item-21": "exercise",
+        "item-22": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "exercise",
+          "text": "Revision exercise 5"
+        }
+      ]
+    },
+    "pg116_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise",
+        "item-19": "exercise",
+        "item-20": "exercise",
+        "item-21": "exercise",
+        "item-22": "exercise",
+        "item-23": "exercise",
+        "item-24": "exercise",
+        "item-25": "exercise"
+      },
+      "headings": []
+    },
+    "pg117_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise",
+        "item-19": "exercise",
+        "item-20": "exercise"
+      },
+      "headings": []
+    },
+    "pg118_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise",
+        "item-19": "exercise",
+        "item-20": "exercise",
+        "item-21": "exercise",
+        "item-22": "exercise",
+        "item-23": "exercise",
+        "item-24": "exercise"
+      },
+      "headings": []
+    },
+    "pg119_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise",
+        "item-19": "exercise",
+        "item-20": "exercise",
+        "item-21": "exercise",
+        "item-22": "exercise",
+        "item-23": "exercise",
+        "item-24": "exercise",
+        "item-25": "exercise",
+        "item-26": "exercise",
+        "item-27": "exercise"
+      },
+      "headings": []
+    },
+    "pg120_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "project"
+      },
+      "headings": [
+        {
+          "kind": "project",
+          "text": "Project: Exploring uses of Algebra in everyday life"
+        }
+      ]
+    },
+    "pg121_sec001.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg122_sec001.html": {
+      "responses": {
+        "item-1": "activity"
+      },
+      "headings": [
+        {
+          "kind": "activity",
+          "text": "Activity 6.1: Reading coordinates of points on xy-plane"
+        },
+        {
+          "kind": "example",
+          "text": "Example 6.1"
+        }
+      ]
+    },
+    "pg123_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 6.2"
+        }
+      ]
+    },
+    "pg124_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "exercise",
+          "text": "Exercise 6.1"
+        }
+      ]
+    },
+    "pg125_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise",
+        "item-19": "exercise"
+      },
+      "headings": []
+    },
+    "pg126_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "activity",
+        "item-3": "activity",
+        "item-4": "activity",
+        "item-5": "activity",
+        "item-6": "activity"
+      },
+      "headings": [
+        {
+          "kind": "activity",
+          "text": "Activity 6.2: Recognising the gradient of a straight line"
+        }
+      ]
+    },
+    "pg127_sec001.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg128_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 6.3"
+        },
+        {
+          "kind": "example",
+          "text": "Example 6.4"
+        }
+      ]
+    },
+    "pg129_sec001.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg130_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 6.5"
+        }
+      ]
+    },
+    "pg131_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 6.6"
+        }
+      ]
+    },
+    "pg132_sec001.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg133_sec001.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg134_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 6.7"
+        },
+        {
+          "kind": "example",
+          "text": "Example 6.8"
+        }
+      ]
+    },
+    "pg135_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise",
+        "item-19": "exercise",
+        "item-20": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "exercise",
+          "text": "Exercise 6.2"
+        }
+      ]
+    },
+    "pg136_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise",
+        "item-19": "exercise"
+      },
+      "headings": []
+    },
+    "pg137_sec001.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg138_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 6.9"
+        }
+      ]
+    },
+    "pg139_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 6.10"
+        }
+      ]
+    },
+    "pg140_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 6.11"
+        }
+      ]
+    },
+    "pg141_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 6.12"
+        }
+      ]
+    },
+    "pg142_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise",
+        "item-19": "exercise",
+        "item-20": "exercise",
+        "item-21": "exercise",
+        "item-22": "exercise",
+        "item-23": "exercise",
+        "item-24": "exercise",
+        "item-25": "exercise",
+        "item-26": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "exercise",
+          "text": "Exercise 6.3"
+        }
+      ]
+    },
+    "pg143_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise"
+      },
+      "headings": []
+    },
+    "pg144_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 6.13"
+        },
+        {
+          "kind": "example",
+          "text": "Example 6.14"
+        }
+      ]
+    },
+    "pg145_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 6.15"
+        },
+        {
+          "kind": "example",
+          "text": "Example 6.16"
+        }
+      ]
+    },
+    "pg146_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise",
+        "item-19": "exercise",
+        "item-20": "exercise",
+        "item-21": "exercise",
+        "item-22": "exercise",
+        "item-23": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "exercise",
+          "text": "Exercise 6.4"
+        }
+      ]
+    },
+    "pg147_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 6.17"
+        }
+      ]
+    },
+    "pg148_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 6.18"
+        }
+      ]
+    },
+    "pg149_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 6.19"
+        },
+        {
+          "kind": "example",
+          "text": "Example 6.20"
+        }
+      ]
+    },
+    "pg150_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 6.21"
+        },
+        {
+          "kind": "example",
+          "text": "Example 6.22"
+        }
+      ]
+    },
+    "pg151_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 6.23"
+        }
+      ]
+    },
+    "pg152_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "exercise",
+          "text": "Exercise 6.5"
+        }
+      ]
+    },
+    "pg153_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise"
+      },
+      "headings": []
+    },
+    "pg154_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 6.24"
+        }
+      ]
+    },
+    "pg155_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 6.25"
+        },
+        {
+          "kind": "example",
+          "text": "Example 6.26"
+        }
+      ]
+    },
+    "pg156_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 6.27"
+        }
+      ]
+    },
+    "pg157_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 6.28"
+        }
+      ]
+    },
+    "pg158_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 6.29"
+        }
+      ]
+    },
+    "pg159_sec001.html": {
+      "responses": {
+        "item-1": "activity",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "activity",
+          "text": "Activity 6.3: Graphing linear equations using graphing tools"
+        },
+        {
+          "kind": "exercise",
+          "text": "Exercise 6.6"
+        }
+      ]
+    },
+    "pg160_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise"
+      },
+      "headings": []
+    },
+    "pg161_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "activity",
+        "item-6": "activity",
+        "item-7": "activity",
+        "item-8": "activity",
+        "item-9": "activity",
+        "item-10": "activity",
+        "item-11": "activity",
+        "item-12": "activity",
+        "item-13": "activity",
+        "item-14": "activity",
+        "item-15": "activity",
+        "item-16": "activity",
+        "item-17": "activity",
+        "item-18": "activity",
+        "item-19": "activity",
+        "item-20": "activity"
+      },
+      "headings": [
+        {
+          "kind": "activity",
+          "text": "Activity 6.4: Recognising the point of intersection of two linear equations"
+        }
+      ]
+    },
+    "pg162_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 6.30"
+        }
+      ]
+    },
+    "pg163_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 6.31"
+        }
+      ]
+    },
+    "pg164_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "example",
+          "text": "Example 6.32"
+        },
+        {
+          "kind": "example",
+          "text": "Example 6.33"
+        }
+      ]
+    },
+    "pg165_sec001.html": {
+      "responses": {
+        "item-1": "activity",
+        "item-2": "activity",
+        "item-3": "activity"
+      },
+      "headings": [
+        {
+          "kind": "activity",
+          "text": "Activity 6.5: Solving linear simultaneous equations graphically by mathematical software"
+        }
+      ]
+    },
+    "pg166_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "exercise",
+          "text": "Exercise 6.7"
+        }
+      ]
+    },
+    "pg167_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise"
+      },
+      "headings": [
+        {
+          "kind": "exercise",
+          "text": "Revision exercise 6"
+        }
+      ]
+    },
+    "pg168_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise",
+        "item-19": "exercise",
+        "item-20": "exercise",
+        "item-21": "exercise",
+        "item-22": "exercise",
+        "item-23": "exercise",
+        "item-24": "exercise",
+        "item-25": "exercise",
+        "item-26": "exercise",
+        "item-27": "exercise",
+        "item-28": "exercise",
+        "item-29": "exercise",
+        "item-30": "exercise",
+        "item-31": "exercise",
+        "item-32": "exercise",
+        "item-33": "exercise",
+        "item-34": "exercise"
+      },
+      "headings": []
+    },
+    "pg169_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise"
+      },
+      "headings": []
+    },
+    "pg170_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise",
+        "item-19": "exercise",
+        "item-20": "exercise",
+        "item-21": "exercise",
+        "item-22": "exercise",
+        "item-23": "exercise",
+        "item-24": "exercise",
+        "item-25": "exercise",
+        "item-26": "exercise",
+        "item-27": "exercise",
+        "item-28": "exercise"
+      },
+      "headings": []
+    },
+    "pg171_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise",
+        "item-16": "exercise",
+        "item-17": "exercise",
+        "item-18": "exercise",
+        "item-19": "exercise",
+        "item-20": "exercise",
+        "item-21": "exercise",
+        "item-22": "exercise",
+        "item-23": "exercise",
+        "item-24": "exercise",
+        "item-25": "exercise",
+        "item-26": "exercise",
+        "item-27": "exercise",
+        "item-28": "exercise"
+      },
+      "headings": []
+    },
+    "pg172_sec001.html": {
+      "responses": {
+        "item-1": "exercise",
+        "item-2": "exercise",
+        "item-3": "exercise",
+        "item-4": "exercise",
+        "item-5": "exercise",
+        "item-6": "exercise",
+        "item-7": "exercise",
+        "item-8": "exercise",
+        "item-9": "exercise",
+        "item-10": "exercise",
+        "item-11": "exercise",
+        "item-12": "exercise",
+        "item-13": "exercise",
+        "item-14": "exercise",
+        "item-15": "exercise"
+      },
+      "headings": []
+    },
+    "pg173_sec001.html": {
+      "responses": {
+        "item-1": "project"
+      },
+      "headings": [
+        {
+          "kind": "project",
+          "text": "Project: Locating places"
+        }
+      ]
+    },
+    "pg174_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "answer-key",
+          "text": "Exercise 2.1"
+        }
+      ]
+    },
+    "pg175_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "answer-key",
+          "text": "Exercise 2.2"
+        },
+        {
+          "kind": "answer-key",
+          "text": "Exercise 2.3"
+        }
+      ]
+    },
+    "pg176_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "answer-key",
+          "text": "Exercise 2.4"
+        },
+        {
+          "kind": "answer-key",
+          "text": "Exercise 2.5"
+        }
+      ]
+    },
+    "pg177_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "answer-key",
+          "text": "Exercise 2.6"
+        }
+      ]
+    },
+    "pg178_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "answer-key",
+          "text": "Exercise 2.7"
+        },
+        {
+          "kind": "answer-key",
+          "text": "Revision Exercise 2"
+        }
+      ]
+    },
+    "pg179_sec001.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg180_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "answer-key",
+          "text": "Exercise 3.1"
+        },
+        {
+          "kind": "answer-key",
+          "text": "Exercise 3.2"
+        },
+        {
+          "kind": "answer-key",
+          "text": "Exercise 3.3"
+        }
+      ]
+    },
+    "pg181_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "answer-key",
+          "text": "Revision exercise 3"
+        },
+        {
+          "kind": "answer-key",
+          "text": "Exercise 4.1"
+        }
+      ]
+    },
+    "pg182_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "answer-key",
+          "text": "Exercise 4.2"
+        },
+        {
+          "kind": "answer-key",
+          "text": "Revision exercise 4"
+        },
+        {
+          "kind": "answer-key",
+          "text": "Exercise 5.1"
+        }
+      ]
+    },
+    "pg183_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "answer-key",
+          "text": "Exercise 5.2"
+        },
+        {
+          "kind": "answer-key",
+          "text": "Exercise 5.3"
+        },
+        {
+          "kind": "answer-key",
+          "text": "Exercise 5.4"
+        },
+        {
+          "kind": "answer-key",
+          "text": "Exercise 5.5"
+        }
+      ]
+    },
+    "pg184_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "answer-key",
+          "text": "Exercise 5.6"
+        },
+        {
+          "kind": "answer-key",
+          "text": "Exercise 5.7"
+        },
+        {
+          "kind": "answer-key",
+          "text": "Exercise 5.8"
+        }
+      ]
+    },
+    "pg185_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "answer-key",
+          "text": "Exercise 5.9"
+        },
+        {
+          "kind": "answer-key",
+          "text": "Exercise 5.10"
+        },
+        {
+          "kind": "answer-key",
+          "text": "Exercise 5.11"
+        }
+      ]
+    },
+    "pg186_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "answer-key",
+          "text": "Revision exercise 5"
+        }
+      ]
+    },
+    "pg187_sec001.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg188_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "answer-key",
+          "text": "Exercise 6.1"
+        }
+      ]
+    },
+    "pg189_sec001.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg190_sec001.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg191_sec001.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg192_sec001.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg193_sec001.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg194_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "answer-key",
+          "text": "Exercise 6.2"
+        }
+      ]
+    },
+    "pg195_sec001.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg196_sec001.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg197_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "answer-key",
+          "text": "Exercise 6.3"
+        }
+      ]
+    },
+    "pg198_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "answer-key",
+          "text": "Exercise 6.4"
+        }
+      ]
+    },
+    "pg199_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "answer-key",
+          "text": "Exercise 6.5"
+        },
+        {
+          "kind": "answer-key",
+          "text": "Exercise 6.6"
+        },
+        {
+          "kind": "answer-key",
+          "text": "Exercise 6.6"
+        }
+      ]
+    },
+    "pg200_sec001.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg201_sec001.html": {
+      "responses": {},
+      "headings": [
+        {
+          "kind": "answer-key",
+          "text": "Exercise 6.7"
+        },
+        {
+          "kind": "answer-key",
+          "text": "Revision exercise 6"
+        }
+      ]
+    },
+    "pg202_sec001.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg203_sec001.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg204_sec001.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg205_sec001.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg206_sec001.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg207_sec001.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg208_sec001.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg209_sec001.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg210_sec001.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg211_sec001.html": {
+      "responses": {},
+      "headings": []
+    },
+    "pg212_sec001.html": {
+      "responses": {},
+      "headings": []
+    }
+  }
+}
