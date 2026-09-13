@@ -40,7 +40,6 @@
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.75rem;
 }
-#content.page-recurring .practice-panel-body > .practice-status { margin: 0 0 1rem; }
 #content.page-recurring .practice-question-block + .practice-question-block {
   padding-top: 1.5rem;
   border-top: 1px solid #afcfa6;

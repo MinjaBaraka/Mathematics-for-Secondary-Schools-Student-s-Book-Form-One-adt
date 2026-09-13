@@ -43,7 +43,6 @@
 #content .book-restored-text { margin-block: .6rem; line-height: 1.55; }
 #content .book-restored-text p > [data-id] { display: block; margin-block: .4rem; }
 #content .book-example-blank { display: inline-block; min-width: 2rem; }
-#content .book-save-status { padding: .75rem 1rem; margin: 1rem 0; font: .9rem/1.5 system-ui, sans-serif; color: #425b65; }
 @media (max-width: 600px) {
   #content :is(.book-learning-body, .book-restored-panel) { padding: .85rem; }
   #content :is(.book-learning-title, .book-revealed-title) { padding: .65rem .85rem; }

@@ -12,14 +12,15 @@
     <link href="./assets/fonts.css" rel="stylesheet">
     <link href="./assets/reader-design.css" rel="stylesheet">
     <link href="./assets/learning-content.css" rel="stylesheet">
+    <link href="./assets/reader-layout.css" rel="stylesheet">
 </head>
 
 <body class="min-h-screen flex items-center justify-center">
     <main class="w-full">
       <h1 class="sr-only" id="page-heading">Mathematics for Secondary Schools Student’s Book Form One</h1>
-      <div id="content" class="container opacity-0">
+      <div id="content" class="container opacity-0" data-reader-layout="standard">
   <section data-section-type="other" data-section-id="pg065_sec001" class="mx-auto w-full max-w-5xl px-8 py-10 max-sm:px-3 max-sm:py-5" data-book-page="other" data-book-padding="">
-    <div class="rounded-[26px] border border-sky-100 bg-sky-50 px-10 py-9 shadow-sm max-sm:px-4 max-sm:py-5" data-book-box="" data-book-padding="" data-book-surface="blue">
+    <div class="rounded-[26px] border border-sky-100 bg-sky-50 px-10 py-9 shadow-sm max-sm:px-4 max-sm:py-5" data-book-box="" data-book-padding="" data-book-surface="blue" data-reader-region="">
       <div class="space-y-8 max-sm:space-y-6" data-book-stack="">
 
         <div class="space-y-4" data-book-stack="">
@@ -77,12 +78,11 @@
               <input id="item-8" data-activity-item="item-8" type="text" aria-label="(a) Estimate the rate of fuel consumption of the car in km per litre." class="mt-2 w-full min-h-11 rounded-xl border border-sky-300 bg-white px-4 py-3 text-slate-800 outline-none focus:ring-2 focus:ring-sky-400" data-response-kind="exercise">
             </div>
             <div class="space-y-3" data-book-stack="">
-              <label for="item-9" class="adt-body text-slate-800 block"><span data-id="pg065_n0029">(b) Estimate the amount of fuel the car will consume for travelling:</span></label>
-              <input id="item-9" data-activity-item="item-9" type="text" aria-label="(b) Estimate the amount of fuel the car will consume for travelling:" class="mt-2 w-full min-h-11 rounded-xl border border-sky-300 bg-white px-4 py-3 text-slate-800 outline-none focus:ring-2 focus:ring-sky-400" data-response-kind="exercise">
+              <p class="adt-body text-slate-800 block"><span data-id="pg065_n0029">(b) Estimate the amount of fuel the car will consume for travelling:</span></p>
               <div class="ml-8 space-y-3 max-sm:ml-0" data-book-stack="">
                 <div>
-                  <label for="item-10" class="adt-body text-slate-800 block"><span data-id="pg065_n0032">(i) 40.28 km</span></label>
-                  <input id="item-10" data-activity-item="item-10" type="text" aria-label="(i) 40.28 km" class="mt-2 w-full min-h-11 rounded-xl border border-sky-300 bg-white px-4 py-3 text-slate-800 outline-none focus:ring-2 focus:ring-sky-400" data-response-kind="exercise">
+                  <p class="adt-body text-slate-800 block"><span data-id="pg065_n0032">(i) 40.28 km</span></p>
+                  <textarea id="item-10" data-activity-item="item-10-combined" aria-label="(i) 40.28 km" class="mt-2 w-full min-h-11 rounded-xl border border-sky-300 bg-white px-4 py-3 text-slate-800 outline-none focus:ring-2 focus:ring-sky-400" data-response-kind="exercise" data-response-sources="[{&quot;key&quot;:&quot;item-9&quot;,&quot;label&quot;:&quot;(b) Estimate the amount of fuel the car will consume for travelling:&quot;},{&quot;key&quot;:&quot;item-10&quot;,&quot;label&quot;:&quot;(i) 40.28 km&quot;}]" rows="4"></textarea>
                 </div>
                 <div>
                   <label for="item-11" class="adt-body text-slate-800 block"><span data-id="pg065_n0034">(ii) 348 km</span></label>
@@ -170,7 +170,6 @@
       </div>
     </div>
   </section>
-<p id="practice-save-status" class="book-save-status" role="status" aria-live="polite">Your answers are saved on this device as you type.</p>
 
 </div>
     </main>

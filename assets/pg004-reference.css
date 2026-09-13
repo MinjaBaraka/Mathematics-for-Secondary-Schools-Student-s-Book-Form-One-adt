@@ -1,0 +1,65 @@
+/* Contents continuation: leaders connect each title with its printed page number. */
+#content.page-contents-continuation .toc-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#content.page-contents-continuation .toc-item { margin: 0; padding: 0; }
+#content.page-contents-continuation .toc-item + .toc-item { margin-top: 0.6rem; }
+#content.page-contents-continuation .toc-topic { padding-left: 1.75rem; }
+#content.page-contents-continuation .toc-item.toc-reference-start { margin-top: 2.75rem; }
+
+#content.page-contents-continuation .toc-entry {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+  padding-right: 3.5ch;
+  color: var(--book-ink);
+  font-size: var(--book-text);
+  font-weight: 400;
+  line-height: 1.55;
+}
+
+#content.page-contents-continuation .toc-label {
+  position: relative;
+  z-index: 1;
+  padding-right: 0.3em;
+  background: var(--book-paper);
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  overflow-wrap: break-word;
+}
+
+#content.page-contents-continuation .toc-chapter .toc-label { font-weight: 700; }
+#content.page-contents-continuation .toc-chapter .toc-label em {
+  color: #007d9e;
+  font-style: italic;
+}
+#content.page-contents-continuation .toc-reference .toc-label { font-weight: 600; }
+
+#content.page-contents-continuation .toc-leader {
+  position: absolute;
+  right: 3.5ch;
+  bottom: 0.38em;
+  left: 0;
+  height: 0;
+  border-bottom: 2px dotted currentColor;
+}
+
+#content.page-contents-continuation .toc-page-number {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 2ch;
+  font-weight: 400;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  text-align: right;
+}
+
+@media (max-width: 640px) {
+  #content.page-contents-continuation .toc-topic { padding-left: 1rem; }
+  #content.page-contents-continuation .toc-item + .toc-item { margin-top: 0.75rem; }
+  #content.page-contents-continuation .toc-item.toc-reference-start { margin-top: 2rem; }
+}

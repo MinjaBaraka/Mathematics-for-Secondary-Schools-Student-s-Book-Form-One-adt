@@ -12,13 +12,15 @@
     <link href="./assets/fonts.css" rel="stylesheet">
     <link href="./assets/reader-design.css" rel="stylesheet">
     <link href="./assets/learning-content.css" rel="stylesheet">
+    <link href="./assets/source-figures.css" rel="stylesheet">
+    <link href="./assets/reader-layout.css" rel="stylesheet">
 </head>
 
 <body class="min-h-screen flex items-center justify-center">
     <main class="w-full">
       <h1 class="sr-only" id="page-heading">Mathematics for Secondary Schools Student’s Book Form One</h1>
-      <div id="content" class="container opacity-0"><section data-section-type="other" data-section-id="pg160_sec001" class="mx-auto w-full max-w-5xl px-8 max-sm:px-4 py-8 bg-[#eef8ee] text-slate-800" data-book-page="other" data-book-padding="">
-  <div class="mx-auto max-w-4xl bg-[#dff1dd] border border-green-100 shadow-sm px-7 py-6 max-sm:px-4 max-sm:py-4" data-book-box="" data-book-padding="">
+      <div id="content" class="container opacity-0" data-reader-layout="standard"><section data-section-type="other" data-section-id="pg160_sec001" class="mx-auto w-full max-w-5xl px-8 max-sm:px-4 py-8 bg-[#eef8ee] text-slate-800" data-book-page="other" data-book-padding="">
+  <div class="mx-auto max-w-4xl bg-[#dff1dd] border border-green-100 shadow-sm px-7 py-6 max-sm:px-4 max-sm:py-4" data-book-box="" data-book-padding="" data-reader-region="">
     <div class="space-y-6" data-book-stack="">
       <div class="space-y-4" data-book-stack="">
         <div class="flex items-baseline gap-3 max-sm:gap-2">
@@ -26,8 +28,8 @@
           <p class="adt-body flex-1"><span data-id="pg160_n0005">Use the following graph to answer the questions that follow.</span></p>
         </div>
 
-        <div class="mx-auto max-w-3xl rounded-md overflow-hidden border border-slate-200 bg-white" data-book-box="">
-          <img data-id="pg160_im003" src="images/pg160_im003.png" alt="Graph with points A, B, C and D on coordinate axes" class="w-full h-auto block">
+        <div>
+          <img data-id="pg160_im003" src="images/pg160-coordinate-graph.png" alt="Graph with points A, B, C and D on coordinate axes" class="book-source-number-line">
         </div>
 
         <div class="space-y-4 pl-10 max-sm:pl-0" data-book-stack="">
@@ -45,11 +47,10 @@
 
           <div class="space-y-2" data-book-stack="">
             <p class="adt-body"><span data-id="pg160_n0012">(c) Find the gradient and equation of the line passing through the points A and C.</span></p>
-            <label for="item-3" class="sr-only">(c) Find the gradient and equation of the line passing through the points A and C.</label>
-            <textarea id="item-3" data-activity-item="item-3" aria-label="(c) Find the gradient and equation of the line passing through the points A and C." class="w-full min-h-11 rounded-xl border border-sky-300 bg-white/80 px-4 py-3 shadow-sm outline-none focus:border-sky-400 focus:ring-2 focus:ring-sky-200" data-response-kind="exercise"></textarea>
+
             <p class="adt-body pt-1"><span data-id="pg160_n0013">Hence, determine x and y-intercepts.</span></p>
-            <label for="item-4" class="sr-only">Hence, determine x and y-intercepts.</label>
-            <textarea id="item-4" data-activity-item="item-4" aria-label="Hence, determine x and y-intercepts." class="w-full min-h-11 rounded-xl border border-emerald-300 bg-white/80 px-4 py-3 shadow-sm outline-none focus:border-emerald-400 focus:ring-2 focus:ring-emerald-200" data-response-kind="exercise"></textarea>
+
+            <textarea id="item-3" data-activity-item="item-3-combined" aria-label="(c) Find the gradient and equation of the line passing through the points A and C. Hence, determine x and y-intercepts." class="w-full min-h-11 rounded-xl border border-sky-300 bg-white/80 px-4 py-3 shadow-sm outline-none focus:border-sky-400 focus:ring-2 focus:ring-sky-200" data-response-kind="exercise" data-response-sources="[{&quot;key&quot;:&quot;item-3&quot;,&quot;label&quot;:&quot;(c) Find the gradient and equation of the line passing through the points A and C.&quot;},{&quot;key&quot;:&quot;item-4&quot;,&quot;label&quot;:&quot;Hence, determine x and y-intercepts.&quot;}]" rows="4"></textarea>
           </div>
         </div>
       </div>
@@ -62,44 +63,44 @@
 
         <div class="grid grid-cols-2 gap-x-10 gap-y-4 pl-10 max-lg:grid-cols-2 max-sm:grid-cols-1 max-sm:pl-0">
           <div class="space-y-2" data-book-stack="">
-            <p class="adt-body"><span data-id="pg160_n0019">(a) <math><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>2</mn><mi>y</mi><mo>=</mo><mn>6</mn></mrow></math></span></p>
-            <label for="item-5" class="sr-only">(a) <math><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>2</mn><mi>y</mi><mo>=</mo><mn>6</mn></mrow></math></label>
-            <textarea id="item-5" data-activity-item="item-5" aria-label="(a) $3x - 2y = 6$" class="w-full min-h-11 rounded-xl border border-yellow-300 bg-white/85 px-4 py-3 shadow-sm outline-none focus:border-yellow-400 focus:ring-2 focus:ring-yellow-200" data-response-kind="exercise"></textarea>
+            <p class="adt-body"><span data-id="pg160_n0019">(a) <math displaystyle="true"><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>2</mn><mi>y</mi><mo>=</mo><mn>6</mn></mrow></math></span></p>
+            <label for="item-5" class="sr-only">(a) <math displaystyle="true"><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>2</mn><mi>y</mi><mo>=</mo><mn>6</mn></mrow></math></label>
+            <textarea id="item-5" data-activity-item="item-5" aria-label="Exercise 6.6, question 4(a): your graph and working" class="w-full min-h-11 rounded-xl border border-yellow-300 bg-white/85 px-4 py-3 shadow-sm outline-none focus:border-yellow-400 focus:ring-2 focus:ring-yellow-200" data-response-kind="exercise"></textarea>
           </div>
           <div class="space-y-2" data-book-stack="">
-            <p class="adt-body"><span data-id="pg160_n0021">(b) <math><mrow><mi>x</mi><mo>−</mo><mn>2</mn><mi>y</mi><mo>=</mo><mn>4</mn></mrow></math></span></p>
-            <label for="item-6" class="sr-only">(b) <math><mrow><mi>x</mi><mo>−</mo><mn>2</mn><mi>y</mi><mo>=</mo><mn>4</mn></mrow></math></label>
-            <textarea id="item-6" data-activity-item="item-6" aria-label="(b) $x - 2y = 4$" class="w-full min-h-11 rounded-xl border border-yellow-300 bg-white/85 px-4 py-3 shadow-sm outline-none focus:border-yellow-400 focus:ring-2 focus:ring-yellow-200" data-response-kind="exercise"></textarea>
+            <p class="adt-body"><span data-id="pg160_n0021">(b) <math displaystyle="true"><mrow><mi>x</mi><mo>−</mo><mn>2</mn><mi>y</mi><mo>=</mo><mn>4</mn></mrow></math></span></p>
+            <label for="item-6" class="sr-only">(b) <math displaystyle="true"><mrow><mi>x</mi><mo>−</mo><mn>2</mn><mi>y</mi><mo>=</mo><mn>4</mn></mrow></math></label>
+            <textarea id="item-6" data-activity-item="item-6" aria-label="Exercise 6.6, question 4(b): your graph and working" class="w-full min-h-11 rounded-xl border border-yellow-300 bg-white/85 px-4 py-3 shadow-sm outline-none focus:border-yellow-400 focus:ring-2 focus:ring-yellow-200" data-response-kind="exercise"></textarea>
           </div>
           <div class="space-y-2" data-book-stack="">
-            <p class="adt-body"><span data-id="pg160_n0023">(c) <math><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>9</mn></mrow></math></span></p>
-            <label for="item-7" class="sr-only">(c) <math><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>9</mn></mrow></math></label>
-            <textarea id="item-7" data-activity-item="item-7" aria-label="(c) $2x + y = 9$" class="w-full min-h-11 rounded-xl border border-yellow-300 bg-white/85 px-4 py-3 shadow-sm outline-none focus:border-yellow-400 focus:ring-2 focus:ring-yellow-200" data-response-kind="exercise"></textarea>
+            <p class="adt-body"><span data-id="pg160_n0023">(c) <math displaystyle="true"><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>9</mn></mrow></math></span></p>
+            <label for="item-7" class="sr-only">(c) <math displaystyle="true"><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>9</mn></mrow></math></label>
+            <textarea id="item-7" data-activity-item="item-7" aria-label="Exercise 6.6, question 4(c): your graph and working" class="w-full min-h-11 rounded-xl border border-yellow-300 bg-white/85 px-4 py-3 shadow-sm outline-none focus:border-yellow-400 focus:ring-2 focus:ring-yellow-200" data-response-kind="exercise"></textarea>
           </div>
           <div class="space-y-2" data-book-stack="">
-            <p class="adt-body"><span data-id="pg160_n0025">(d) <math><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>2</mn></mrow></math></span></p>
-            <label for="item-8" class="sr-only">(d) <math><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>2</mn></mrow></math></label>
-            <textarea id="item-8" data-activity-item="item-8" aria-label="(d) $x + y = 2$" class="w-full min-h-11 rounded-xl border border-yellow-300 bg-white/85 px-4 py-3 shadow-sm outline-none focus:border-yellow-400 focus:ring-2 focus:ring-yellow-200" data-response-kind="exercise"></textarea>
+            <p class="adt-body"><span data-id="pg160_n0025">(d) <math displaystyle="true"><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>2</mn></mrow></math></span></p>
+            <label for="item-8" class="sr-only">(d) <math displaystyle="true"><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>2</mn></mrow></math></label>
+            <textarea id="item-8" data-activity-item="item-8" aria-label="Exercise 6.6, question 4(d): your graph and working" class="w-full min-h-11 rounded-xl border border-yellow-300 bg-white/85 px-4 py-3 shadow-sm outline-none focus:border-yellow-400 focus:ring-2 focus:ring-yellow-200" data-response-kind="exercise"></textarea>
           </div>
           <div class="space-y-2" data-book-stack="">
-            <p class="adt-body"><span data-id="pg160_n0027">(e) <math><mrow><mn>2</mn><mi>x</mi><mo>=</mo><mi>y</mi><mo>+</mo><mn>6</mn></mrow></math></span></p>
-            <label for="item-9" class="sr-only">(e) <math><mrow><mn>2</mn><mi>x</mi><mo>=</mo><mi>y</mi><mo>+</mo><mn>6</mn></mrow></math></label>
-            <textarea id="item-9" data-activity-item="item-9" aria-label="(e) $2x = y + 6$" class="w-full min-h-11 rounded-xl border border-yellow-300 bg-white/85 px-4 py-3 shadow-sm outline-none focus:border-yellow-400 focus:ring-2 focus:ring-yellow-200" data-response-kind="exercise"></textarea>
+            <p class="adt-body"><span data-id="pg160_n0027">(e) <math displaystyle="true"><mrow><mn>2</mn><mi>x</mi><mo>=</mo><mi>y</mi><mo>+</mo><mn>6</mn></mrow></math></span></p>
+            <label for="item-9" class="sr-only">(e) <math displaystyle="true"><mrow><mn>2</mn><mi>x</mi><mo>=</mo><mi>y</mi><mo>+</mo><mn>6</mn></mrow></math></label>
+            <textarea id="item-9" data-activity-item="item-9" aria-label="Exercise 6.6, question 4(e): your graph and working" class="w-full min-h-11 rounded-xl border border-yellow-300 bg-white/85 px-4 py-3 shadow-sm outline-none focus:border-yellow-400 focus:ring-2 focus:ring-yellow-200" data-response-kind="exercise"></textarea>
           </div>
           <div class="space-y-2" data-book-stack="">
-            <p class="adt-body"><span data-id="pg160_n0029">(f) <math><mrow><mn>2</mn><mi>y</mi><mo>+</mo><mn>4</mn><mo>=</mo><mi>x</mi></mrow></math></span></p>
-            <label for="item-10" class="sr-only">(f) <math><mrow><mn>2</mn><mi>y</mi><mo>+</mo><mn>4</mn><mo>=</mo><mi>x</mi></mrow></math></label>
-            <textarea id="item-10" data-activity-item="item-10" aria-label="(f) $2y + 4 = x$" class="w-full min-h-11 rounded-xl border border-yellow-300 bg-white/85 px-4 py-3 shadow-sm outline-none focus:border-yellow-400 focus:ring-2 focus:ring-yellow-200" data-response-kind="exercise"></textarea>
+            <p class="adt-body"><span data-id="pg160_n0029">(f) <math displaystyle="true"><mrow><mn>2</mn><mi>y</mi><mo>+</mo><mn>4</mn><mo>=</mo><mi>x</mi></mrow></math></span></p>
+            <label for="item-10" class="sr-only">(f) <math displaystyle="true"><mrow><mn>2</mn><mi>y</mi><mo>+</mo><mn>4</mn><mo>=</mo><mi>x</mi></mrow></math></label>
+            <textarea id="item-10" data-activity-item="item-10" aria-label="Exercise 6.6, question 4(f): your graph and working" class="w-full min-h-11 rounded-xl border border-yellow-300 bg-white/85 px-4 py-3 shadow-sm outline-none focus:border-yellow-400 focus:ring-2 focus:ring-yellow-200" data-response-kind="exercise"></textarea>
           </div>
           <div class="space-y-2" data-book-stack="">
-            <p class="adt-body"><span data-id="pg160_n0031">(g) <math><mrow><mi>x</mi><mo>−</mo><mi>y</mi><mo>=</mo><mn>1</mn></mrow></math></span></p>
-            <label for="item-11" class="sr-only">(g) <math><mrow><mi>x</mi><mo>−</mo><mi>y</mi><mo>=</mo><mn>1</mn></mrow></math></label>
-            <textarea id="item-11" data-activity-item="item-11" aria-label="(g) $x - y = 1$" class="w-full min-h-11 rounded-xl border border-yellow-300 bg-white/85 px-4 py-3 shadow-sm outline-none focus:border-yellow-400 focus:ring-2 focus:ring-yellow-200" data-response-kind="exercise"></textarea>
+            <p class="adt-body"><span data-id="pg160_n0031">(g) <math displaystyle="true"><mrow><mi>x</mi><mo>−</mo><mi>y</mi><mo>=</mo><mn>1</mn></mrow></math></span></p>
+            <label for="item-11" class="sr-only">(g) <math displaystyle="true"><mrow><mi>x</mi><mo>−</mo><mi>y</mi><mo>=</mo><mn>1</mn></mrow></math></label>
+            <textarea id="item-11" data-activity-item="item-11" aria-label="Exercise 6.6, question 4(g): your graph and working" class="w-full min-h-11 rounded-xl border border-yellow-300 bg-white/85 px-4 py-3 shadow-sm outline-none focus:border-yellow-400 focus:ring-2 focus:ring-yellow-200" data-response-kind="exercise"></textarea>
           </div>
           <div class="space-y-2" data-book-stack="">
-            <p class="adt-body"><span data-id="pg160_n0033">(h) <math><mrow><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>=</mo><mn>2</mn></mrow></math></span></p>
-            <label for="item-12" class="sr-only">(h) <math><mrow><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>=</mo><mn>2</mn></mrow></math></label>
-            <textarea id="item-12" data-activity-item="item-12" aria-label="(h) $x + 2y = 2$" class="w-full min-h-11 rounded-xl border border-yellow-300 bg-white/85 px-4 py-3 shadow-sm outline-none focus:border-yellow-400 focus:ring-2 focus:ring-yellow-200" data-response-kind="exercise"></textarea>
+            <p class="adt-body"><span data-id="pg160_n0033">(h) <math displaystyle="true"><mrow><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>=</mo><mn>2</mn></mrow></math></span></p>
+            <label for="item-12" class="sr-only">(h) <math displaystyle="true"><mrow><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>=</mo><mn>2</mn></mrow></math></label>
+            <textarea id="item-12" data-activity-item="item-12" aria-label="Exercise 6.6, question 4(h): your graph and working" class="w-full min-h-11 rounded-xl border border-yellow-300 bg-white/85 px-4 py-3 shadow-sm outline-none focus:border-yellow-400 focus:ring-2 focus:ring-yellow-200" data-response-kind="exercise"></textarea>
           </div>
         </div>
       </div>
@@ -108,51 +109,50 @@
         <div class="pl-0">
           <div class="flex items-baseline gap-3 max-sm:gap-2">
             <p class="adt-body shrink-0" data-book-number=""><span data-id="pg160_n0035">5.</span></p>
-            <p class="adt-body flex-1"><span data-id="pg160_n0036">Sketch the graph of the equation <math><mrow><mo form="prefix" stretchy="false">−</mo><mfrac><mi>y</mi><mn>2</mn></mfrac><mo>−</mo><mfrac><mi>x</mi><mn>5</mn></mfrac><mo>=</mo><mn>1</mn></mrow></math>.</span></p>
+            <p class="adt-body flex-1"><span data-id="pg160_n0036">Sketch the graph of the equation <math displaystyle="true"><mrow><mo form="prefix" stretchy="false">−</mo><mfrac><mi>y</mi><mn>2</mn></mfrac><mo>−</mo><mfrac><mi>x</mi><mn>5</mn></mfrac><mo>=</mo><mn>1</mn></mrow></math>.</span></p>
           </div>
           <div class="pl-10 pt-2 max-sm:pl-0">
-            <label for="item-13" class="sr-only">Sketch the graph of the equation <math><mrow><mo form="prefix" stretchy="false">−</mo><mfrac><mi>y</mi><mn>2</mn></mfrac><mo>−</mo><mfrac><mi>x</mi><mn>5</mn></mfrac><mo>=</mo><mn>1</mn></mrow></math>.</label>
-            <textarea id="item-13" data-activity-item="item-13" aria-label="Sketch the graph of the equation $-\frac{y}{2} - \frac{x}{5} = 1$." class="w-full min-h-11 rounded-xl border border-purple-300 bg-white/85 px-4 py-3 shadow-sm outline-none focus:border-purple-400 focus:ring-2 focus:ring-purple-200" data-response-kind="exercise"></textarea>
+            <label for="item-13" class="sr-only">Sketch the graph of the equation <math displaystyle="true"><mrow><mo form="prefix" stretchy="false">−</mo><mfrac><mi>y</mi><mn>2</mn></mfrac><mo>−</mo><mfrac><mi>x</mi><mn>5</mn></mfrac><mo>=</mo><mn>1</mn></mrow></math>.</label>
+            <textarea id="item-13" data-activity-item="item-13" aria-label="Exercise 6.6, question 5: your graph and working" class="w-full min-h-11 rounded-xl border border-purple-300 bg-white/85 px-4 py-3 shadow-sm outline-none focus:border-purple-400 focus:ring-2 focus:ring-purple-200" data-response-kind="exercise"></textarea>
           </div>
         </div>
 
         <div class="pl-0">
           <div class="flex items-baseline gap-3 max-sm:gap-2">
             <p class="adt-body shrink-0" data-book-number=""><span data-id="pg160_n0038">6.</span></p>
-            <p class="adt-body flex-1"><span data-id="pg160_n0039">Use x and y-intercepts to sketch the graph of the equation <math><mrow><mfrac><mn>2</mn><mn>5</mn></mfrac><mi>x</mi><mo>+</mo><mn>0.1</mn><mi>y</mi><mo>=</mo><mfrac><mn>3</mn><mn>5</mn></mfrac></mrow></math>.</span></p>
+            <p class="adt-body flex-1"><span data-id="pg160_n0039">Use x and y-intercepts to sketch the graph of the equation <math displaystyle="true"><mrow><mfrac><mn>2</mn><mn>5</mn></mfrac><mi>x</mi><mo>+</mo><mn>0.1</mn><mi>y</mi><mo>=</mo><mfrac><mn>3</mn><mn>5</mn></mfrac></mrow></math>.</span></p>
           </div>
           <div class="pl-10 pt-2 max-sm:pl-0">
-            <label for="item-14" class="sr-only">Use x and y-intercepts to sketch the graph of the equation <math><mrow><mfrac><mn>2</mn><mn>5</mn></mfrac><mi>x</mi><mo>+</mo><mn>0.1</mn><mi>y</mi><mo>=</mo><mfrac><mn>3</mn><mn>5</mn></mfrac></mrow></math>.</label>
-            <textarea id="item-14" data-activity-item="item-14" aria-label="Use x and y-intercepts to sketch the graph of the equation $\frac{2}{5}x + 0.1y = \frac{3}{5}$." class="w-full min-h-11 rounded-xl border border-purple-300 bg-white/85 px-4 py-3 shadow-sm outline-none focus:border-purple-400 focus:ring-2 focus:ring-purple-200" data-response-kind="exercise"></textarea>
+            <label for="item-14" class="sr-only">Use x and y-intercepts to sketch the graph of the equation <math displaystyle="true"><mrow><mfrac><mn>2</mn><mn>5</mn></mfrac><mi>x</mi><mo>+</mo><mn>0.1</mn><mi>y</mi><mo>=</mo><mfrac><mn>3</mn><mn>5</mn></mfrac></mrow></math>.</label>
+            <textarea id="item-14" data-activity-item="item-14" aria-label="Exercise 6.6, question 6: your graph and working" class="w-full min-h-11 rounded-xl border border-purple-300 bg-white/85 px-4 py-3 shadow-sm outline-none focus:border-purple-400 focus:ring-2 focus:ring-purple-200" data-response-kind="exercise"></textarea>
           </div>
         </div>
 
         <div class="pl-0">
           <div class="flex items-baseline gap-3 max-sm:gap-2">
             <p class="adt-body shrink-0" data-book-number=""><span data-id="pg160_n0041">7.</span></p>
-            <p class="adt-body flex-1"><span data-id="pg160_n0042">Use table of values to draw the graph of <math><mrow><mn>0.3</mn><mi>x</mi><mo>−</mo><mn>0.2</mn><mi>y</mi><mo>=</mo><mn>0.6</mn></mrow></math>.</span></p>
+            <p class="adt-body flex-1"><span data-id="pg160_n0042">Use table of values to draw the graph of <math displaystyle="true"><mrow><mn>0.3</mn><mi>x</mi><mo>−</mo><mn>0.2</mn><mi>y</mi><mo>=</mo><mn>0.6</mn></mrow></math>.</span></p>
           </div>
           <div class="pl-10 pt-2 max-sm:pl-0">
-            <label for="item-15" class="sr-only">Use table of values to draw the graph of <math><mrow><mn>0.3</mn><mi>x</mi><mo>−</mo><mn>0.2</mn><mi>y</mi><mo>=</mo><mn>0.6</mn></mrow></math>.</label>
-            <textarea id="item-15" data-activity-item="item-15" aria-label="Use table of values to draw the graph of $0.3x - 0.2y = 0.6$." class="w-full min-h-11 rounded-xl border border-purple-300 bg-white/85 px-4 py-3 shadow-sm outline-none focus:border-purple-400 focus:ring-2 focus:ring-purple-200" data-response-kind="exercise"></textarea>
+            <label for="item-15" class="sr-only">Use table of values to draw the graph of <math displaystyle="true"><mrow><mn>0.3</mn><mi>x</mi><mo>−</mo><mn>0.2</mn><mi>y</mi><mo>=</mo><mn>0.6</mn></mrow></math>.</label>
+            <textarea id="item-15" data-activity-item="item-15" aria-label="Exercise 6.6, question 7: your graph and working" class="w-full min-h-11 rounded-xl border border-purple-300 bg-white/85 px-4 py-3 shadow-sm outline-none focus:border-purple-400 focus:ring-2 focus:ring-purple-200" data-response-kind="exercise"></textarea>
           </div>
         </div>
 
         <div class="pl-0">
           <div class="flex items-baseline gap-3 max-sm:gap-2">
             <p class="adt-body shrink-0" data-book-number=""><span data-id="pg160_n0044">8.</span></p>
-            <p class="adt-body flex-1"><span data-id="pg160_n0045">Draw the graph of <math><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>4</mn><mi>y</mi><mo>=</mo><mn>12</mn></mrow></math> by using table of values.</span></p>
+            <p class="adt-body flex-1"><span data-id="pg160_n0045">Draw the graph of <math displaystyle="true"><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>4</mn><mi>y</mi><mo>=</mo><mn>12</mn></mrow></math> by using table of values.</span></p>
           </div>
           <div class="pl-10 pt-2 max-sm:pl-0">
-            <label for="item-16" class="sr-only">Draw the graph of <math><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>4</mn><mi>y</mi><mo>=</mo><mn>12</mn></mrow></math> by using table of values.</label>
-            <textarea id="item-16" data-activity-item="item-16" aria-label="Draw the graph of $3x - 4y = 12$ by using table of values." class="w-full min-h-11 rounded-xl border border-purple-300 bg-white/85 px-4 py-3 shadow-sm outline-none focus:border-purple-400 focus:ring-2 focus:ring-purple-200" data-response-kind="exercise"></textarea>
+            <label for="item-16" class="sr-only">Draw the graph of <math displaystyle="true"><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>4</mn><mi>y</mi><mo>=</mo><mn>12</mn></mrow></math> by using table of values.</label>
+            <textarea id="item-16" data-activity-item="item-16" aria-label="Exercise 6.6, question 8: your graph and working" class="w-full min-h-11 rounded-xl border border-purple-300 bg-white/85 px-4 py-3 shadow-sm outline-none focus:border-purple-400 focus:ring-2 focus:ring-purple-200" data-response-kind="exercise"></textarea>
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-<p id="practice-save-status" class="book-save-status" role="status" aria-live="polite">Your answers are saved on this device as you type.</p>
 </div>
     </main>
 

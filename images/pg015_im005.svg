@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 94" width="640" height="94">
+<g fill="#31a3cf" stroke="#31a3cf" stroke-width="2">
+<path d="M 26 32 H 614" fill="none"/>
+<path d="M 8 32 L 29 25 L 29 39 Z M 632 32 L 611 25 L 611 39 Z" stroke="none"/>
+<path data-value="-3" d="M 70 22 V 42" fill="none"/>
+<path data-value="-14/5" d="M 102 22 V 42" fill="none"/>
+<path data-value="-13/5" d="M 134 22 V 42" fill="none"/>
+<path data-value="-12/5" d="M 166 22 V 42" fill="none"/>
+<path data-value="-11/5" d="M 198 22 V 42" fill="none"/>
+<path data-value="-2" d="M 230 22 V 42" fill="none"/>
+<path data-value="-1" d="M 390 22 V 42" fill="none"/>
+<path data-value="0" d="M 550 16 V 48" fill="none"/>
+</g>
+<g fill="#222222" font-family="Times New Roman, Times, Liberation Serif, serif" font-size="27" text-anchor="middle">
+<text x="70" y="77">−3</text>
+<text x="230" y="77">−2</text>
+<text x="390" y="77">−1</text>
+<text x="550" y="77">0</text>
+<text x="166" y="77">−2.4</text>
+</g>
+<g fill="#222222">
+<circle data-value="-12/5" cx="166" cy="32" r="6"/>
+</g>
+</svg>

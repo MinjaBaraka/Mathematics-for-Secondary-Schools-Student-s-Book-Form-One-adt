@@ -89,7 +89,7 @@
 
 #content.page-front-matter .front-credit > p { margin: 0; }
 #content.page-front-matter .front-credit > p:first-child {
-  color: var(--book-blue);
+  color: var(--book-ink);
   font-weight: 700;
 }
 

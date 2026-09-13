@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 120" width="640" height="120">
+<g fill="#31a3cf" stroke="#31a3cf" stroke-width="2">
+<path d="M 26 32 H 614" fill="none"/>
+<path d="M 8 32 L 29 25 L 29 39 Z M 632 32 L 611 25 L 611 39 Z" stroke="none"/>
+<path data-value="-1" d="M 70 22 V 42" fill="none"/>
+<path data-value="-3/4" d="M 132.5 22 V 42" fill="none"/>
+<path data-value="-1/2" d="M 195 22 V 42" fill="none"/>
+<path data-value="-1/4" d="M 257.5 22 V 42" fill="none"/>
+<path data-value="0" d="M 320 16 V 48" fill="none"/>
+<path data-value="1/4" d="M 382.5 22 V 42" fill="none"/>
+<path data-value="1/2" d="M 445 22 V 42" fill="none"/>
+<path data-value="3/4" d="M 507.5 22 V 42" fill="none"/>
+<path data-value="1" d="M 570 22 V 42" fill="none"/>
+</g>
+<g fill="#222222" font-family="Times New Roman, Times, Liberation Serif, serif" font-size="27" text-anchor="middle">
+<text x="70" y="77">−1</text>
+<text x="320" y="77">0</text>
+<text x="570" y="77">1</text>
+<g data-fraction="1/4"><text x="382.5" y="76">1</text><path d="M 370.5 84 H 394.5" stroke="#222222" stroke-width="1.2"/><text x="382.5" y="110">4</text></g>
+</g>
+<g fill="#222222">
+<circle data-value="1/4" cx="382.5" cy="32" r="6"/>
+</g>
+</svg>

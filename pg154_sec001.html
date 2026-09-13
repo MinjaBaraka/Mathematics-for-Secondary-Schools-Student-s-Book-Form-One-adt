@@ -12,13 +12,15 @@
     <link href="./assets/fonts.css" rel="stylesheet">
     <link href="./assets/reader-design.css" rel="stylesheet">
     <link href="./assets/learning-content.css" rel="stylesheet">
+    <link href="./assets/source-figures.css" rel="stylesheet">
+    <link href="./assets/reader-layout.css" rel="stylesheet">
 </head>
 
 <body class="min-h-screen flex items-center justify-center">
     <main class="w-full">
-      <div id="content" class="container opacity-0">
+      <div id="content" class="container opacity-0" data-reader-layout="standard">
   <section data-section-type="boxed_text" data-section-id="pg154_sec001" class="mx-auto w-full max-w-5xl px-8 max-sm:px-5 py-8" data-book-page="boxed_text" data-book-padding="">
-    <div class="overflow-hidden rounded-2xl border border-sky-200 bg-sky-50 shadow-sm" data-book-box="" data-book-surface="blue">
+    <div class="overflow-hidden rounded-2xl border border-sky-200 bg-sky-50 shadow-sm" data-book-box="" data-book-surface="blue" data-reader-region="">
       <div class="bg-gradient-to-r from-sky-700 via-blue-600 to-sky-400 px-6 py-4" data-book-padding="" data-book-surface="blue-bar">
         <h1 class="adt-h3 font-bold text-white" data-id="pg154_n0005" data-book-heading="label" data-book-ink="black" data-learning-heading="example">Example 6.24</h1>
       </div>
@@ -33,7 +35,7 @@
             <span data-id="pg154_n0009">Table of values for <math><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>1</mn></mrow></math></span>
           </p>
           <div class="rounded-xl bg-white overflow-hidden" data-book-box="">
-            <table class="w-full table-fixed border-collapse overflow-hidden rounded-xl">
+            <table style="display:table;width:100%;table-layout:fixed" class="w-full table-fixed border-collapse overflow-hidden rounded-xl">
               <caption class="sr-only">Table of values for x plus y equals 1</caption>
               <colgroup>
                 <col class="w-[12%]">
@@ -85,16 +87,14 @@
           <span data-id="pg154_n0036">Given the equation <math><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>1</mn></mrow></math>.</span> <span data-id="pg154_n0037">Re-writing it in the form <math><mrow><mi>y</mi><mo>=</mo><mi>m</mi><mi>x</mi><mo>+</mo><mi>c</mi></mrow></math> gives <math><mrow><mi>y</mi><mo>=</mo><mo form="prefix" stretchy="false">−</mo><mi>x</mi><mo>+</mo><mn>1</mn></mrow></math>.</span>
         </p>
 
-        <p class="adt-body leading-relaxed text-slate-800">
-          <span data-id="pg154_n0039">Substitute the given values from the given table of values.</span> <span data-id="pg154_n0040">When <math><mrow><mi>x</mi><mo>=</mo><mo form="prefix" stretchy="false">−</mo><mn>2</mn></mrow></math>, then <math><mrow><mi>y</mi><mo>=</mo><mo form="prefix" stretchy="false">−</mo><mrow><mo fence="true" form="prefix" stretchy="false">(</mo><mo form="prefix" stretchy="false">−</mo><mn>2</mn><mo fence="true" form="postfix" stretchy="false">)</mo></mrow><mo>+</mo><mn>1</mn><mo>=</mo><mn>3</mn></mrow></math>.</span> <span data-id="pg154_n0041">When <math><mrow><mi>y</mi><mo>=</mo><mn>2</mn></mrow></math>, <math><mrow><mi>x</mi><mo>=</mo><mo form="prefix" stretchy="false">−</mo><mn>1</mn></mrow></math>.</span> <span data-id="pg154_n0042">When <math><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math>, <math><mrow><mi>y</mi><mo>=</mo><mn>1</mn></mrow></math>.</span> <span data-id="pg154_n0043">When <math><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow></math>, <math><mrow><mi>y</mi><mo>=</mo><mo form="prefix" stretchy="false">−</mo><mn>1</mn></mrow></math>.</span>
-        </p>
+        <p class="adt-body"><span data-id="pg154_n0039">Substitute the given values from the given table of values.</span></p><p class="adt-body"><span data-id="pg154_n0040">When <math><mrow><mi>x</mi><mo>=</mo><mo form="prefix" stretchy="false">−</mo><mn>2</mn></mrow></math>, then <math><mrow><mi>y</mi><mo>=</mo><mo form="prefix" stretchy="false">−</mo><mrow><mo fence="true" form="prefix" stretchy="false">(</mo><mo form="prefix" stretchy="false">−</mo><mn>2</mn><mo fence="true" form="postfix" stretchy="false">)</mo></mrow><mo>+</mo><mn>1</mn><mo>=</mo><mn>3</mn></mrow></math>.</span></p><p class="adt-body"><span data-id="pg154_n0041">When <math><mrow><mi>y</mi><mo>=</mo><mn>2</mn></mrow></math>, <math><mrow><mi>x</mi><mo>=</mo><mo form="prefix" stretchy="false">−</mo><mn>1</mn></mrow></math>.</span></p><p class="adt-body"><span data-id="pg154_n0042">When <math><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math>, <math><mrow><mi>y</mi><mo>=</mo><mn>1</mn></mrow></math>.</span></p><p class="adt-body"><span data-id="pg154_n0043">When <math><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow></math>, <math><mrow><mi>y</mi><mo>=</mo><mo form="prefix" stretchy="false">−</mo><mn>1</mn></mrow></math>.</span></p>
 
         <div class="space-y-3" data-book-stack="">
           <p class="adt-body font-medium text-slate-800">
             <span data-id="pg154_n0045">The following is the table of values for <math><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>1</mn></mrow></math>.</span>
           </p>
           <div class="rounded-xl bg-white overflow-hidden" data-book-box="">
-            <table class="w-full table-fixed border-collapse overflow-hidden rounded-xl">
+            <table style="display:table;width:100%;table-layout:fixed" class="w-full table-fixed border-collapse overflow-hidden rounded-xl">
               <caption class="sr-only">Completed table of values for x plus y equals 1</caption>
               <colgroup>
                 <col class="w-[14%]">
@@ -130,8 +130,8 @@
           <span data-id="pg154_n0074">Locate the set of ordered pairs from the table of values on the <math><mrow><mi>x</mi><mi>y</mi></mrow></math>-plane.</span> <span data-id="pg154_n0075">Join the points to form a straight line as shown in the following figure.</span>
         </p>
 
-        <figure class="rounded-xl border border-sky-200 bg-white p-4 shadow-sm max-sm:p-3">
-          <img data-id="pg154_im007" src="images/pg154_im007.png" alt="Graph on an xy-plane showing the line x plus y equals 1 through points negative 2 comma 3, negative 1 comma 2, 0 comma 1, 1 comma 0, and 2 comma negative 1." class="mx-auto h-auto w-full rounded-lg">
+        <figure>
+          <img data-id="pg154_im007" src="images/pg154-coordinate-graph.png" alt="Graph on an xy-plane showing the line x plus y equals 1 through points negative 2 comma 3, negative 1 comma 2, 0 comma 1, 1 comma 0, and 2 comma negative 1." class="book-source-number-line">
           <figcaption class="sr-only">
             <span data-id="pg154_n0077"><math><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>1</mn></mrow></math></span>
             <span data-id="pg154_n0078">(-2, 3)</span>

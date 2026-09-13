@@ -1,0 +1,41 @@
+/* Screenshot references: rational numbers on number lines, Examples 2.1–2.3. */
+#content.page-rational-lines .worked-example {
+  margin: 0 0 1.5rem;
+  border: 1px solid #b7d1dd;
+  background: #eaf5f5;
+  box-shadow: inset -2px -2px 2px #abc3ce;
+}
+#content.page-rational-lines .rational-example-title {
+  margin: 0;
+  padding: 0.55rem 1.1rem;
+  color: white;
+  background:
+    repeating-radial-gradient(ellipse at 30% -50%, transparent 0 20px, #90b9cd33 22px 30px, transparent 32px 52px),
+    linear-gradient(100deg, #2772a4, #355f91 55%, #88a9bc);
+  border-bottom: 2px solid #638ea7;
+}
+#content.page-rational-lines .rational-example-body { padding: 1rem 1.1rem 1.25rem; }
+#content.page-rational-lines .rational-example-body .adt-body {
+  margin: 0;
+  line-height: 1.55;
+}
+#content.page-rational-lines .rational-example-body > p.adt-body + p.adt-body { margin-top: 1rem; }
+#content.page-rational-lines .rational-solution-title {
+  margin: 0.85rem 0 0.3rem;
+  color: var(--book-blue);
+}
+#content.page-rational-lines .rational-solution-title:first-child { margin-top: 0; }
+#content.page-rational-lines .rational-equations { margin: 0.35rem 0 0.85rem; }
+#content.page-rational-lines .rational-example-body .rational-equations p + p { margin-top: 0.75rem; }
+#content.page-rational-lines .equation-continuation { padding-left: 2.6em; }
+#content.page-rational-lines .continued-conversion { padding-left: 1.5em; }
+#content.page-rational-lines .worked-example math { math-style: normal; }
+
+#content.page-rational-lines .rational-number-line { max-width: 30rem; margin: 0.7rem auto 0; }
+#content.page-rational-lines .rational-number-line img { display: block; width: 100%; height: auto; }
+#content.page-rational-lines .wide-number-line { max-width: 100%; }
+
+@media (max-width: 640px) {
+  #content.page-rational-lines .rational-example-title { padding-inline: 0.85rem; }
+  #content.page-rational-lines .rational-example-body { padding-inline: 0.85rem; }
+}

@@ -1,0 +1,63 @@
+#content .book-glossary {
+  margin: 0;
+}
+
+#content .book-glossary > div {
+  display: grid;
+  grid-template-columns: 11rem minmax(0, 1fr);
+  gap: .25rem 1.25rem;
+}
+
+#content .book-glossary > div + div {
+  margin-top: 1.25rem;
+}
+
+#content .book-glossary dt {
+  font-weight: 700;
+}
+
+#content .book-glossary dd {
+  margin: 0;
+}
+
+#content .book-bibliography p {
+  margin: 0;
+  padding-left: 2.5rem;
+  text-indent: -2.5rem;
+  text-align: left;
+}
+
+#content .book-bibliography p + p {
+  margin-top: 1.25rem;
+}
+
+@media (max-width: 600px) {
+  #content .book-glossary > div {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  #content .book-bibliography p {
+    padding-left: 1.25rem;
+    text-indent: -1.25rem;
+  }
+}
+
+#content .book-index {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+}
+
+#content .book-index-group + .book-index-group { margin-top: 1.25rem; }
+#content .book-index-group h2 {
+  margin: 0 0 .5rem;
+  padding: .25rem 1rem;
+  border: 1px solid #8bd5ec;
+  border-radius: 1.5rem;
+  background: #f2fbfe;
+  font-weight: 600;
+}
+#content .book-index-group p { margin: .3rem 0 0; text-align: left; }
+@media (max-width: 600px) {
+  #content .book-index { grid-template-columns: minmax(0, 1fr); gap: 1.25rem; }
+}

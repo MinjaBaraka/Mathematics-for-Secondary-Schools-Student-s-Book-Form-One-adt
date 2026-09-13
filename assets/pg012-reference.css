@@ -42,12 +42,7 @@
 
 #content.page-practice .practice-panel-body { padding: 1rem 1.25rem 1.25rem; }
 #content.page-practice .practice-panel-body > p { margin: 0; }
-#content.page-practice .practice-response-label {
-  display: block;
-  margin: 1rem 0 0.5rem;
-  font-size: var(--book-text);
-  font-weight: 700;
-}
+#content.page-practice #activity-instructions + .practice-answer { margin-top: 1rem; }
 
 #content.page-practice .practice-question-block + .practice-question-block { margin-top: 1.5rem; }
 #content.page-practice .practice-question {
@@ -71,12 +66,6 @@
 }
 
 #content.page-practice .practice-answer[rows="2"] { min-height: 4.5rem; }
-#content.page-practice .practice-panel-body > .practice-status {
-  margin-top: 0.75rem;
-  font-size: 1rem;
-  line-height: 1.4;
-  color: #365663;
-}
 
 #content.page-practice .front-rail {
   right: auto;

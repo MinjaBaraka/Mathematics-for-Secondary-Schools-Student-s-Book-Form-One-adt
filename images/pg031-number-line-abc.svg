@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 90" width="520" height="90">
+<g fill="#31a3cf" stroke="#31a3cf" stroke-width="2">
+<path d="M 24 29 H 496" fill="none"/>
+<path d="M 8 29 L 29 23 L 29 35 Z M 512 29 L 491 23 L 491 35 Z" stroke="none"/>
+<path d="M 78 10 V 48" fill="none"/>
+<path d="M 260 10 V 48" fill="none"/>
+<path d="M 442 10 V 48" fill="none"/>
+</g>
+<g fill="#222222" font-family="Times New Roman, Times, Liberation Serif, serif" font-size="27" text-anchor="middle" font-style="italic">
+<text x="78" y="80">a</text>
+<text x="260" y="80">b</text>
+<text x="442" y="80">c</text>
+</g>
+</svg>

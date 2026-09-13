@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 164" width="800" height="164">
+<style>@media (max-width: 440px) { text { font-size: 34px; } }</style>
+<g fill="#31a3cf" stroke="#31a3cf" stroke-width="2">
+<path d="M 26 32 H 774" fill="none"/>
+<path d="M 8 32 L 29 25 L 29 39 Z M 792 32 L 771 25 L 771 39 Z" stroke="none"/>
+<path data-value="-3" d="M 64 22 V 42" fill="none"/>
+<path data-value="-14/5" d="M 86.4 22 V 42" fill="none"/>
+<path data-value="-13/5" d="M 108.8 22 V 42" fill="none"/>
+<path data-value="-12/5" d="M 131.2 22 V 42" fill="none"/>
+<path data-value="-11/5" d="M 153.6 22 V 42" fill="none"/>
+<path data-value="-2" d="M 176 22 V 42" fill="none"/>
+<path data-value="-1" d="M 288 22 V 42" fill="none"/>
+<path data-value="0" d="M 400 16 V 48" fill="none"/>
+<path data-value="1" d="M 512 22 V 42" fill="none"/>
+<path data-value="2" d="M 624 22 V 42" fill="none"/>
+<path data-value="11/5" d="M 646.4 22 V 42" fill="none"/>
+<path data-value="12/5" d="M 668.8 22 V 42" fill="none"/>
+<path data-value="13/5" d="M 691.2 22 V 42" fill="none"/>
+<path data-value="14/5" d="M 713.6 22 V 42" fill="none"/>
+<path data-value="3" d="M 736 22 V 42" fill="none"/>
+</g>
+<g fill="#222222" font-family="Times New Roman, Times, Liberation Serif, serif" font-size="27" text-anchor="middle">
+<text x="64" y="77">−3</text>
+<text x="176" y="77">−2</text>
+<text x="288" y="77">−1</text>
+<text x="400" y="77">0</text>
+<text x="512" y="77">1</text>
+<text x="624" y="77">2</text>
+<text x="736" y="77">3</text>
+<text x="82.8" y="134">−</text>
+<g data-fraction="-13/5"><text x="108.8" y="117">13</text><path d="M 93.8 126 H 123.8" stroke="#222222" stroke-width="1.2"/><text x="108.8" y="157">5</text></g>
+<g data-fraction="13/5"><text x="691.2" y="117">13</text><path d="M 676.2 126 H 706.2" stroke="#222222" stroke-width="1.2"/><text x="691.2" y="157">5</text></g>
+</g>
+<g fill="#222222">
+<circle data-value="-13/5" cx="108.8" cy="32" r="6"/>
+<circle data-value="13/5" cx="691.2" cy="32" r="6"/>
+</g>
+</svg>

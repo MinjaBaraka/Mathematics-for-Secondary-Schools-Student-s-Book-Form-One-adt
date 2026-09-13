@@ -28,9 +28,10 @@ class Page(HTMLParser):
     def __init__(self, source):
         super().__init__(convert_charrefs=True)
         self.offsets, offset = [], 0
-        for line in source.splitlines(keepends=True):
+        # HTMLParser counts only newlines, not form feeds found in some labels.
+        for line in source.split('\n'):
             self.offsets.append(offset)
-            offset += len(line)
+            offset += len(line) + 1
         self.nodes, self.stack = [], []
         self.feed(source)
 
@@ -197,5 +198,7 @@ if __name__ == '__main__':
     import sys
     sys.dont_write_bytecode = True
     from refresh_embedded_resources import refresh_embedded_resources
+    from normalize_reader_layout import normalize_reader_layout
     print(f'Applied the shared reader design to {apply_design(ROOT)} pages.')
+    normalize_reader_layout(ROOT)
     refresh_embedded_resources(ROOT)

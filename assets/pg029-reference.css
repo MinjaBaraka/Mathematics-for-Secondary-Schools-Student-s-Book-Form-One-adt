@@ -1,0 +1,22 @@
+/* Figure 2.1 uses the labelled diagram from the supplied textbook screenshot. */
+#content .real-number-categories {
+  margin: 0 0 1.75rem;
+}
+
+#content .real-number-categories img {
+  display: block;
+  width: 100%;
+  max-width: 37.25rem;
+  height: auto;
+  margin-inline: auto;
+}
+
+#content .real-number-categories figcaption {
+  margin: 1.25rem 0 0;
+  color: var(--book-ink);
+  font-size: var(--book-text);
+  line-height: 1.4;
+  text-align: center;
+}
+
+#content .real-number-categories figcaption strong { font-weight: 700; }

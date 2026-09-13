@@ -20,6 +20,16 @@ def audit_learning_content(destination=ROOT):
     speech = json.loads((destination / 'content/i18n/en-US/speech_texts.json').read_text())
     errors, counts, found_text = [], Counter(), set()
     retired = set(manifest['retired_image_sources'])
+    retired_credits = set(manifest.get('retired_running_credit_ids', []))
+    retired_resources = retired_credits | set(manifest.get('retired_image_resource_ids', [])) | set(manifest.get('retired_duplicate_text_ids', []))
+    credit_exceptions = set(manifest.get('running_credit_content_exceptions', []))
+    credit_pattern = re.compile(r'(?:Tanzania Institute of Education|Mathematics Form (?:One|1))[.\s]*', re.I)
+    for name, resource in [('display text', texts), ('read-aloud text', speech), ('audio mappings', audios)]:
+        for identity in retired_resources & resource.keys():
+            errors.append(f'{identity}: retired content returned in {name}')
+    for filename in manifest.get('retired_running_credit_audio', []) + manifest.get('retired_image_audio', []):
+        if (destination / 'content/i18n/en-US/audio' / filename).exists():
+            errors.append(f'{filename}: retired recording returned')
     current_kind = None
     spine = json.loads((destination / 'content/pages.json').read_text())
     if {p['href'] for p in spine} != set(manifest['pages']):
@@ -34,6 +44,7 @@ def audit_learning_content(destination=ROOT):
         root = next(n for n in nodes if n.attrs.get('id') == 'content')
         nodes = [n for n in nodes if root in ancestors(n)]
         fields = [n for n in nodes if 'data-activity-item' in n.attrs]
+        labels_by_id = {n.attrs['id']: n for n in nodes if 'id' in n.attrs}
         actual = {n.attrs['data-activity-item']: n.attrs.get('data-response-kind') for n in fields}
         if actual != expected['responses'] or len(actual) != len(fields):
             errors.append(f'{filename}: response fields differ from the audited activities/exercises')
@@ -41,6 +52,12 @@ def audit_learning_content(destination=ROOT):
         counts['pages'] += 1
         if fields and 'assets/activity-responses.js' not in source:
             errors.append(f'{filename}: response saving is not loaded')
+        migrations = {
+            n.attrs['data-activity-item']: json.loads(n.attrs['data-response-sources'])
+            for n in fields if 'data-response-sources' in n.attrs
+        }
+        if migrations != manifest.get('response_merges', {}).get(filename, {}):
+            errors.append(f'{filename}: previous responses no longer have their audited migration')
         if re.search(r'<script[^>]+(?:math-keyboard|mathlive)', source, re.I):
             errors.append(f'{filename}: the retired math toolbar was reintroduced')
         headings = []
@@ -48,6 +65,15 @@ def audit_learning_content(destination=ROOT):
             identity = node.attrs.get('data-id')
             if identity:
                 found_text.add(identity)
+                if identity in retired_resources:
+                    errors.append(f'{filename}: retired content returned: {identity}')
+            if credit_pattern.fullmatch(' '.join(''.join(node.text).split())):
+                meaningful = any(
+                    n.attrs.get('data-id') in credit_exceptions
+                    for n in [node, *ancestors(node)]
+                ) or any(n.attrs.get('data-id') in credit_exceptions for n in node.children)
+                if not meaningful:
+                    errors.append(f'{filename}: repeated publisher/book label: {identity}')
             if node.tag == 'img' and node.attrs.get('src', '').removeprefix('./') in retired:
                 errors.append(f'{filename}: rasterized text panel returned: {identity}')
             kind = node.attrs.get('data-learning-heading')
@@ -66,6 +92,11 @@ def audit_learning_content(destination=ROOT):
                 )
                 if not label:
                     errors.append(f'{filename}: unlabelled answer field: {node.attrs.get("id")}')
+                for label_id in node.attrs.get('aria-labelledby', '').split():
+                    if label_id not in labels_by_id or not ''.join(labels_by_id[label_id].text).strip():
+                        errors.append(f'{filename}: missing or empty answer prompt: {label_id}')
+                if '\\' in node.attrs.get('aria-label', ''):
+                    errors.append(f'{filename}: raw math source in answer label: {node.attrs.get("id")}')
         if headings != expected['headings']:
             errors.append(f'{filename}: learning headings differ from the audit')
     for identity in manifest['restored_text_ids']:

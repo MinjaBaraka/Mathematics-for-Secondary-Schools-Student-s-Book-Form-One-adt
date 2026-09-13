@@ -12,26 +12,27 @@
     <link href="./assets/fonts.css" rel="stylesheet">
     <link href="./assets/reader-design.css" rel="stylesheet">
     <link href="./assets/learning-content.css" rel="stylesheet">
+    <link href="./assets/reader-layout.css" rel="stylesheet">
 </head>
 
 <body class="min-h-screen flex items-center justify-center">
     <main class="w-full">
-      <div id="content" class="container opacity-0">
+      <div id="content" class="container opacity-0" data-reader-layout="standard">
   <section data-section-type="other" data-section-id="pg074_sec001" class="mx-auto w-full max-w-5xl px-8 max-sm:px-4 py-8 bg-white text-slate-800" data-book-page="other" data-book-padding="">
-    <div class="space-y-4" data-book-stack="">
-      <aside class="max-w-md bg-sky-50 border border-sky-200 rounded-2xl shadow-sm p-5" data-book-box="" data-book-padding="" data-book-surface="blue">
+    <div class="space-y-4" data-book-stack="" data-reader-column="" data-reader-region="">
+      <aside class="max-w-md bg-sky-50 border border-sky-200 rounded-2xl shadow-sm p-5" data-book-box="" data-book-padding="" data-book-surface="blue" data-reader-region="">
         <p class="adt-body leading-8">
           <span data-id="pg074_n0005">Cross-multiplication gives,</span>
         </p>
-        <div data-id="pg074_n0006" class="adt-body leading-8 mt-1"><math><mrow><mn>10</mn><mi>y</mi><mo>=</mo><mn>1</mn><mo>×</mo><mn>400</mn></mrow></math></div>
-        <div data-id="pg074_n0007" class="adt-body leading-8"><math><mrow><mi>y</mi><mo>=</mo><mfrac><mrow><mn>1</mn><mo>×</mo><mn>400</mn></mrow><mn>10</mn></mfrac></mrow></math></div>
+        <div data-id="pg074_n0006" class="adt-body leading-8 mt-1"><math displaystyle="true"><mrow><mn>10</mn><mi>y</mi><mo>=</mo><mn>1</mn><mo>×</mo><mn>400</mn></mrow></math></div>
+        <div data-id="pg074_n0007" class="adt-body leading-8"><math displaystyle="true"><mrow><mi>y</mi><mo>=</mo><mfrac><mrow><mn>1</mn><mo>×</mo><mn>400</mn></mrow><mn>10</mn></mfrac></mrow></math></div>
         <div data-id="pg074_n0008" class="adt-body leading-8">= 40</div>
         <p class="adt-body leading-8 mt-2">
           <span data-id="pg074_n0009">Therefore, 40 drivers out of 400 have attended the driving safety seminar.</span>
         </p>
       </aside>
 
-      <div class="rounded-[1.75rem] overflow-hidden border border-emerald-200 shadow-md bg-[#e6f5ea]" data-book-box="">
+      <div class="rounded-[1.75rem] overflow-hidden border border-emerald-200 shadow-md bg-[#e6f5ea]" data-book-box="" data-reader-region="">
         <div class="bg-gradient-to-r from-lime-500 via-emerald-500 to-green-500 px-5 py-3" data-book-padding="" data-book-surface="green-bar">
           <h1 class="adt-h3 font-bold text-white" data-id="pg074_n0012" data-book-heading="label" data-book-ink="black" data-learning-heading="exercise">Exercise 4.2</h1>
         </div>
@@ -58,9 +59,9 @@
                     <input id="item-3" data-activity-item="item-3" type="text" aria-label="16 in the ratio 3 : 3 : 2" class="mt-1 w-full min-h-11 rounded-xl border-2 border-emerald-300 bg-white px-4 py-3 outline-none focus:border-emerald-500" data-response-kind="exercise">
                   </div>
                   <div>
-                    <p class="adt-body leading-8"><span data-id="pg074_n0028">(d)</span> <span data-id="pg074_n0029"><math><mfrac><mn>1</mn><mn>2</mn></mfrac></math> in the ratio 4 : 1</span></p>
-                    <label for="item-4" class="sr-only"><math><mfrac><mn>1</mn><mn>2</mn></mfrac></math> in the ratio 4 : 1</label>
-                    <input id="item-4" data-activity-item="item-4" type="text" aria-label="\(\frac{1}{2}\) in the ratio 4 : 1" class="mt-1 w-full min-h-11 rounded-xl border-2 border-emerald-300 bg-white px-4 py-3 outline-none focus:border-emerald-500" data-response-kind="exercise">
+                    <p class="adt-body leading-8"><span data-id="pg074_n0028" id="response-prompt-pg074_n0028">(d)</span> <span data-id="pg074_n0029" id="response-prompt-pg074_n0029"><math displaystyle="true"><mfrac><mn>1</mn><mn>2</mn></mfrac></math> in the ratio 4 : 1</span></p>
+                    <label for="item-4" class="sr-only"><math displaystyle="true"><mfrac><mn>1</mn><mn>2</mn></mfrac></math> in the ratio 4 : 1</label>
+                    <input id="item-4" data-activity-item="item-4" type="text" class="mt-1 w-full min-h-11 rounded-xl border-2 border-emerald-300 bg-white px-4 py-3 outline-none focus:border-emerald-500" data-response-kind="exercise" aria-labelledby="response-prompt-pg074_n0028 response-prompt-pg074_n0029">
                   </div>
                 </div>
               </div>
@@ -79,18 +80,14 @@
 
               <div>
                 <p class="adt-body leading-8"><span data-id="pg074_n0037">4.</span> <span data-id="pg074_n0038">Musa, Josephine, Mary, and Kato have 300, 100, 500, and 600 shares in a cooperative shop, respectively.</span> <span data-id="pg074_n0039">Divide 150,000 Tanzanian shillings among them in the ratio of their shares.</span></p>
-                <label for="item-7" class="sr-only">Musa, Josephine, Mary, and Kato have 300, 100, 500, and 600 shares in a cooperative shop, respectively.</label>
-                <textarea id="item-7" data-activity-item="item-7" aria-label="Musa, Josephine, Mary, and Kato have 300, 100, 500, and 600 shares in a cooperative shop, respectively." class="mt-2 w-full min-h-11 rounded-xl border-2 border-emerald-300 bg-white px-4 py-3 outline-none focus:border-emerald-500" rows="2" data-response-kind="exercise"></textarea>
-                <label for="item-8" class="sr-only">Divide 150,000 Tanzanian shillings among them in the ratio of their shares.</label>
-                <textarea id="item-8" data-activity-item="item-8" aria-label="Divide 150,000 Tanzanian shillings among them in the ratio of their shares." class="mt-2 w-full min-h-11 rounded-xl border-2 border-emerald-300 bg-white px-4 py-3 outline-none focus:border-emerald-500" rows="3" data-response-kind="exercise"></textarea>
+
+                <textarea id="item-7" data-activity-item="item-7-combined" aria-label="Musa, Josephine, Mary, and Kato have 300, 100, 500, and 600 shares in a cooperative shop, respectively. Divide 150,000 Tanzanian shillings among them in the ratio of their shares." class="mt-2 w-full min-h-11 rounded-xl border-2 border-emerald-300 bg-white px-4 py-3 outline-none focus:border-emerald-500" rows="4" data-response-kind="exercise" data-response-sources="[{&quot;key&quot;:&quot;item-7&quot;,&quot;label&quot;:&quot;Musa, Josephine, Mary, and Kato have 300, 100, 500, and 600 shares in a cooperative shop, respectively.&quot;},{&quot;key&quot;:&quot;item-8&quot;,&quot;label&quot;:&quot;Divide 150,000 Tanzanian shillings among them in the ratio of their shares.&quot;}]"></textarea>
               </div>
 
               <div>
                 <p class="adt-body leading-8"><span data-id="pg074_n0041">5.</span> <span data-id="pg074_n0042">Magnesium combines with oxygen in the ratio 3 : 2 by mass to form a new substance.</span> <span data-id="pg074_n0043">What mass of magnesium will be needed to combine with 1.4 kg of oxygen?</span></p>
-                <label for="item-9" class="sr-only">Magnesium combines with oxygen in the ratio 3 : 2 by mass to form a new substance.</label>
-                <textarea id="item-9" data-activity-item="item-9" aria-label="Magnesium combines with oxygen in the ratio 3 : 2 by mass to form a new substance." class="mt-2 w-full min-h-11 rounded-xl border-2 border-emerald-300 bg-white px-4 py-3 outline-none focus:border-emerald-500" rows="2" data-response-kind="exercise"></textarea>
-                <label for="item-10" class="sr-only">What mass of magnesium will be needed to combine with 1.4 kg of oxygen?</label>
-                <textarea id="item-10" data-activity-item="item-10" aria-label="What mass of magnesium will be needed to combine with 1.4 kg of oxygen?" class="mt-2 w-full min-h-11 rounded-xl border-2 border-emerald-300 bg-white px-4 py-3 outline-none focus:border-emerald-500" rows="3" data-response-kind="exercise"></textarea>
+
+                <textarea id="item-9" data-activity-item="item-9-combined" aria-label="Magnesium combines with oxygen in the ratio 3 : 2 by mass to form a new substance. What mass of magnesium will be needed to combine with 1.4 kg of oxygen?" class="mt-2 w-full min-h-11 rounded-xl border-2 border-emerald-300 bg-white px-4 py-3 outline-none focus:border-emerald-500" rows="4" data-response-kind="exercise" data-response-sources="[{&quot;key&quot;:&quot;item-9&quot;,&quot;label&quot;:&quot;Magnesium combines with oxygen in the ratio 3 : 2 by mass to form a new substance.&quot;},{&quot;key&quot;:&quot;item-10&quot;,&quot;label&quot;:&quot;What mass of magnesium will be needed to combine with 1.4 kg of oxygen?&quot;}]"></textarea>
               </div>
 
               <div>
@@ -101,20 +98,16 @@
 
               <div>
                 <p class="adt-body leading-8"><span data-id="pg074_n0048">7.</span> <span data-id="pg074_n0049">A powdery mixture is made up of powders A and B in the ratio 5 : 4.</span> <span data-id="pg074_n0050">If 72 kg of this mixture are required, how much of each type should be used?</span></p>
-                <label for="item-12" class="sr-only">A powdery mixture is made up of powders A and B in the ratio 5 : 4.</label>
-                <textarea id="item-12" data-activity-item="item-12" aria-label="A powdery mixture is made up of powders A and B in the ratio 5 : 4." class="mt-2 w-full min-h-11 rounded-xl border-2 border-emerald-300 bg-white px-4 py-3 outline-none focus:border-emerald-500" rows="2" data-response-kind="exercise"></textarea>
-                <label for="item-13" class="sr-only">If 72 kg of this mixture are required, how much of each type should be used?</label>
-                <textarea id="item-13" data-activity-item="item-13" aria-label="If 72 kg of this mixture are required, how much of each type should be used?" class="mt-2 w-full min-h-11 rounded-xl border-2 border-emerald-300 bg-white px-4 py-3 outline-none focus:border-emerald-500" rows="3" data-response-kind="exercise"></textarea>
+
+                <textarea id="item-12" data-activity-item="item-12-combined" aria-label="A powdery mixture is made up of powders A and B in the ratio 5 : 4. If 72 kg of this mixture are required, how much of each type should be used?" class="mt-2 w-full min-h-11 rounded-xl border-2 border-emerald-300 bg-white px-4 py-3 outline-none focus:border-emerald-500" rows="4" data-response-kind="exercise" data-response-sources="[{&quot;key&quot;:&quot;item-12&quot;,&quot;label&quot;:&quot;A powdery mixture is made up of powders A and B in the ratio 5 : 4.&quot;},{&quot;key&quot;:&quot;item-13&quot;,&quot;label&quot;:&quot;If 72 kg of this mixture are required, how much of each type should be used?&quot;}]"></textarea>
               </div>
             </div>
 
             <div class="border-l-2 border-dotted border-emerald-300 pl-8 space-y-5 max-lg:border-l-0 max-lg:border-t-2 max-lg:pl-0 max-lg:pt-5" data-book-stack="">
               <div>
                 <p class="adt-body leading-8"><span data-id="pg074_n0052">8.</span> <span data-id="pg074_n0053">An alloy is made up of metals x and y in the ratio 2.4 : 1 by mass.</span> <span data-id="pg074_n0054">How much mass of y is required if 8 kg of x is used to make the alloy?</span></p>
-                <label for="item-14" class="sr-only">An alloy is made up of metals x and y in the ratio 2.4 : 1 by mass.</label>
-                <textarea id="item-14" data-activity-item="item-14" aria-label="An alloy is made up of metals x and y in the ratio 2.4 : 1 by mass." class="mt-2 w-full min-h-11 rounded-xl border-2 border-emerald-300 bg-white px-4 py-3 outline-none focus:border-emerald-500" rows="2" data-response-kind="exercise"></textarea>
-                <label for="item-15" class="sr-only">How much mass of y is required if 8 kg of x is used to make the alloy?</label>
-                <textarea id="item-15" data-activity-item="item-15" aria-label="How much mass of y is required if 8 kg of x is used to make the alloy?" class="mt-2 w-full min-h-11 rounded-xl border-2 border-emerald-300 bg-white px-4 py-3 outline-none focus:border-emerald-500" rows="3" data-response-kind="exercise"></textarea>
+
+                <textarea id="item-14" data-activity-item="item-14-combined" aria-label="An alloy is made up of metals x and y in the ratio 2.4 : 1 by mass. How much mass of y is required if 8 kg of x is used to make the alloy?" class="mt-2 w-full min-h-11 rounded-xl border-2 border-emerald-300 bg-white px-4 py-3 outline-none focus:border-emerald-500" rows="4" data-response-kind="exercise" data-response-sources="[{&quot;key&quot;:&quot;item-14&quot;,&quot;label&quot;:&quot;An alloy is made up of metals x and y in the ratio 2.4 : 1 by mass.&quot;},{&quot;key&quot;:&quot;item-15&quot;,&quot;label&quot;:&quot;How much mass of y is required if 8 kg of x is used to make the alloy?&quot;}]"></textarea>
               </div>
 
               <div>
@@ -125,56 +118,36 @@
 
               <div>
                 <p class="adt-body leading-8"><span data-id="pg074_n0059">10.</span> <span data-id="pg074_n0060">A line segment AB, which is 24 cm long, is divided at a point P (between A and B) in the ratio 7 : 5.</span> <span data-id="pg074_n0061">Find the lengths of AP and PB.</span></p>
-                <label for="item-17" class="sr-only">A line segment AB, which is 24 cm long, is divided at a point P (between A and B) in the ratio 7 : 5.</label>
-                <textarea id="item-17" data-activity-item="item-17" aria-label="A line segment AB, which is 24 cm long, is divided at a point P (between A and B) in the ratio 7 : 5." class="mt-2 w-full min-h-11 rounded-xl border-2 border-emerald-300 bg-white px-4 py-3 outline-none focus:border-emerald-500" rows="2" data-response-kind="exercise"></textarea>
-                <div class="mt-2 grid grid-cols-2 gap-3 max-sm:grid-cols-1">
+
+                <div class="mt-2 grid gap-3">
+
                   <div>
-                    <label for="item-18" class="sr-only">Find the lengths of AP and PB. AP</label>
-                    <input id="item-18" data-activity-item="item-18" type="text" aria-label="Find the lengths of AP and PB. AP" class="w-full min-h-11 rounded-xl border-2 border-emerald-300 bg-white px-4 py-3 outline-none focus:border-emerald-500" data-response-kind="exercise">
-                  </div>
-                  <div>
-                    <label for="item-19" class="sr-only">Find the lengths of AP and PB. PB</label>
-                    <input id="item-19" data-activity-item="item-19" type="text" aria-label="Find the lengths of AP and PB. PB" class="w-full min-h-11 rounded-xl border-2 border-emerald-300 bg-white px-4 py-3 outline-none focus:border-emerald-500" data-response-kind="exercise">
+
+                    <textarea id="item-17" data-activity-item="item-17-combined" aria-label="Question 10: Find the lengths of AP and PB." class="mt-2 w-full min-h-11 rounded-xl border-2 border-emerald-300 bg-white px-4 py-3 outline-none focus:border-emerald-500" rows="4" data-response-kind="exercise" data-response-sources="[{&quot;key&quot;:&quot;item-17&quot;,&quot;label&quot;:&quot;Notes&quot;},{&quot;key&quot;:&quot;item-18&quot;,&quot;label&quot;:&quot;AP&quot;},{&quot;key&quot;:&quot;item-19&quot;,&quot;label&quot;:&quot;PB&quot;}]"></textarea>
                   </div>
                 </div>
               </div>
 
               <div>
                 <p class="adt-body leading-8"><span data-id="pg074_n0063">11.</span> <span data-id="pg074_n0064">The volumes of two tanks are in the ratio 2 : 5.</span> <span data-id="pg074_n0065">If the volume of the first tank is 2,600 litres, find the total volume of the two tanks.</span></p>
-                <label for="item-20" class="sr-only">The volumes of two tanks are in the ratio 2 : 5.</label>
-                <textarea id="item-20" data-activity-item="item-20" aria-label="The volumes of two tanks are in the ratio 2 : 5." class="mt-2 w-full min-h-11 rounded-xl border-2 border-emerald-300 bg-white px-4 py-3 outline-none focus:border-emerald-500" rows="2" data-response-kind="exercise"></textarea>
-                <label for="item-21" class="sr-only">If the volume of the first tank is 2,600 litres, find the total volume of the two tanks.</label>
-                <textarea id="item-21" data-activity-item="item-21" aria-label="If the volume of the first tank is 2,600 litres, find the total volume of the two tanks." class="mt-2 w-full min-h-11 rounded-xl border-2 border-emerald-300 bg-white px-4 py-3 outline-none focus:border-emerald-500" rows="3" data-response-kind="exercise"></textarea>
+
+                <textarea id="item-20" data-activity-item="item-20-combined" aria-label="The volumes of two tanks are in the ratio 2 : 5. If the volume of the first tank is 2,600 litres, find the total volume of the two tanks." class="mt-2 w-full min-h-11 rounded-xl border-2 border-emerald-300 bg-white px-4 py-3 outline-none focus:border-emerald-500" rows="4" data-response-kind="exercise" data-response-sources="[{&quot;key&quot;:&quot;item-20&quot;,&quot;label&quot;:&quot;The volumes of two tanks are in the ratio 2 : 5.&quot;},{&quot;key&quot;:&quot;item-21&quot;,&quot;label&quot;:&quot;If the volume of the first tank is 2,600 litres, find the total volume of the two tanks.&quot;}]"></textarea>
               </div>
 
               <div>
                 <p class="adt-body leading-8"><span data-id="pg074_n0067">12.</span> <span data-id="pg074_n0068">A real horse is 1.8 m high.</span> <span data-id="pg074_n0069">The statue of the horse is 3 m high.</span> <span data-id="pg074_n0070">What is the ratio of the height of the horse to the height of the statue?</span></p>
-                <label for="item-22" class="sr-only">A real horse is 1.8 m high.</label>
-                <textarea id="item-22" data-activity-item="item-22" aria-label="A real horse is 1.8 m high." class="mt-2 w-full min-h-11 rounded-xl border-2 border-emerald-300 bg-white px-4 py-3 outline-none focus:border-emerald-500" rows="2" data-response-kind="exercise"></textarea>
-                <label for="item-23" class="sr-only">The statue of the horse is 3 m high.</label>
-                <textarea id="item-23" data-activity-item="item-23" aria-label="The statue of the horse is 3 m high." class="mt-2 w-full min-h-11 rounded-xl border-2 border-emerald-300 bg-white px-4 py-3 outline-none focus:border-emerald-500" rows="2" data-response-kind="exercise"></textarea>
-                <label for="item-24" class="sr-only">What is the ratio of the height of the horse to the height of the statue?</label>
-                <input id="item-24" data-activity-item="item-24" type="text" aria-label="What is the ratio of the height of the horse to the height of the statue?" class="mt-2 w-full min-h-11 rounded-xl border-2 border-emerald-300 bg-white px-4 py-3 outline-none focus:border-emerald-500" data-response-kind="exercise">
+
+                <textarea id="item-22" data-activity-item="item-22-combined" aria-label="A real horse is 1.8 m high. The statue of the horse is 3 m high. What is the ratio of the height of the horse to the height of the statue?" class="mt-2 w-full min-h-11 rounded-xl border-2 border-emerald-300 bg-white px-4 py-3 outline-none focus:border-emerald-500" rows="4" data-response-kind="exercise" data-response-sources="[{&quot;key&quot;:&quot;item-22&quot;,&quot;label&quot;:&quot;A real horse is 1.8 m high.&quot;},{&quot;key&quot;:&quot;item-23&quot;,&quot;label&quot;:&quot;The statue of the horse is 3 m high.&quot;},{&quot;key&quot;:&quot;item-24&quot;,&quot;label&quot;:&quot;What is the ratio of the height of the horse to the height of the statue?&quot;}]"></textarea>
               </div>
 
               <div>
                 <p class="adt-body leading-8"><span data-id="pg074_n0072">13.</span> <span data-id="pg074_n0073">Jason has 500, 200, and 100 Tanzanian shilling coins.</span> <span data-id="pg074_n0074">The ratio of the total amount of these coins is 2 : 3 : 5, and the total amount is 780,000 Tanzanian shillings.</span> <span data-id="pg074_n0075">Find the number of the coins of each kind.</span></p>
-                <label for="item-25" class="sr-only">Jason has 500, 200, and 100 Tanzanian shilling coins.</label>
-                <textarea id="item-25" data-activity-item="item-25" aria-label="Jason has 500, 200, and 100 Tanzanian shilling coins." class="mt-2 w-full min-h-11 rounded-xl border-2 border-emerald-300 bg-white px-4 py-3 outline-none focus:border-emerald-500" rows="2" data-response-kind="exercise"></textarea>
-                <label for="item-26" class="sr-only">The ratio of the total amount of these coins is 2 : 3 : 5, and the total amount is 780,000 Tanzanian shillings.</label>
-                <textarea id="item-26" data-activity-item="item-26" aria-label="The ratio of the total amount of these coins is 2 : 3 : 5, and the total amount is 780,000 Tanzanian shillings." class="mt-2 w-full min-h-11 rounded-xl border-2 border-emerald-300 bg-white px-4 py-3 outline-none focus:border-emerald-500" rows="3" data-response-kind="exercise"></textarea>
-                <div class="mt-2 grid grid-cols-3 gap-3 max-sm:grid-cols-1">
+
+                <div class="mt-2 grid gap-3">
+
                   <div>
-                    <label for="item-27" class="sr-only">Find the number of the coins of each kind. 500 Tanzanian shilling coins</label>
-                    <input id="item-27" data-activity-item="item-27" type="text" aria-label="Find the number of the coins of each kind. 500 Tanzanian shilling coins" class="w-full min-h-11 rounded-xl border-2 border-emerald-300 bg-white px-4 py-3 outline-none focus:border-emerald-500" data-response-kind="exercise">
-                  </div>
-                  <div>
-                    <label for="item-28" class="sr-only">Find the number of the coins of each kind. 200 Tanzanian shilling coins</label>
-                    <input id="item-28" data-activity-item="item-28" type="text" aria-label="Find the number of the coins of each kind. 200 Tanzanian shilling coins" class="w-full min-h-11 rounded-xl border-2 border-emerald-300 bg-white px-4 py-3 outline-none focus:border-emerald-500" data-response-kind="exercise">
-                  </div>
-                  <div>
-                    <label for="item-29" class="sr-only">Find the number of the coins of each kind. 100 Tanzanian shilling coins</label>
-                    <input id="item-29" data-activity-item="item-29" type="text" aria-label="Find the number of the coins of each kind. 100 Tanzanian shilling coins" class="w-full min-h-11 rounded-xl border-2 border-emerald-300 bg-white px-4 py-3 outline-none focus:border-emerald-500" data-response-kind="exercise">
+
+                    <textarea id="item-25" data-activity-item="item-25-combined" aria-label="Question 13: Find the number of 500, 200, and 100 Tanzanian shilling coins." class="mt-2 w-full min-h-11 rounded-xl border-2 border-emerald-300 bg-white px-4 py-3 outline-none focus:border-emerald-500" rows="4" data-response-kind="exercise" data-response-sources="[{&quot;key&quot;:&quot;item-25&quot;,&quot;label&quot;:&quot;Notes&quot;},{&quot;key&quot;:&quot;item-26&quot;,&quot;label&quot;:&quot;Working&quot;},{&quot;key&quot;:&quot;item-27&quot;,&quot;label&quot;:&quot;500-shilling coins&quot;},{&quot;key&quot;:&quot;item-28&quot;,&quot;label&quot;:&quot;200-shilling coins&quot;},{&quot;key&quot;:&quot;item-29&quot;,&quot;label&quot;:&quot;100-shilling coins&quot;}]"></textarea>
                   </div>
                 </div>
               </div>
@@ -186,8 +159,8 @@
               </div>
 
               <div>
-                <p class="adt-body leading-8"><span data-id="pg074_n0080">15.</span> <span data-id="pg074_n0081">Find the third proportional of <math><mrow><mn>2</mn><msup><mi>n</mi><mn>2</mn></msup></mrow></math> and <math><msup><mn>3</mn><mn>2</mn></msup></math>.</span></p>
-                <label for="item-31" class="sr-only">Find the third proportional of <math><mrow><mn>2</mn><msup><mi>n</mi><mn>2</mn></msup></mrow></math> and <math><msup><mn>3</mn><mn>2</mn></msup></math>.</label>
+                <p class="adt-body leading-8"><span data-id="pg074_n0080">15.</span> <span data-id="pg074_n0081">Find the third proportional of <math displaystyle="true"><mrow><mn>2</mn><msup><mi>n</mi><mn>2</mn></msup></mrow></math> and <math displaystyle="true"><msup><mn>3</mn><mn>2</mn></msup></math>.</span></p>
+                <label for="item-31" class="sr-only">Find the third proportional of <math displaystyle="true"><mrow><mn>2</mn><msup><mi>n</mi><mn>2</mn></msup></mrow></math> and <math displaystyle="true"><msup><mn>3</mn><mn>2</mn></msup></math>.</label>
                 <input id="item-31" data-activity-item="item-31" type="text" aria-label="Find the third proportional of $2n^2$ and $3^2$." class="mt-2 w-full min-h-11 rounded-xl border-2 border-emerald-300 bg-white px-4 py-3 outline-none focus:border-emerald-500" data-response-kind="exercise">
               </div>
             </div>
@@ -196,7 +169,6 @@
       </div>
     </div>
   </section>
-<p id="practice-save-status" class="book-save-status" role="status" aria-live="polite">Your answers are saved on this device as you type.</p>
 
 </div>
     </main>

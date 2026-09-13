@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 90" width="640" height="90">
+<style>@media (max-width:440px) { text { font-size:34px; } }</style>
+<g fill="#31a3cf" stroke="#31a3cf" stroke-width="2">
+<path d="M 24 29 H 616" fill="none"/>
+<path d="M 8 29 L 29 23 L 29 35 Z M 632 29 L 611 23 L 611 35 Z" stroke="none"/>
+<path d="M 72 10 V 48" fill="none"/>
+<path d="M 144 10 V 48" fill="none"/>
+<path d="M 216 10 V 48" fill="none"/>
+<path d="M 288 10 V 48" fill="none"/>
+<path d="M 360 10 V 48" fill="none"/>
+<path d="M 432 10 V 48" fill="none"/>
+<path d="M 504 10 V 48" fill="none"/>
+<path d="M 576 10 V 48" fill="none"/>
+</g>
+<g fill="#222222" font-family="Times New Roman, Times, Liberation Serif, serif" font-size="27" text-anchor="middle">
+<text x="72" y="80">−3</text>
+<text x="144" y="80">−2</text>
+<text x="216" y="80">−1</text>
+<text x="288" y="80">0</text>
+<text x="360" y="80">1</text>
+<text x="432" y="80">2</text>
+<text x="504" y="80">3</text>
+<text x="576" y="80">4</text>
+</g>
+</svg>

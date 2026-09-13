@@ -1,0 +1,105 @@
+/* Page ii: publication details, spaced to follow the supplied print reference. */
+#content.page-copyright .front-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 72rem;
+  padding: 2rem;
+}
+
+#content.page-copyright .front-top-rule {
+  position: relative;
+  flex-shrink: 0;
+  background:
+    repeating-linear-gradient(90deg, #ffffff66 0 2px, transparent 2px 5px),
+    linear-gradient(90deg, #00aed2, #d5eef2 6%, #00acd2 30%, #c6e9ef 88%, #86c861);
+}
+
+#content.page-copyright .front-top-rule::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 5rem;
+  height: 1rem;
+  background: linear-gradient(120deg, #00aed2, #dbf3f7);
+  clip-path: polygon(0 0, 100% 0, 35% 28%, 12% 65%, 0 100%);
+}
+
+#content.page-copyright .copyright-body {
+  margin: 4rem 5.375rem 4rem;
+}
+
+#content.page-copyright .copyright-body > .adt-body {
+  margin: 0;
+  font-size: var(--book-text);
+  line-height: 1.3;
+}
+
+#content.page-copyright .copyright-body > .copyright-revision { margin-top: 2.875rem; }
+#content.page-copyright .copyright-body > .copyright-isbn { margin-top: 5.8125rem; }
+#content.page-copyright .copyright-body > .copyright-address { margin-top: 5.625rem; }
+#content.page-copyright .copyright-body > .copyright-contact { margin-top: 2.875rem; }
+#content.page-copyright .copyright-body > .copyright-rights {
+  margin-top: 4.125rem;
+  line-height: 1.55;
+  text-align: justify;
+}
+
+#content.page-copyright .copyright-contact a {
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  color: inherit;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+#content.page-copyright .copyright-contact a:is(:hover, :focus-visible) {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+#content.page-copyright .front-rail {
+  top: 5.5rem;
+  right: auto;
+  bottom: 4.5rem;
+  left: 2rem;
+  border-left: 0;
+  border-right: 2px dotted #00add2;
+  border-radius: 0 3rem 0 0;
+}
+
+#content.page-copyright .front-publisher,
+#content.page-copyright .front-book-name {
+  right: auto;
+  left: 0;
+  font-size: var(--book-text);
+}
+
+#content.page-copyright .front-publisher { border-radius: 0 3rem 3rem 0; }
+
+#content.page-copyright .front-book-name {
+  min-height: 16.5rem;
+  border-radius: 0 0 0 2rem;
+  border-left: 4px solid #69d0e4;
+  text-align: center;
+}
+
+#content.page-copyright .front-footer {
+  margin-top: auto;
+  flex-shrink: 0;
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='7'%3E%3Cpath d='M0 3 Q3 0 6 3 T12 3 T18 3 T24 3' fill='none' stroke='%2300a9c6' stroke-opacity='.5' stroke-width='.7'/%3E%3C/svg%3E"),
+    linear-gradient(90deg, #00aed3, #d8f0f4 5%, #00aed3 30%, #a9dfeb 55%, #daf1f3 92%, #71c866);
+}
+
+@media (max-width: 760px) {
+  #content.page-copyright .copyright-body { margin-inline: 4rem 1rem; }
+}
+
+@media (max-width: 640px) {
+  #content.page-copyright .front-page { min-height: 0; padding: 1rem; }
+  #content.page-copyright .copyright-body { margin: 2.5rem 0 4rem; }
+  #content.page-copyright .copyright-body > .adt-body + .adt-body { margin-top: 2rem; }
+  #content.page-copyright .copyright-body > .copyright-rights { text-align: left; }
+}

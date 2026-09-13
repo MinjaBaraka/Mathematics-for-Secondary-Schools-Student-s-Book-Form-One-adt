@@ -1,0 +1,1559 @@
+{
+  "source": "/Volumes/MINJA/ADT/Masomo/Secondary/MATHEMATICS F1 PB /Mathematics form 1 (09 APRIL 2026).pdf",
+  "scope": "Completed sequential PDF content and UI review of all 212 pages, followed by book-wide browser, response-saving, accessibility, and export checks.",
+  "checked_viewport_widths": [
+    1280,
+    390
+  ],
+  "pages": {
+    "pg032_sec001": {
+      "status": "passed",
+      "changes": [
+        "Rebuilt both number lines with complete axes, ticks, and points.",
+        "Moved each diagram beside its corresponding explanation.",
+        "Kept worked examples read-only and preserved narration."
+      ]
+    },
+    "pg033_sec001": {
+      "status": "passed",
+      "changes": [
+        "Replaced the combined extracted panel with two complete diagram crops from the PDF.",
+        "Placed diagrams with their explanations; retained ten exercise response fields."
+      ]
+    },
+    "pg034_sec001": {
+      "status": "passed",
+      "changes": [
+        "Restored the missing comparison boxes in Exercise 2.5 question 4.",
+        "Verified all questions against the PDF; retained 22 response fields."
+      ]
+    },
+    "pg035_sec001": {
+      "status": "passed",
+      "changes": [
+        "Restored the missing axis and interval for x greater than one half.",
+        "Replaced the damaged Example 2.16 panel with the complete PDF diagram; kept the explanation and example read-only."
+      ]
+    },
+    "pg036_sec001": {
+      "status": "passed",
+      "changes": [
+        "Replaced two damaged combined panels with seven complete PDF number-line diagrams.",
+        "Kept each part label with its diagram and removed detached label cards.",
+        "Preserved narration and read-only examples."
+      ]
+    },
+    "pg037_sec001": {
+      "status": "passed",
+      "changes": [
+        "Replaced the oversized incomplete Example 2.18 panel with its complete interval diagram.",
+        "Verified the twelve exercise prompts and response fields against the PDF."
+      ]
+    },
+    "pg038_sec001": {
+      "status": "passed",
+      "changes": [
+        "Restored the missing negative sign in Exercise 2.6 question 8(d): x < −5/2.",
+        "Updated the accessible label, standard/easy-read display text, and narration.",
+        "Regenerated the two corrected recordings using the installed Samantha en-US voice.",
+        "Verified seventeen response fields and responsive layout."
+      ]
+    },
+    "pg039_sec001": {
+      "status": "passed",
+      "changes": [
+        "Restored the absolute-value axis and both labelled two-unit distances.",
+        "Set the diagram to a compact size consistent with body text; verified both read-only examples."
+      ]
+    },
+    "pg040_sec001": {
+      "status": "passed",
+      "changes": [
+        "Restored the Example 2.21 number line with its axis and marked value.",
+        "Checked the worked solution and thirteen exercise response fields against the PDF.",
+        "Final desktop/phone verification corrected mathematical wrapping in standard and easy-read content."
+      ]
+    },
+    "pg041_sec001": {
+      "status": "passed",
+      "changes": [
+        "Revealed the Chapter summary heading and restored list numbering around formulas.",
+        "Rendered question 7(f) as MathML instead of raw LaTeX.",
+        "Grouped question 4 expressions above its single response field.",
+        "Final desktop/phone verification corrected mathematical wrapping in standard and easy-read content."
+      ]
+    },
+    "pg042_sec001": {
+      "status": "passed",
+      "changes": [
+        "Restored recurring dots for 0.81, 114.97, and 0.123, matching the repeating digits in the PDF.",
+        "Updated accessible labels and regenerated four standard/easy-read recordings for corrected repeating digits.",
+        "Separated summary points and restored the blue revision heading.",
+        "Verified the existing complete interval figure and all twenty-two response fields."
+      ]
+    },
+    "pg043_sec001": {
+      "status": "passed",
+      "changes": [
+        "Restored the pale-blue revision panel and responsive answer columns.",
+        "Corrected x to 0.15 with both digits recurring; synchronized display and regenerated both narration variants.",
+        "Checked all questions, fractions, and thirty-eight response fields against the PDF."
+      ]
+    },
+    "pg044_sec001": {
+      "status": "passed",
+      "changes": [
+        "Restored all three number-line axes, rays, and open/closed endpoints in question 22.",
+        "Verified the revision questions and thirteen response fields against the PDF."
+      ]
+    },
+    "pg045_sec001": {
+      "status": "passed",
+      "changes": [
+        "Removed eight duplicate visible formula fallbacks.",
+        "Rendered raw formulas as MathML and restored the repeating digit groups in question 25(c), including narration.",
+        "Restored the green project heading; verified nine response fields."
+      ]
+    },
+    "pg046_sec001": {
+      "status": "passed",
+      "changes": [
+        "Removed the Introduction heading overlap and simplified the opening panel.",
+        "Moved each of the three activity response fields directly below its matching prompt.",
+        "Verified chapter text and responsive layout against the PDF."
+      ]
+    },
+    "pg047_sec001": {
+      "status": "passed",
+      "changes": [
+        "Matched the rounding note and both read-only examples to the PDF.",
+        "Removed excessive nested padding from the note; verified desktop and phone layouts with no overflow."
+      ]
+    },
+    "pg048_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified the continued solution and Examples 3.3 and 3.4 against the PDF, including all rounded values.",
+        "Confirmed read-only examples and clear desktop/phone layouts."
+      ]
+    },
+    "pg049_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified rounding rules and Examples 3.5 and 3.6 against the PDF, including rounding at five.",
+        "Confirmed read-only examples and responsive layouts."
+      ]
+    },
+    "pg050_sec001": {
+      "status": "passed",
+      "changes": [
+        "Checked Example 3.7 and every Exercise 3.1 value against the PDF.",
+        "Verified 32 exercise fields, read-only worked example, and desktop/phone layouts."
+      ]
+    },
+    "pg051_sec001": {
+      "status": "passed",
+      "changes": [
+        "Connected the visible division and fraction prompts directly to their localized text and narration IDs.",
+        "Matched paragraph breaks and readable fraction sizing to the PDF; verified fifteen fields and the read-only example."
+      ]
+    },
+    "pg052_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified all rounding rules and values in Examples 3.9 and 3.10 against the PDF.",
+        "Confirmed readable, read-only examples at desktop and phone widths."
+      ]
+    },
+    "pg053_sec001": {
+      "status": "passed",
+      "changes": [
+        "Checked Examples 3.11–3.13 and every rounded value against the PDF.",
+        "Verified consistent typography, read-only solutions, and desktop/phone layouts."
+      ]
+    },
+    "pg054_sec001": {
+      "status": "passed",
+      "changes": [
+        "Restored missing part labels in questions 2 and 4 and increased fraction readability.",
+        "Removed nested exercise cards and kept numbers beside their prompts on phones; verified all forty-three fields."
+      ]
+    },
+    "pg055_sec001": {
+      "status": "passed",
+      "changes": [
+        "Matched all exercise expressions and significant-figure rules to the PDF.",
+        "Increased fraction size, removed excess response padding, and kept labels beside questions on phones.",
+        "Replaced raw LaTeX input labels with readable question labels; retained ten fields."
+      ]
+    },
+    "pg056_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified significant-figure rules and both worked examples against the PDF.",
+        "Corrected the Example 3.15 heading bar to match the other examples; confirmed desktop/phone layouts and no answer fields."
+      ]
+    },
+    "pg057_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified both worked examples and all eight exercise prompts against the PDF.",
+        "Reformatted the long average fraction to wrap its numerator on phones while retaining every value and its narration.",
+        "Increased fraction readability and reduced excessive response padding."
+      ]
+    },
+    "pg058_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified all significant-figure questions, fractions, and decimal values against the PDF.",
+        "Removed nested exercise panels and excess padding; increased fraction readability while retaining twenty-one fields."
+      ]
+    },
+    "pg059_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified all exercise values, passenger counts, and estimation text against the PDF.",
+        "Removed nested exercise borders and restored separate solution lines in Example 3.18; retained nine fields."
+      ]
+    },
+    "pg060_sec001": {
+      "status": "passed",
+      "changes": [
+        "Replaced slash-style formula copies with readable live MathML fractions, radicals, and the PDF division notation.",
+        "Reunited Example 3.21 with its solution and kept all four examples read-only.",
+        "Verified every original text ID remains and both viewport layouts are clear."
+      ]
+    },
+    "pg061_sec001": {
+      "status": "passed",
+      "changes": [
+        "Restored proper fraction layouts in Exercise 3.4 question 14.",
+        "Replaced broken heading-image references with matching exercise and summary bars and removed duplicated summary numbering.",
+        "Verified every expression against the PDF and retained twenty-five editable fields."
+      ]
+    },
+    "pg062_sec001": {
+      "status": "passed",
+      "changes": [
+        "Compared all summary rules and revision questions with the PDF; retained 21 answer fields.",
+        "Removed the redundant inner panel and connected readable MathML fractions directly to their localization and read-aloud IDs."
+      ]
+    },
+    "pg063_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified revision questions 6–13 and 41 preserved response fields against the PDF.",
+        "Restored the blue revision panel, removed excessive answer-card padding, and unified six fraction prompts with their visible localized MathML."
+      ]
+    },
+    "pg064_sec001": {
+      "status": "passed",
+      "changes": [
+        "Rebuilt misnested desktop columns as readable question blocks; verified questions 14–17 against the PDF.",
+        "Preserved all 12 response fields, legacy-answer migration metadata, and text IDs. Long arithmetic now wraps on phones without clipping; fractions use readable MathML."
+      ]
+    },
+    "pg065_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified questions 18–22, all numbers, units, and arithmetic against the PDF.",
+        "Desktop and phone layouts are readable with 23 answer fields and no clipped content; no further change needed."
+      ]
+    },
+    "pg066_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified all eight project instructions and six response fields against the PDF.",
+        "Removed redundant panel borders and padding; unified pi and fraction display with localization/read-aloud text."
+      ]
+    },
+    "pg067_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified chapter introduction, ratio definition, and all Activity 4.1 prompts against the PDF; four response fields remain.",
+        "Removed the extra introduction frame, restored the blue activity heading, and enlarged the p/q fraction for readability."
+      ]
+    },
+    "pg068_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified Examples 4.1–4.4 against the PDF; all remain live read-only text with no inputs.",
+        "Joined the continuation of Example 4.2 into its solution panel and made fractions legible at body size."
+      ]
+    },
+    "pg069_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified the continuation of Example 4.4 and Examples 4.5–4.7 against the PDF.",
+        "Enlarged the income and savings fractions using display-style MathML. All examples remain read-only, with no clipped content."
+      ]
+    },
+    "pg070_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified the cereal calculation and complete Example 4.8 against the PDF.",
+        "Restored the example heading and kept its solution in one panel. Fractions are legible and the two colour-ratio equations wrap without phone clipping.",
+        "Final desktop/phone verification corrected mathematical wrapping in standard and easy-read content."
+      ]
+    },
+    "pg071_sec001": {
+      "status": "passed",
+      "changes": [
+        "Rebuilt Exercise 4.1 with readable prompt rows and one preserved field for each of its 34 parts.",
+        "Verified all ratios and word problems against the PDF, restored fraction notation and missing-value boxes, and removed raw LaTeX from answer labels."
+      ]
+    },
+    "pg072_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified the proportions explanation, Activity 4.2, and Example 4.9 against the PDF.",
+        "Removed oversized gaps and input-like borders around read-only formulas, restored the activity heading, and made fractions readable. Both saved response fields remain."
+      ]
+    },
+    "pg073_sec001": {
+      "status": "passed",
+      "changes": [
+        "Removed the duplicated Example 4.11 solution and its redundant text/audio entries.",
+        "Restored solution line breaks and readable fractions; checked all three read-only examples against the PDF on desktop and phone."
+      ]
+    },
+    "pg074_sec001": {
+      "status": "passed",
+      "changes": [
+        "Checked all fifteen questions and the preceding solution against the PDF; improved fraction sizing.",
+        "Verified eighteen saved response fields and responsive desktop/phone layouts."
+      ]
+    },
+    "pg075_sec001": {
+      "status": "passed",
+      "changes": [
+        "Removed four duplicate fraction prompts and preserved the localized, narrated MathML copy.",
+        "Kept question numbers beside their prompts on phones; checked all nineteen fields and PDF content."
+      ]
+    },
+    "pg076_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified Revision exercise 4 questions 12–25 and all fifteen saved fields against the PDF.",
+        "Kept question numbers beside their prompts on phones and improved fraction sizing."
+      ]
+    },
+    "pg077_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified the catering project and both response fields against the PDF.",
+        "Removed excessive nested panels and matched the green project heading/body with consistent padding."
+      ]
+    },
+    "pg078_sec001": {
+      "status": "passed",
+      "changes": [
+        "Replaced raw exponent notation with proper superscripts in the like/unlike terms examples.",
+        "Verified the Algebra introduction, definitions, and responsive layout against the PDF."
+      ]
+    },
+    "pg079_sec001": {
+      "status": "passed",
+      "changes": [
+        "Restored the three blue example headers and blue Solution headings.",
+        "Verified all algebraic expressions, substitution steps, and read-only behavior against the PDF; no overflow at either width."
+      ]
+    },
+    "pg080_sec001": {
+      "status": "passed",
+      "changes": [
+        "Restored superscripts, readable fraction sizing, and blue/green heading contrast.",
+        "Allowed the complete Example 5.4 equation to wrap on phones; verified all solutions and five exercise response fields."
+      ]
+    },
+    "pg081_sec001": {
+      "status": "passed",
+      "changes": [
+        "Put questions 2–11 in numerical reading order and restored a responsive answer grid.",
+        "Separated question 22, its formula, and its given values so the complete prompt remains visible on phones.",
+        "Verified all twenty-one saved response fields and the multiplication explanation against the PDF."
+      ]
+    },
+    "pg082_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified the multiplication rules and every step of Examples 5.5 and 5.6 against the PDF.",
+        "Confirmed complete formulas, read-only examples, and clear desktop/phone layouts."
+      ]
+    },
+    "pg083_sec001": {
+      "status": "passed",
+      "changes": [
+        "Restored readable fraction sizes and wrapped both long solution equations at the equals sign.",
+        "Removed unnecessary answer-card padding and kept numbers beside prompts; verified all twenty fields and both read-only examples."
+      ]
+    },
+    "pg084_sec001": {
+      "status": "passed",
+      "changes": [
+        "Put the continued exercise questions in numerical reading order.",
+        "Restored Example 5.9 heading styling and readable fractions; checked ten fields and both solution methods against the PDF."
+      ]
+    },
+    "pg085_sec001": {
+      "status": "passed",
+      "changes": [
+        "Rebuilt both read-only examples with readable fractions and consistent blue headings.",
+        "Moved each solution beside its matching part and each explanatory note beside the correct calculation step; verified both viewport widths."
+      ]
+    },
+    "pg086_sec001": {
+      "status": "passed",
+      "changes": [
+        "Matched all twelve algebra expressions, Activity 5.1, and equation definitions to the PDF.",
+        "Improved fraction sizing and removed repeated visible response labels while preserving accessible labels and all fourteen saved fields."
+      ]
+    },
+    "pg087_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified the operation-word table, all five symbols, and Examples 5.12–5.15 against the PDF.",
+        "Confirmed readable table wrapping, complete text, and read-only examples on desktop and phone."
+      ]
+    },
+    "pg088_sec001": {
+      "status": "passed",
+      "changes": [
+        "Removed the absolutely positioned title that overlapped the Exercise 5.4 instructions and restored its green header.",
+        "Verified the preceding solution, all thirteen questions and fields, and the following explanation against the PDF."
+      ]
+    },
+    "pg089_sec001": {
+      "status": "passed",
+      "changes": [
+        "Joined the split Example 5.18 solution into its example panel and improved fraction readability.",
+        "Verified all four equations and worked solutions against the PDF, with no editable example fields or clipped formulas."
+      ]
+    },
+    "pg090_sec001": {
+      "status": "passed",
+      "changes": [
+        "All five examples and solution steps match the PDF; no inputs, clipping, or overflow at desktop and phone widths.",
+        "Grouped prompt and formula fragments; enlarged fractions; restored readable live absolute-value notation and consistent example spacing."
+      ]
+    },
+    "pg091_sec001": {
+      "status": "passed",
+      "changes": [
+        "Both number lines and the complete absolute-value solution match the PDF. Read-only text and diagrams fit desktop and phone.",
+        "Replaced damaged image with the complete source number line and removed its empty decorative box."
+      ]
+    },
+    "pg092_sec001": {
+      "status": "passed",
+      "changes": [
+        "All three software activity prompts and 25 exercise subparts match the PDF, with 28 editable response fields and no overflow at either width.",
+        "Enlarged fractions and widened the exercise grid to two columns on desktop."
+      ]
+    },
+    "pg093_sec001": {
+      "status": "passed",
+      "changes": [
+        "Questions 4–9 and both angle diagrams match the PDF; 20 editable responses, correct narration, no clipping at either width.",
+        "Replaced raw LaTeX with live absolute-value notation, enlarged fractions, restored panel padding and responsive grids, and bounded diagram sizes."
+      ]
+    },
+    "pg094_sec001": {
+      "status": "passed",
+      "changes": [
+        "Four word-problem examples and all solution steps match the PDF; no interactive fields or overflow.",
+        "Joined the split Example 5.27 solution; grouped steps, enlarged fractions, and made spacing consistent."
+      ]
+    },
+    "pg095_sec001": {
+      "status": "passed",
+      "changes": [
+        "The continued age example, cooking activity, and six exercise questions match the PDF; all nine saved fields remain editable.",
+        "Restored blue activity heading, kept numbers beside prompts on phones, enlarged mixed-number fractions, and reduced nested padding."
+      ]
+    },
+    "pg096_sec001": {
+      "status": "passed",
+      "changes": [
+        "Questions 7–15 and the complete introduction to simultaneous equations match the PDF; nine saved response fields, no overflow.",
+        "Kept question numbers beside their prompts at phone width."
+      ]
+    },
+    "pg097_sec001": {
+      "status": "passed",
+      "changes": [
+        "All elimination-method instructions and Example 5.30 match the PDF; equations remain live and read-only.",
+        "Unified the four instruction steps, kept the note distinct, and improved spacing between simultaneous equations.",
+        "Standardized two-equation brace sizes after final visual regression checks."
+      ]
+    },
+    "pg098_sec001": {
+      "status": "passed",
+      "changes": [
+        "All elimination steps and Example 5.31 match the PDF; no answer controls or overflow.",
+        "Joined continuation panels, separated explanation lines, enlarged fractions and equation rows, and converted cramped arithmetic strings to live math.",
+        "Standardized two-equation brace sizes after final visual regression checks."
+      ]
+    },
+    "pg099_sec001": {
+      "status": "passed",
+      "changes": [
+        "Both elimination examples retain all PDF steps and correct values; live read-only equations fit both widths.",
+        "Joined the split Example 5.32, restored subtraction outside paired equations, and improved fraction and equation spacing.",
+        "Standardized two-equation brace sizes after final visual regression checks."
+      ]
+    },
+    "pg100_sec001": {
+      "status": "passed",
+      "changes": [
+        "All equation systems, elimination steps and solutions match the PDF; zero response fields and no clipping.",
+        "Removed boxes that made worked equations resemble inputs, joined Example 5.33 with its continuation, and enlarged fractions and equation rows.",
+        "Standardized two-equation brace sizes after final visual regression checks."
+      ]
+    },
+    "pg101_sec001": {
+      "status": "passed",
+      "changes": [
+        "Fifteen exercise systems checked against PDF; all saved fields intact. Corrected a source typo using the preceding multiplication and following solution.",
+        "Changed 5(x+10y)=120 to 5x+10y=120 in text and four narration files; aligned equation labels, enlarged fractions and rows, and restored green exercise heading.",
+        "Standardized two-equation brace sizes after final visual regression checks."
+      ]
+    },
+    "pg102_sec001": {
+      "status": "passed",
+      "changes": [
+        "Compared the restored equation systems, substitution steps, and worked Examples 5.34–5.35 with the source PDF. Verified desktop and phone layouts with no overflow or broken mathematics.",
+        "Replaced raw equation markup with live MathML, restored equation labels, and improved fraction and equation spacing.",
+        "Standardized two-equation brace sizes after final visual regression checks."
+      ]
+    },
+    "pg103_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified the continued substitution solution and Example 5.36 against the PDF, including every equation and label; desktop and phone pass.",
+        "Rendered raw tagged equation system as MathML and improved fractions, arithmetic, and paired equation spacing.",
+        "Standardized two-equation brace sizes after final visual regression checks."
+      ]
+    },
+    "pg104_sec001": {
+      "status": "passed",
+      "changes": [
+        "Compared all 15 Exercise 5.8 systems and the continued example and word-problem introduction with the PDF. One field per question; desktop and phone pass.",
+        "Improved fraction and equation-row spacing and retained answer labels for assistive technology without repetitive visible text.",
+        "Standardized two-equation brace sizes after final visual regression checks."
+      ]
+    },
+    "pg105_sec001": {
+      "status": "passed",
+      "changes": [
+        "Both word-problem examples match the PDF; all working remains readable text and MathML with no inputs. Desktop and phone verified.",
+        "Separated run-together steps and conclusions and standardized equation and fraction spacing.",
+        "Standardized two-equation brace sizes after final visual regression checks."
+      ]
+    },
+    "pg106_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified the shopping problem and its full solution against the PDF. Corrected source arithmetic inconsistencies: 83000 minus 9000 divided by 2 is 37000; the second cost equation uses p plus 3r. Results 14000 and 23000 satisfy both scenarios. Desktop and phone pass.",
+        "Joined split example panels, removed equation boxes, improved spacing, corrected minus to plus and 34000 to 37000, restored equation labels 1 and 2, and regenerated four matching narration files.",
+        "Standardized two-equation brace sizes after final visual regression checks."
+      ]
+    },
+    "pg107_sec001": {
+      "status": "passed",
+      "changes": [
+        "Compared Activity 5.4 and all nine Exercise 5.9 questions to the PDF; 11 answer fields, one per prompt, pass both viewport checks.",
+        "Replaced visible plain-text fraction duplicates with the existing localized MathML and kept question numbers beside their prompts on phones."
+      ]
+    },
+    "pg108_sec001": {
+      "status": "passed",
+      "changes": [
+        "Compared the two angle diagrams, inequality rules, and Example 5.40 to the PDF. Both diagrams jointly determine the unknowns; one response field. Desktop and phone pass.",
+        "Restored missing diagram rays and horizontal line from PDF, retired the damaged image, merged two answer fields with saved-answer migration, and improved fractions and Solution heading color."
+      ]
+    },
+    "pg109_sec001": {
+      "status": "passed",
+      "changes": [
+        "Compared Examples 5.41–5.44 with the PDF. Corrected the source logic in 5.44: absolute x at most 2 requires both bounds, not their union. All examples remain read-only; desktop and phone pass.",
+        "Rejoined the split Example 5.42 solution, standardized math and paragraph spacing, and corrected or to and in the absolute-value working and four narration recordings."
+      ]
+    },
+    "pg110_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified the closed interval, two open rays, and Examples 5.45–5.46 against the PDF. Worked text remains read-only; no inputs; desktop and phone pass.",
+        "Restored the missing axis and closed interval segment from the PDF and standardized both diagram widths."
+      ]
+    },
+    "pg111_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified the square-root inequality solution and all 24 lettered exercise prompts against the PDF, including absolute-value bars. Desktop and phone pass.",
+        "Enlarged fractions consistently while retaining all saved-answer keys."
+      ]
+    },
+    "pg112_sec001": {
+      "status": "passed",
+      "changes": [
+        "Compared all 20 continued exercise prompts and the word-problem introduction with the PDF. Four raw formulas repaired; all prompts now editable. Desktop and phone pass.",
+        "Restored missing fields for 5(c) and 5(d), rendered raw absolute-value notation as MathML, improved fraction sizing, removed excess answer-card padding, and cleaned raw LaTeX from field accessibility labels."
+      ]
+    },
+    "pg113_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified Examples 5.47–5.49 against the PDF. Corrected reading order so the Vivian problem precedes its solution. All examples remain read-only; desktop and phone pass.",
+        "Rebuilt each example as one panel, restored logical reading order, and standardized fractions and inequality typography."
+      ]
+    },
+    "pg114_sec001": {
+      "status": "passed",
+      "changes": [
+        "Checked the continued depth example, Exercise 5.11 questions 1–10, and chapter summary against the PDF; desktop and phone layouts have no overflow.",
+        "Flattened narrow exercise columns, kept all 10 response fields, and separated the chapter summary into its own panel."
+      ]
+    },
+    "pg115_sec001": {
+      "status": "passed",
+      "changes": [
+        "Compared summary items 3–9 and revision questions 1–6, all 22 response fields and both viewport layouts against the PDF.",
+        "Removed export backslashes, enlarged fractions, restored missing completion boxes, reduced nested answer padding and removed duplicate revision content and its TTS mappings/audio."
+      ]
+    },
+    "pg116_sec001": {
+      "status": "passed",
+      "changes": [
+        "Checked continued Q6c–e and Q7–13 against the PDF; 25 fields and both viewport layouts pass.",
+        "Replaced flattened duplicate text with the existing accessible MathML, restored completion boxes, enlarged fractions and added room for equations.",
+        "Standardized two-equation brace sizes after final visual regression checks."
+      ]
+    },
+    "pg117_sec001": {
+      "status": "passed",
+      "changes": [
+        "Matched Q14–22, including decimal systems, fractions and inequality signs; 20 response fields remain and both sizes pass.",
+        "Improved fraction and equation row spacing; restored full-width mobile fields with labels alongside questions; removed nested answer padding.",
+        "Standardized two-equation brace sizes after final visual regression checks."
+      ]
+    },
+    "pg118_sec001": {
+      "status": "passed",
+      "changes": [
+        "Checked Q23–29, all absolute-value bars, fraction coefficients, and all 15 responses; both viewport checks pass.",
+        "Enlarged inline and table fractions and separated rows in simultaneous equations.",
+        "Standardized two-equation brace sizes after final visual regression checks."
+      ]
+    },
+    "pg119_sec001": {
+      "status": "passed",
+      "changes": [
+        "Checked Q30–38 against the PDF, including radicals and absolute-value bars; 27 fields, desktop and phone checks pass.",
+        "Replaced raw inequality syntax with escaped MathML, restored the missing right side of Q36a, enlarged table fractions, widened mobile fields and restored blue revision panels.",
+        "Standardized two-equation brace sizes after final visual regression checks."
+      ]
+    },
+    "pg120_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified Q39a–d, Q40 and Algebra project against the PDF; six response fields and both viewport checks pass.",
+        "Restored a–d reading order, removed nested equation boxes, enlarged fractions, widened mobile inputs and restored the project banner.",
+        "Standardized two-equation brace sizes after final visual regression checks."
+      ]
+    },
+    "pg121_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified chapter introduction and Figure 6.1 with complete axes, scales and four quadrant labels; both viewport layouts pass.",
+        "No correction needed."
+      ]
+    },
+    "pg122_sec001": {
+      "status": "passed",
+      "changes": [
+        "Matched Activity 6.1 and Example 6.1, including all A–M point positions; example stays read-only and the activity has one response.",
+        "Restored blue heading banners and removed the extra visible response label while retaining its accessible label."
+      ]
+    },
+    "pg123_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified both examples and all plotted coordinates; no editable fields in examples and both viewport checks pass.",
+        "Made ordered pairs wrap without splitting a pair; replaced the damaged image with the complete PDF graph including axes, grid and coordinate labels."
+      ]
+    },
+    "pg124_sec001": {
+      "status": "passed",
+      "changes": [
+        "Checked continued quadrant answers, Exercise 6.1 Q1–3a and all ten plotted points against the PDF; eight response fields and both viewport checks pass.",
+        "Removed redundant answer padding and nested graph frames so the graph and response fields use the reading width."
+      ]
+    },
+    "pg125_sec001": {
+      "status": "passed",
+      "changes": [
+        "PDF coordinate lists and all question parts checked; 19 response fields retained.",
+        "Kept coordinate pairs together while allowing wrapping between pairs; removed nested answer padding; desktop and phone checks passed."
+      ]
+    },
+    "pg126_sec001": {
+      "status": "passed",
+      "changes": [
+        "PDF checked; source question 10 repeats B(5,-2), retained without inventing the missing vertex.",
+        "Restored activity bar, segment overlines, and single localized gradient formula; kept 5 response fields and improved coordinate wrapping."
+      ]
+    },
+    "pg127_sec001": {
+      "status": "passed",
+      "changes": [
+        "Complete Figure 6.2 and formulas checked against PDF; read-only content.",
+        "Improved fraction sizes, removed formula frames, limited diagram width and restored caption emphasis; phone and desktop pass."
+      ]
+    },
+    "pg128_sec001": {
+      "status": "passed",
+      "changes": [
+        "Examples 6.3 and 6.4 checked against PDF; no response fields.",
+        "Replaced damaged graph with complete PDF crop including axes, values and B/C/D labels; exposed localized MathML and removed duplicate presentation formulas."
+      ]
+    },
+    "pg129_sec001": {
+      "status": "passed",
+      "changes": [
+        "Both continued Example 6.4 calculations and concluding paragraph match PDF; read-only.",
+        "Enlarged fractions and restored the line symbol over BD; desktop and phone checks passed."
+      ]
+    },
+    "pg130_sec001": {
+      "status": "passed",
+      "changes": [
+        "Example 6.5 graph and gradient -4/3 checked against PDF.",
+        "Rejoined the title, prompt, figure and solution in one blue example panel; synchronized inline math fallback with localized MathML and consistent figure width."
+      ]
+    },
+    "pg131_sec001": {
+      "status": "passed",
+      "changes": [
+        "Example 6.6 and gradient discussion match PDF; no interactive example fields.",
+        "Restored blue heading bar, enlarged fractions and converted arithmetic to MathML; both browser widths pass."
+      ]
+    },
+    "pg132_sec001": {
+      "status": "passed",
+      "changes": [
+        "Figure 6.3 and derivation of zero gradient compared against PDF.",
+        "Restored complete horizontal-line figure with axes and coordinate labels; enlarged fractions; desktop and phone checks passed."
+      ]
+    },
+    "pg133_sec001": {
+      "status": "passed",
+      "changes": [
+        "Figure 6.4 and undefined-gradient explanation checked against PDF.",
+        "Restored complete vertical-line graph with coordinate labels; improved fraction sizing and verified both browser widths."
+      ]
+    },
+    "pg134_sec001": {
+      "status": "passed",
+      "changes": [
+        "Examples 6.7 and 6.8 fully match PDF; read-only.",
+        "Removed 9 unnecessary formula frames and enlarged fractions; desktop and phone checks pass."
+      ]
+    },
+    "pg135_sec001": {
+      "status": "passed",
+      "changes": [
+        "Exercise 6.2 coordinate pairs, all 17 response fields and graph checked against PDF.",
+        "Restored missing graph labels, green exercise heading, consistent question surfaces and readable fractions; coordinate pairs wrap as units."
+      ]
+    },
+    "pg136_sec001": {
+      "status": "passed",
+      "changes": [
+        "All continued Exercise 6.2 prompts checked against PDF; 18 fields and cross-page migrations preserved.",
+        "Unified green exercise surface, removed colored inner boxes, enlarged fractions, restored overbars and labeled horizontal/vertical response fields."
+      ]
+    },
+    "pg137_sec001": {
+      "status": "passed",
+      "changes": [
+        "Figure 6.5 and all derivation steps to y=mx+c checked against PDF.",
+        "Restored diagram labels and overbars; kept equation labels alongside formulas, separated derivation steps, and removed decorative graph frame."
+      ]
+    },
+    "pg138_sec001": {
+      "status": "passed",
+      "changes": [
+        "Intercept derivation and Example 6.9 equations match source PDF; no fields or example images.",
+        "Enlarged fractions throughout and verified readable desktop/phone flow."
+      ]
+    },
+    "pg139_sec001": {
+      "status": "passed",
+      "changes": [
+        "Example 6.9 continuation and Example 6.10 match PDF; read-only content.",
+        "Converted plain arithmetic to MathML, enlarged fractions and reduced excessive formula padding; both browser widths pass."
+      ]
+    },
+    "pg140_sec001": {
+      "status": "passed",
+      "changes": [
+        "Example 6.11 fully reviewed against PDF; one source algebra typo corrected.",
+        "Corrected y-5=-2x-8+5 to y-5=-2x-8 in standard/easy text and narration; enlarged fractions, formatted arithmetic, kept example read-only."
+      ]
+    },
+    "pg141_sec001": {
+      "status": "passed",
+      "changes": [
+        "Example 6.11 intercepts and Example 6.12 verification match PDF; read-only.",
+        "Enlarged fractions and formatted arithmetic consistently as MathML; desktop and phone checks passed."
+      ]
+    },
+    "pg142_sec001": {
+      "status": "passed",
+      "changes": [
+        "Exercise 6.3 coordinate values and all 25 fields checked against PDF; cross-page question 7 remains intact.",
+        "Fixed overlapping heading with green bar; responsive columns for short questions; corrected fraction-point typography and coordinate wrapping."
+      ]
+    },
+    "pg143_sec001": {
+      "status": "passed",
+      "changes": [
+        "Continued exercise and general-form derivation checked against PDF; 8 response fields and cross-page migration preserved.",
+        "Improved fraction sizing and separated equation labels (4) and (5) from their expressions; both browser widths pass."
+      ]
+    },
+    "pg144_sec001": {
+      "status": "passed",
+      "changes": [
+        "Examples 6.13 and 6.14 checked against PDF, including all calculation steps.",
+        "Corrected source typo ax+bx=c to ax+by=c in standard/easy text and narration; enlarged fractions and formatted arithmetic consistently."
+      ]
+    },
+    "pg145_sec001": {
+      "status": "passed",
+      "changes": [
+        "Examples 6.15 and 6.16 checked against PDF, including both intercept calculations.",
+        "Enlarged fractions and converted plain arithmetic to MathML; examples remain read-only and both browser widths pass."
+      ]
+    },
+    "pg146_sec001": {
+      "status": "passed",
+      "changes": [
+        "Exercise 6.4 questions, coordinates and all 23 response fields verified against PDF.",
+        "Fixed overlapping heading, restored green panel with consistent gutters, responsive question columns and readable MathML fractions."
+      ]
+    },
+    "pg147_sec001": {
+      "status": "passed",
+      "changes": [
+        "Question 6 and Example 6.17 compared with PDF; omitted opening words restored.",
+        "Restored wording and narration, enlarged fractions, reduced nested padding; 3 exercise fields preserved and example read-only."
+      ]
+    },
+    "pg148_sec001": {
+      "status": "passed",
+      "changes": [
+        "Example 6.17 intercepts and Example 6.18 opening verified against PDF.",
+        "Enlarged fractions and formatted arithmetic consistently; read-only examples pass desktop and phone checks."
+      ]
+    },
+    "pg149_sec001": {
+      "status": "passed",
+      "changes": [
+        "Examples 6.18 continuation, 6.19 and 6.20 checked against PDF, with all calculations intact.",
+        "Consistent MathML arithmetic and larger fractions; no answer inputs in examples; desktop and phone pass."
+      ]
+    },
+    "pg150_sec001": {
+      "status": "passed",
+      "changes": [
+        "Example 6.20 continuation and Examples 6.21/6.22 checked against PDF.",
+        "Enlarged fractions and converted plain equations to MathML; read-only content passes both browser widths."
+      ]
+    },
+    "pg151_sec001": {
+      "status": "passed",
+      "changes": [
+        "Example 6.22 continuation and both parts of Example 6.23 compared against PDF.",
+        "Removed literal LaTeX spacing marks, restored Thus with narration, improved fractions and equation typography; no inputs and both layouts pass."
+      ]
+    },
+    "pg152_sec001": {
+      "status": "passed",
+      "changes": [
+        "Exercise 6.5 wording and all 14 parts verified with PDF; damaged graphs d/e/f and missing graph g restored.",
+        "Rebuilt green exercise panel, fixed fraction text, restored labelled PDF graphs and removed nested frames; all 14 fields preserved and browser checks pass."
+      ]
+    },
+    "pg153_sec001": {
+      "status": "passed",
+      "changes": [
+        "Continued Exercise 6.5 and graphing introduction compared against PDF; all 8 fields retained.",
+        "Improved fractions and equation formatting, kept phrases together, moved question 6(c) instruction before its field and cleaned accessible labels."
+      ]
+    },
+    "pg154_sec001": {
+      "status": "passed",
+      "changes": [
+        "Example 6.24 tables, substitutions and all five plotted points compared with PDF.",
+        "Replaced damaged graph with labelled PDF figure, restored step-by-step paragraphs, fixed mobile table widths; example remains read-only."
+      ]
+    },
+    "pg155_sec001": {
+      "status": "passed",
+      "changes": [
+        "Examples 6.25 and 6.26 checked against PDF, including table and plotted coordinates.",
+        "Replaced oversized incomplete image with complete labelled PDF graph; adjusted table sizing and enlarged fractions; examples remain read-only."
+      ]
+    },
+    "pg156_sec001": {
+      "status": "passed",
+      "changes": [
+        "Example 6.26 table and graph plus Example 6.27 introduction verified against PDF.",
+        "Replaced incomplete image with labelled PDF graph; improved fraction and table sizing; examples remain read-only and both browser widths pass."
+      ]
+    },
+    "pg157_sec001": {
+      "status": "passed",
+      "changes": [
+        "Example 6.27 intercepts/graph and Example 6.28 introduction match PDF.",
+        "Restored complete labelled graph, enlarged fractions and standardized equations; all examples remain read-only and browser checks pass."
+      ]
+    },
+    "pg158_sec001": {
+      "status": "passed",
+      "changes": [
+        "Example 6.28 intercept graph and Example 6.29 solution verified against PDF.",
+        "Restored complete graph, exposed localized MathML and removed duplicate visual formula clones; reduced equation padding; read-only content passes both layouts."
+      ]
+    },
+    "pg159_sec001": {
+      "status": "passed",
+      "changes": [
+        "Example 6.29 graph, Activity 6.3 and Exercise 6.6 verified against PDF.",
+        "Restored complete graph, improved equation formatting and reduced nested question padding; all 9 response fields preserved and both layouts pass."
+      ]
+    },
+    "pg160_sec001": {
+      "status": "passed",
+      "changes": [
+        "Exercise 6.6 questions 3–8 checked against PDF; all 15 response fields and combined question 3(c) preserved.",
+        "Restored point and axis labels from the PDF graph, removed extra figure frame, enlarged fractions and cleaned accessible response labels; both layouts pass."
+      ]
+    },
+    "pg161_sec001": {
+      "status": "passed",
+      "changes": [
+        "Continued exercise and all Activity 6.4 table values and prompts checked against PDF; 19 fields preserved.",
+        "Repaired fixed table widths so all columns fit desktop and phone, retained editable cells and formatted equations as MathML."
+      ]
+    },
+    "pg162_sec001": {
+      "status": "passed",
+      "changes": [
+        "Example 6.30 equations, tables and intersection at (1,1) verified against PDF.",
+        "Corrected mobile table sizing and standardized equation typography; example remains read-only and both layouts pass."
+      ]
+    },
+    "pg163_sec001": {
+      "status": "passed",
+      "changes": [
+        "Example 6.31 equations, table values and intersection at (-1,-5) checked against PDF.",
+        "Restored full labelled graph, rebuilt blue example panel and responsive tables, removed raw math delimiters and extra frames; no answer fields and both layouts pass."
+      ]
+    },
+    "pg164_sec001": {
+      "status": "passed",
+      "changes": [
+        "Example 6.32 intercepts and graph plus Example 6.33 checked against PDF.",
+        "Restored complete labelled graph and larger fractions; clarified source wording to three times their difference so it agrees with 3(x-y)=18, updated both narrations, and removed incorrect body italics; no fields and both layouts pass."
+      ]
+    },
+    "pg165_sec001": {
+      "status": "passed",
+      "changes": [
+        "Example 6.33 intercepts and intersection at (10,4), plus all Activity 6.5 prompts checked against PDF.",
+        "Replaced incomplete panel image with complete labelled graph; improved activity spacing and kept numbers beside prompts on phones; all 3 response fields preserved."
+      ]
+    },
+    "pg166_sec001": {
+      "status": "passed",
+      "changes": [
+        "All 15 Exercise 6.7 questions, including both equations in each system, checked against PDF.",
+        "Restored green exercise panel, responsive columns, readable brackets/fractions and aligned question numbers; expanded single-line fields into answer areas while preserving all 15 saved-answer keys."
+      ]
+    },
+    "pg167_sec001": {
+      "status": "passed",
+      "changes": [
+        "All 13 chapter summary points and six revision coordinate pairs checked against PDF.",
+        "Enlarged slope and coordinate fractions, kept coordinate pairs together and removed nested answer padding; all 6 fields preserved and both layouts pass."
+      ]
+    },
+    "pg168_sec001": {
+      "status": "passed",
+      "changes": [
+        "Revision questions 2–7 checked against PDF, including 34 coordinate/equation subparts.",
+        "Removed visible LaTeX spacing marks, standardized equations, enlarged fractions and corrected extra page padding; all 34 answer fields remain editable and both layouts pass."
+      ]
+    },
+    "pg169_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified all fourteen response parts and all four coordinate graphs against the PDF at desktop and phone widths.",
+        "Restored four separate source graphs, readable two-line equation braces, consistent revision panels, and working space while preserving response keys."
+      ]
+    },
+    "pg170_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified questions 11–17 and all fourteen response parts against the PDF at both widths; source wording retained.",
+        "Joined fragmented question paragraphs, removed nested frames, enlarged fractions, kept coordinates together, and provided working space without changing response keys."
+      ]
+    },
+    "pg171_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified questions 18–27 and nineteen response parts at desktop and phone widths. Source cross-references and wording retained.",
+        "Removed nested framing and fragmented paragraphs, enlarged the fractional coordinate, kept point labels and coordinates together, and removed LaTeX from the answer label."
+      ]
+    },
+    "pg172_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified questions 28–35, thirteen response parts, and graph points P(1,3) and Q(-3,-2) against the PDF.",
+        "Placed the question before its graph, reduced the graph to a readable proportional size, removed its extra frame, and standardized working space and coordinate wrapping."
+      ]
+    },
+    "pg173_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified the locating-places project text and single editable response at desktop and phone widths.",
+        "Restored the green project heading with legible contrast, removed nested padding, and cleaned the response accessible label."
+      ]
+    },
+    "pg174_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified all eleven number lines: 5, 7/3, 1/5, 4.5, 3/4, 3/2, 0, 3 3/4, 3, -5/2, and -3. Desktop and phone checks pass.",
+        "Replaced the bundled answer image with separate accessible SVG diagrams and live part labels; retained the read-aloud description and removed the retired raster."
+      ]
+    },
+    "pg175_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified all fractions and recurring decimals in Exercise 2.1 continuation, Exercise 2.2, and Exercise 2.3; no raw math or overflow at either width.",
+        "Corrected five raw recurring-decimal displays and the missing repeating-start dot in 3(a), regenerated twelve related recordings, enlarged fractions, and organized read-only answers into responsive groups."
+      ]
+    },
+    "pg176_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified Exercises 2.4 and 2.5 against the source, including radicals, fractions, all ten true/false answers, and the sequences.",
+        "Restored repeating dots over 2 and 5 in negative 4.325 and the missing continuation ellipsis, updated four recordings, enlarged fractions, and simplified answer groups."
+      ]
+    },
+    "pg177_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified all nine answer diagrams and their part labels against the PDF, including interval endpoints, outward rays, and plotted fractions.",
+        "Restored eight complete source diagrams and rebuilt 3(a) as SVG to repair clipped labels; corrected figure order, missing axes and segments, removed duplicated loose labels, corrected 32/7 and two recordings, and retired five damaged images."
+      ]
+    },
+    "pg178_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified both continued intervals, all Exercise 2.7 answers and six plotted sets, and ten Revision Exercise 2 fractions.",
+        "Replaced bundled diagrams with eight accessible SVGs, put labels beside their diagrams, split long mathematical answer strings into responsive grids, and removed duplicate frames and retired rasters."
+      ]
+    },
+    "pg179_sec001": {
+      "status": "passed",
+      "changes": [
+        "Compared the answer page with the PDF; found missing recurring marks, damaged number lines, and crowded fraction lines.",
+        "Restored all recurring marks, rebuilt five static number lines, separated answer parts, and verified desktop and phone layout including fraction spacing."
+      ]
+    },
+    "pg180_sec001": {
+      "status": "passed",
+      "changes": [
+        "All answer values and units match the PDF; answer parts were crowded together.",
+        "Separated parts into responsive rows, simplified exercise headings, and verified desktop and phone layout."
+      ]
+    },
+    "pg181_sec001": {
+      "status": "passed",
+      "changes": [
+        "All revision and ratio answers match the PDF; mobile used unnecessarily long single columns.",
+        "Aligned related answers in responsive grids and simplified section headings; verified both sizes."
+      ]
+    },
+    "pg182_sec001": {
+      "status": "passed",
+      "changes": [
+        "Exercise 4.2 and Exercise 5.1 answers were entirely absent; PDF comparison now has no missing or extra content.",
+        "Restored both sections as live text and MathML, added 22 narration files for standard and easy-read text, enlarged fractions, and verified desktop and phone."
+      ]
+    },
+    "pg183_sec001": {
+      "status": "passed",
+      "changes": [
+        "Compared all algebra answers with the PDF; seven formulas appeared twice and fractions were undersized.",
+        "Rebuilt answer groups, removed duplicate visual formulas, applied consistent MathML, and checked responsive layouts."
+      ]
+    },
+    "pg184_sec001": {
+      "status": "passed",
+      "changes": [
+        "Bundled number-line image omitted axes and solution labels; all remaining answer values match the PDF.",
+        "Rebuilt four static SVG number lines, exposed solution text, replaced the damaged image, enlarged fractions, and checked desktop and phone."
+      ]
+    },
+    "pg185_sec001": {
+      "status": "passed",
+      "changes": [
+        "All inequality values match the PDF; raw backslashes, tiny fractions, and nested frames affected readability.",
+        "Removed raw formatting, normalized part labels and MathML fractions, rebuilt answer groups, and verified both screen sizes."
+      ]
+    },
+    "pg186_sec001": {
+      "status": "passed",
+      "changes": [
+        "All answers match the source; exported backslashes and undersized fractions were widespread.",
+        "Removed formatting escapes, normalized equations and part labels, grouped related answers, and verified desktop and phone rendering."
+      ]
+    },
+    "pg187_sec001": {
+      "status": "passed",
+      "changes": [
+        "Four bundled images lost axes, interval segments, labels, or associated answer parts.",
+        "Rebuilt six static SVG number lines with correct endpoints and fractional ticks, exposed all solution text, removed raw escapes, and verified desktop and phone."
+      ]
+    },
+    "pg188_sec001": {
+      "status": "passed",
+      "changes": [
+        "Two interval diagrams were incomplete; the coordinate image repeated the exercise heading and used excessive framing.",
+        "Rebuilt both static intervals, restored labels, cropped the PDF graph alone, removed raw escapes, and checked desktop and phone."
+      ]
+    },
+    "pg189_sec001": {
+      "status": "passed",
+      "changes": [
+        "Bundled square and triangle image omitted axes, labels, and square edges; text overlays were misplaced.",
+        "Replaced the combined image with two complete PDF graph crops, restored captions and correct label placement, and verified both sizes."
+      ]
+    },
+    "pg190_sec001": {
+      "status": "passed",
+      "changes": [
+        "Combined graph image lost axes, labels, and horizontal polygon edges.",
+        "Restored separate trapezium and pentagon figures from the PDF, placed captions with their figures, removed excess frames, and verified both sizes."
+      ]
+    },
+    "pg191_sec001": {
+      "status": "passed",
+      "changes": [
+        "Full-page scan repeated printed furniture and shrank the coordinate diagrams; source values match.",
+        "Replaced the scan with separate PDF figures, live labels and caption, removed print furniture, and verified desktop and phone."
+      ]
+    },
+    "pg192_sec001": {
+      "status": "passed",
+      "changes": [
+        "Both coordinate diagrams lost axes and tick labels; misplaced overlays crossed captions on mobile.",
+        "Restored complete PDF graphs, separated answer parts and captions, removed floating text overlays, and verified desktop and phone."
+      ]
+    },
+    "pg193_sec001": {
+      "status": "passed",
+      "changes": [
+        "Full-page scan replaced; graph coordinates and captions match the PDF.",
+        "Separated the trapezium and quadrilateral into clear figures with live captions; removed printed page furniture."
+      ]
+    },
+    "pg194_sec001": {
+      "status": "passed",
+      "changes": [
+        "Full-page scan and duplicate exercise heading made both graphs too small.",
+        "Separated PDF graphs; restored labels and captions as text and retained a single Exercise 6.2 heading."
+      ]
+    },
+    "pg195_sec001": {
+      "status": "passed",
+      "changes": [
+        "Full-page scan shrank the two positive-gradient graphs and their labels.",
+        "Separated both PDF figures and restored their part labels and captions as live text."
+      ]
+    },
+    "pg196_sec001": {
+      "status": "passed",
+      "changes": [
+        "Combined graphic omitted all coordinate and axis labels.",
+        "Restored two complete negative-gradient graphs from the PDF with correctly positioned live captions."
+      ]
+    },
+    "pg197_sec001": {
+      "status": "passed",
+      "changes": [
+        "Answers match the PDF; fractions were undersized and question parts crowded.",
+        "Improved answer grouping, normalized part labels and fraction sizes, and allowed long answers to wrap between complete mathematical expressions."
+      ]
+    },
+    "pg198_sec001": {
+      "status": "passed",
+      "changes": [
+        "Graph lacked grid and axis numbers; answer formulas contained backslashes and unordered parts.",
+        "Restored the complete PDF graph, removed floating overlays, formatted equations and fractions, and reordered answer parts alphabetically."
+      ]
+    },
+    "pg199_sec001": {
+      "status": "passed",
+      "changes": [
+        "Answers and graph match; Exercise 6.6 appeared twice and fractions were too small.",
+        "Removed the duplicate heading and its TTS, grouped answers consistently, enlarged fractions, and placed the question number before its graph."
+      ]
+    },
+    "pg200_sec001": {
+      "status": "passed",
+      "changes": [
+        "Two graphs shared a reduced page scan and misplaced question numbers.",
+        "Separated source graphs, placed each question number before its graph, removed printed footer, and enlarged fractions."
+      ]
+    },
+    "pg201_sec001": {
+      "status": "passed",
+      "changes": [
+        "All Exercise 6.7 and Revision exercise 6 answers were absent; graph axes and grid were missing.",
+        "Restored twelve answer entries with display text, speech text and 24 standard/easy-read audio files; restored complete PDF graph and removed floating labels."
+      ]
+    },
+    "pg202_sec001": {
+      "status": "passed",
+      "changes": [
+        "Graphs lacked axes, numbers and point labels; first graph also lacked its grid.",
+        "Restored both complete PDF graphs, placed labels before figures and slopes below, and normalized answer typography."
+      ]
+    },
+    "pg203_sec001": {
+      "status": "passed",
+      "changes": [
+        "Combined graph image lacked grids and most labels; answer captions were detached.",
+        "Restored separate complete PDF graphs with live slope answers directly beneath each figure."
+      ]
+    },
+    "pg204_sec001": {
+      "status": "passed",
+      "changes": [
+        "Figure labels and slope captions appeared twice; page also showed an extra book heading.",
+        "Used clean PDF graph crops with live labels and captions, removed extra heading, and enlarged all answer fractions."
+      ]
+    },
+    "pg205_sec001": {
+      "status": "passed",
+      "changes": [
+        "Page was a full-page scan with printed borders and tiny graph labels.",
+        "Separated both source graphs, removed print furniture, and restored question labels as live text."
+      ]
+    },
+    "pg206_sec001": {
+      "status": "passed",
+      "changes": [
+        "Second graph lacked axis numbers, equation and point labels; labels appeared after figures.",
+        "Restored complete PDF graphs, placed each part label first, and removed detached coordinate captions."
+      ]
+    },
+    "pg207_sec001": {
+      "status": "passed",
+      "changes": [
+        "Graph scales and labels overlapped; equations contained literal backslashes and unordered parts.",
+        "Restored the PDF graph, formatted live equations and fractions, normalized labels, and placed answer parts in alphabetical order."
+      ]
+    },
+    "pg208_sec001": {
+      "status": "passed",
+      "changes": [
+        "Graph lost its grid and axis numbers and used detached floating labels.",
+        "Restored complete source graph, removed overlays, and presented gradient and intercept answers in a consistent text panel."
+      ]
+    },
+    "pg209_sec001": {
+      "status": "passed",
+      "changes": [
+        "Glossary wording matches; deeply nested boxes reduced reading width and a hidden image duplicated the definitions.",
+        "Rebuilt semantic term-definition layout with bold terms, consistent spacing, centered heading, and removed redundant image and TTS."
+      ]
+    },
+    "pg210_sec001": {
+      "status": "passed",
+      "changes": [
+        "Bibliography lost the Ministry syllabus publisher and its read-aloud entry; alignment and title emphasis differed from the PDF.",
+        "Restored the citation publisher and both audio variants; added hanging indents and italic book titles with responsive spacing."
+      ]
+    },
+    "pg211_sec001": {
+      "status": "passed",
+      "changes": [
+        "Both bibliography entries omitted the publisher and italicized the whole citation.",
+        "Restored publisher text and four read-aloud recordings; matched title emphasis and hanging indents to the PDF."
+      ]
+    },
+    "pg212_sec001": {
+      "status": "passed",
+      "changes": [
+        "Index incorrectly used contents-page dots and separated the last page reference from each list.",
+        "Rebuilt alphabetic groups with complete inline reference lists, compact rounded headings, and two desktop columns that stack on phones."
+      ]
+    },
+    "pg001_sec001": {
+      "status": "passed",
+      "changes": [
+        "Cover title, certificate and publisher match the PDF; publisher emphasis was missing.",
+        "Restored bold publisher credit; verified certificate and responsive title layout."
+      ]
+    },
+    "pg002_sec001": {
+      "status": "passed",
+      "changes": [
+        "Copyright, edition history, ISBN, contact details and rights paragraph match the PDF.",
+        "No additional changes needed; desktop spacing and phone wrapping verified."
+      ]
+    },
+    "pg003_sec001": {
+      "status": "passed",
+      "changes": [
+        "Contents rows stacked titles, dots and numbers separately on phones; chapter names lacked the source emphasis.",
+        "Rebuilt responsive dotted leaders and aligned page numbers; restored blue italic chapter names and clear hierarchy."
+      ]
+    },
+    "pg004_sec001": {
+      "status": "passed",
+      "changes": [
+        "All contents titles and page references match the PDF.",
+        "No additional changes needed; dotted leaders, emphasis and wrapping verified at desktop and phone widths."
+      ]
+    },
+    "pg005_sec001": {
+      "status": "passed",
+      "changes": [
+        "Acknowledgments wording and signature match; a hidden scan duplicated the text and narration.",
+        "Removed duplicate image and read-aloud resources and matched contributor labels to the PDF."
+      ]
+    },
+    "pg006_sec001": {
+      "status": "passed",
+      "changes": [
+        "Preface wording, title emphasis, library links and QR code match the PDF; a hidden image duplicated the page.",
+        "Removed the hidden scan and duplicate read-aloud entries; verified desktop and phone rendering."
+      ]
+    },
+    "pg007_sec001": {
+      "status": "passed",
+      "changes": [
+        "Chapter introduction and definitions match; hidden banner and introduction images duplicated live text.",
+        "Removed both duplicate images and audio descriptions; restored italic mathema and verified both layouts."
+      ]
+    },
+    "pg008_sec001": {
+      "status": "passed",
+      "changes": [
+        "Definitions and all three activity prompts match the PDF; activity heading lacked the source blue bar.",
+        "Restored a full-width blue heading above the three editable responses; verified responsive layout."
+      ]
+    },
+    "pg009_sec001": {
+      "status": "passed",
+      "changes": [
+        "All applications text, subject headings and hexadecimal colour values match the PDF.",
+        "No changes needed; verified font consistency, spacing and phone wrapping."
+      ]
+    },
+    "pg010_sec001": {
+      "status": "passed",
+      "changes": [
+        "All five subject sections match the PDF, but headings ran directly into preceding paragraphs and HTML closing tags were misplaced.",
+        "Rebuilt section groups with consistent spacing and corrected document nesting."
+      ]
+    },
+    "pg011_sec001": {
+      "status": "passed",
+      "changes": [
+        "Content and Activity 1.2 match the PDF; music fractions were too small.",
+        "Enlarged the native fractions; verified the single activity response and absence of removed save-status text."
+      ]
+    },
+    "pg012_sec001": {
+      "status": "passed",
+      "changes": [
+        "Activity 1.3 and all four Exercise 1.1 questions match the PDF.",
+        "No changes needed; verified shared reading width, five editable responses, and removal of the findings and save-status labels."
+      ]
+    },
+    "pg013_sec001": {
+      "status": "passed",
+      "changes": [
+        "Chapter wording and both Activity 2.1 tasks match the PDF; rational fraction was small and response captions repeated task information.",
+        "Enlarged native fraction, restored punctuation, and retained response labels for assistive technology while simplifying the visible activity."
+      ]
+    },
+    "pg014_sec001": {
+      "status": "passed",
+      "changes": [
+        "The first rational number lost its negative sign and the long fraction list was tiny; activity heading lacked its blue bar.",
+        "Restored negative 34/3 in text and both audio variants; enlarged and wrapped fractions; restored the activity bar while keeping the example read-only."
+      ]
+    },
+    "pg015_sec001": {
+      "status": "passed",
+      "changes": [
+        "Both number lines and all worked text match the source; conversion steps were crowded and diagrams oversized on desktop.",
+        "Restored vertical separation between fraction steps and a consistent diagram width; examples remain read-only."
+      ]
+    },
+    "pg016_sec001": {
+      "status": "passed",
+      "changes": [
+        "Example 2.3 and all 20 exercise responses checked against PDF; number line marks negative and positive 13/5.",
+        "Improved fraction sizing, paragraph spacing and phone diagram labels; retained separate responses per subquestion."
+      ]
+    },
+    "pg017_sec001": {
+      "status": "passed",
+      "changes": [
+        "All Exercise 2.1 continuation values and repeating-decimal introduction verified against PDF.",
+        "Added missing question 4(b) response, enlarged fractions and kept question numbers beside prompts on phones."
+      ]
+    },
+    "pg018_sec001": {
+      "status": "passed",
+      "changes": [
+        "Activity 2.3 and Example 2.4 checked; source repeating decimals had lost ellipses and visible bars.",
+        "Restored ellipses, dots and overbars; repaired prose incorrectly parsed as math; regenerated 12 narration clips."
+      ]
+    },
+    "pg019_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified conversion procedure and Example 2.5 against PDF, including exact recurring digits.",
+        "Restored missing dots on 1.214 and 0.83; removed extra digit in part d; fixed raw math and missing words; regenerated 14 clips."
+      ]
+    },
+    "pg020_sec001": {
+      "status": "passed",
+      "changes": [
+        "Example 2.5 b/c/d checked including 83/99, 835/999 and 5/6 results.",
+        "Rebuilt raw equations as live math, corrected repeating notation, retired stray 7.5 heading and its audio, regenerated 14 clips."
+      ]
+    },
+    "pg021_sec001": {
+      "status": "passed",
+      "changes": [
+        "Example 2.6 checked against PDF, including 9.2, 5.23 and 2.105 recurring digits and both completed fractions.",
+        "Rebuilt raw formulas, restored missing dot over 1 in 2.105, aligned equation labels with equations, enlarged fractions."
+      ]
+    },
+    "pg022_sec001": {
+      "status": "passed",
+      "changes": [
+        "Exercise 2.2 and preceding solution compared with PDF; all 19 answer areas checked.",
+        "Corrected the repeating mark in 5(c), widened the combined question 8 response, improved fractions and clarified six narration clips."
+      ]
+    },
+    "pg023_sec001": {
+      "status": "passed",
+      "changes": [
+        "Example 2.7 long division for one third and two thirds checked against PDF.",
+        "Restored text-based brackets, subtraction rules and vertical ellipses; enlarged fractions; responsive two-column solution."
+      ]
+    },
+    "pg024_sec001": {
+      "status": "passed",
+      "changes": [
+        "Example 2.7 continuation and mixed-fraction Example 2.8 verified against source.",
+        "Restored bars and first repeating dots, normal prose wrapping, example heading bar and fraction sizes; clarified eight narration clips."
+      ]
+    },
+    "pg025_sec001": {
+      "status": "passed",
+      "changes": [
+        "Example 2.9 and Exercise 2.3 checked against PDF, including repeating digits and the chocolate problem.",
+        "Fixed raw math and missing dots; retained one chocolate response; combined question 2 selections into one response with legacy-answer migration; enlarged fractions."
+      ]
+    },
+    "pg026_sec001": {
+      "status": "passed",
+      "changes": [
+        "Exercise continuation, Activity 2.4, irrational-number definition and Example 2.10 verified against source.",
+        "Improved fraction sizes and mobile question alignment; synchronized fallback mathematical notation with display text."
+      ]
+    },
+    "pg027_sec001": {
+      "status": "passed",
+      "changes": [
+        "Checked the examples, note, exercise questions, radicals, fractions, and recurring decimals against the PDF; desktop and phone layouts show all content without clipping.",
+        "Split long mathematical lists into wrapping items and made fractions consistently readable."
+      ]
+    },
+    "pg028_sec001": {
+      "status": "passed",
+      "changes": [
+        "Verified all exercise questions and real-number definitions against the PDF; all twelve responses remain editable and the desktop and phone layouts fit.",
+        "Improved mathematical list wrapping and fraction sizing, restored the plain section heading, and corrected spurious negative signs in five easy-read mathematical lists and their audio."
+      ]
+    },
+    "pg029_sec001": {
+      "status": "passed",
+      "changes": [
+        "Compared the six nested number categories, every comparison example, both number lists, and the three notes with the PDF. Desktop and phone layouts fit.",
+        "Kept the source-matching figure and aligned the numbered explanations on phones; applied consistent mathematical sizing."
+      ]
+    },
+    "pg030_sec001": {
+      "status": "passed",
+      "changes": [
+        "Checked the four real-life examples, both activity tasks, inequality definitions, and every table cell against the PDF. Two editable responses remain and both viewport checks pass.",
+        "Restored bold table headings and consistent inequality and variable typography; retained the live activity and text table."
+      ]
+    },
+    "pg031_sec001": {
+      "status": "passed",
+      "changes": [
+        "Compared all three notes, both number lines, the complete Example 2.12 questions, and its first solution with the PDF. The example is read-only live text; both viewport checks pass.",
+        "Kept the source-faithful content and improved number-line sizing and phone label legibility."
+      ]
+    }
+  },
+  "source_sha256": "5529eb8ffa0e5ae2a816959601ae8da301ae7db6d16f28dbfbc7cca6a9b72b10",
+  "completed_at": "2026-09-13T09:42:03+03:00",
+  "review_order": "Pages 32–212, then pages 1–31; each page was completed before the next PDF comparison.",
+  "verification": {
+    "reviewed_pages": 212,
+    "browser_layout_checks": 848,
+    "browser_modes": [
+      "standard",
+      "easy-read display content"
+    ],
+    "viewport_widths": [
+      1280,
+      390
+    ],
+    "browser_issues": 0,
+    "response_pages": 92,
+    "response_fields": 1322,
+    "combined_answer_migrations": 80,
+    "new_response_fields_verified": 3,
+    "response_save_restore_clear_issues": 0,
+    "response_unit_tests_passed": 6,
+    "accessible_math_prompts_linked": 125,
+    "export_browser_checks": 12,
+    "exported_html_pages_identical_to_source": 212,
+    "embedded_resources_match": true,
+    "broken_local_resources": 0,
+    "export_bytes": 923013727,
+    "duplicate_export_audio_files_shared": 3163,
+    "duplicate_export_audio_bytes_saved": 112171260,
+    "generated_preview_removed_after_validation": true,
+    "project_cache_and_temp_files_remaining": 0
+  }
+}

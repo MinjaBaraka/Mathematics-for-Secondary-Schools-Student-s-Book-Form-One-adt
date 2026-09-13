@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 102">
+<path d="M18 36 H702" stroke="#36a4cc" stroke-width="2"/>
+<path d="M8 36 31 29 V43 Z M712 36 689 29 V43 Z" fill="#36a4cc"/>
+<path d="M45 16 V56" stroke="#36a4cc" stroke-width="2"/>
+<text x="45" y="88" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="27">−3</text>
+<path d="M135 16 V56" stroke="#36a4cc" stroke-width="2"/>
+<text x="135" y="88" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="27">−2</text>
+<path d="M225 16 V56" stroke="#36a4cc" stroke-width="2"/>
+<text x="225" y="88" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="27">−1</text>
+<path d="M315 16 V56" stroke="#36a4cc" stroke-width="2"/>
+<text x="315" y="88" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="27">0</text>
+<circle cx="315" cy="36" r="7.5" fill="#222"/>
+<path d="M405 16 V56" stroke="#36a4cc" stroke-width="2"/>
+<text x="405" y="88" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="27">1</text>
+<circle cx="405" cy="36" r="7.5" fill="#222"/>
+<path d="M495 16 V56" stroke="#36a4cc" stroke-width="2"/>
+<text x="495" y="88" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="27">2</text>
+<circle cx="495" cy="36" r="7.5" fill="#222"/>
+<path d="M585 16 V56" stroke="#36a4cc" stroke-width="2"/>
+<text x="585" y="88" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="27">3</text>
+<circle cx="585" cy="36" r="7.5" fill="#222"/>
+<path d="M675 16 V56" stroke="#36a4cc" stroke-width="2"/>
+<text x="675" y="88" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="27">4</text>
+</svg>

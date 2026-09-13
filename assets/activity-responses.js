@@ -5,39 +5,60 @@
   if (!root?.querySelector('[data-activity-item]')) return;
   const pageId = document.querySelector('meta[name="title-id"]')?.content;
   if (!pageId) return;
-  const key = `adt:mathematics-form-one:${pageId}:responses:v1`;
+  const storageKey = id => `adt:mathematics-form-one:${id}:responses:v1`;
+  const key = storageKey(pageId);
   const selector = '[data-activity-item]';
-  const status = document.getElementById('practice-save-status');
-  const announce = (text) => {
-    if (status && status.textContent !== text) status.textContent = text;
-  };
 
-  try {
-    const saved = JSON.parse(localStorage.getItem(key) || '{}');
-    let restored = false;
-    for (const field of root.querySelectorAll(selector)) {
-      const value = saved?.[field.dataset.activityItem];
-      if (typeof value === 'string' && !field.value) {
-        field.value = value;
-        restored ||= value.length > 0;
-      }
+  const read = id => {
+    try {
+      const value = JSON.parse(localStorage.getItem(storageKey(id)) || '{}');
+      return value && typeof value === 'object' && !Array.isArray(value) ? value : {};
+    } catch {
+      // Keep the fields editable if stored responses cannot be read.
+      return {};
     }
-    if (restored) announce('Your saved answers have been restored.');
-  } catch {
-    announce('Answers cannot be restored in this browser. You can still write below.');
-  }
+  };
 
   const save = () => {
     const responses = Object.fromEntries(
       Array.from(root.querySelectorAll(selector), field => [field.dataset.activityItem, field.value]),
     );
     try {
-      localStorage.setItem(key, JSON.stringify(responses));
-      announce('Answers saved on this device.');
+      // Retain historical keys, including notes moved to a following page.
+      localStorage.setItem(key, JSON.stringify({ ...read(pageId), ...responses }));
     } catch {
-      announce('Answers could not be saved. Keep this page open to retain your work.');
+      // Leave current answers in the fields if device storage is unavailable.
     }
   };
+
+  const saved = read(pageId);
+  let migrated = false;
+  for (const field of root.querySelectorAll(selector)) {
+    if (field.value) continue;
+    const value = saved[field.dataset.activityItem];
+    // An empty saved string is intentional: do not revive an answer the reader cleared.
+    if (typeof value === 'string') {
+      field.value = value;
+      continue;
+    }
+    try {
+      const sources = JSON.parse(field.dataset.responseSources || '[]');
+      if (!Array.isArray(sources)) continue;
+      const parts = sources.flatMap(source => {
+        const previous = source.page ? read(source.page) : saved;
+        const answer = previous[source.key];
+        if (typeof answer !== 'string' || !answer.trim()) return [];
+        return [source.label ? `${source.label}:\n${answer}` : answer];
+      });
+      if (parts.length) {
+        field.value = parts.join('\n\n');
+        migrated = true;
+      }
+    } catch {
+      // One malformed migration must not prevent other answers from loading.
+    }
+  }
+  if (migrated) save();
 
   for (const event of ['input', 'change']) {
     root.addEventListener(event, e => {

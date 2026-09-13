@@ -212,7 +212,7 @@ body:has(#content) {
 #content math, #content math * { font-family: initial; line-height: normal; }
 #content math { font-size: 1em; }
 #content math[display="block"] { max-width: 100%; overflow-x: auto; padding-block: 0.4em; }
-#content .adt-body:has(math) { overflow-x: auto; padding-block: 0.15em; }
+#content .adt-body:not(li):has(math) { overflow-x: auto; padding-block: 0.15em; }
 #content a:focus-visible, #content button:focus-visible { outline: 2px solid var(--book-blue); outline-offset: 3px; }
 
 @media (max-width: 640px) {
@@ -236,3 +236,8 @@ body:has(#content) {
   #content [data-book-page] { border: 0; box-shadow: none; }
   #nav-container, #interface-container { display: none !important; }
 }
+
+/* Let long fraction numerators wrap without shrinking their digits. */
+#content .book-wrapping-fraction { display: inline-grid; max-width: 100%; vertical-align: middle; text-align: center; line-height: 1.5; }
+#content .book-fraction-numerator { display: flex; flex-wrap: wrap; justify-content: center; gap: 0 0.2em; border-bottom: 1px solid currentColor; padding: 0 0.15em; }
+#content .book-fraction-numerator > span { white-space: nowrap; }

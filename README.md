@@ -12,11 +12,19 @@ The reader files are at the repository root. Open `index.html`, or serve this
 directory with `python3 -m http.server 8000` and visit `http://localhost:8000`.
 
 Activities, exercises and projects use live text and editable answer boxes.
-All 1,431 response fields save on the current device. The 137 worked examples
-and the answer key are read-only text and mathematical notation. Required
+All 1,322 response fields save on the current device. Each question or
+subquestion has one response field; table cells remain individually editable.
+Former split answers and notes are carried into the combined field, including
+questions that continue on the next page. Repeated publisher/book-name labels
+and their read-aloud recordings have been removed throughout the book.
+
+The 137 worked examples and the answer key are read-only text and mathematical notation. Required
 graphs and diagrams remain illustrations; screenshots of instructions,
 questions and solutions have been replaced with live content. The global math
 toolbar has been removed from the textbook.
+Answer saving runs silently, without save-status messages or spoken updates.
+Response fields use their task instructions as accessible names; the extra
+“Your findings” label has been removed.
 
 After editing page content or localization, run
 `python3 scripts/refresh_embedded_resources.py` to update the offline preloader.
@@ -29,6 +37,12 @@ The source-checked inventory in `scripts/learning-content-audit.json` records
 learning headings, response keys, retired panel images and source diagram
 crops. The publishing build runs this check before and after export, including
 checks for accessible field labels and read-aloud recordings for restored text.
+It also prevents removed running credits and redundant response fields from
+returning. Retired image descriptions and recordings are also excluded.
+`scripts/pdf-page-review.json` records the completed, sequential comparison of
+all 212 pages with the source PDF and the final verification results.
+Run `node --test scripts/test_activity_responses.cjs` to check saved
+answer migration, clearing, cross-page notes, and unavailable device storage.
 Edit `assets/learning-content.css` for the live learning panels, and
 `assets/activity-responses.js` for local response saving.
 
@@ -41,13 +55,22 @@ browser size; section headings use 20 px, chapter titles 30 px, and captions
 16 px. These sizes use rem units so browser text scaling remains available.
 
 Edit `assets/reader-design.css` for shared visual changes. The PDF-derived heading
-roles are recorded in `scripts/reader-design-map.json`. Run
-`python3 scripts/build_reader_design.py` after editing page layouts or roles;
-it applies the stylesheet to all 212 pages, normalizes the six chapter headers,
-and refreshes the offline preloader. The publishing build performs the same
-step. Text IDs, localized text, mathematical markup, images, and answer controls
-are preserved. Long tables and expressions scroll within the reading area on
-narrow screens.
+roles are recorded in `scripts/reader-design-map.json`.
+`python3 scripts/build_reader_design.py` can infer design roles for a fresh
+export. It applies the stylesheet to all 212 pages, normalizes the six chapter
+headers, and refreshes the offline preloader. Review its output before using it
+on manually corrected pages: inference can replace deliberate design attributes.
+Publishing copies the reviewed HTML without recalculating its layout.
+
+All 212 pages share the reading frame in `assets/reader-layout.css`, based on
+pg011: a 52 rem maximum page width, 3 rem side gutters, and 1 rem gutters on
+small screens. This keeps prose, activities, exercises, and examples aligned
+when moving between pages. The page shrinks with the viewport on phones.
+`scripts/normalize_reader_layout.py` removes extra spacing from nested reading
+containers and stacks page-level columns while preserving the internal layout
+of diagrams, equations, tables, and question panels. The design script runs it
+automatically; publishing preserves the existing annotations. To update layout annotations and offline
+resources, run `python3 -B scripts/normalize_reader_layout.py`.
 
 ## Publishing
 

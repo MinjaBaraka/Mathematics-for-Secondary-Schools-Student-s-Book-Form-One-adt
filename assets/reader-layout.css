@@ -1,0 +1,82 @@
+/* One reading frame for every page. Panel padding and diagram proportions stay local. */
+:root {
+  --reader-width: 52rem;
+  --reader-gutter: 3rem;
+  --reader-top-space: 2.5rem;
+}
+
+#content[data-reader-layout="standard"] {
+  box-sizing: border-box;
+  width: min(100%, var(--reader-width));
+  max-width: var(--reader-width);
+  min-width: 0;
+  padding: 0;
+}
+
+#content[data-reader-layout] [data-book-page][data-section-id] {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+  margin-inline: 0;
+  padding: var(--reader-top-space) var(--reader-gutter);
+}
+
+#content[data-reader-layout] [data-reader-column] {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+  padding-inline: 0;
+  margin-inline: 0;
+  float: none;
+  left: auto;
+  right: auto;
+}
+
+#content[data-reader-layout] [data-reader-region] {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+  margin-inline: 0;
+  float: none;
+}
+
+#content[data-reader-layout] [data-reader-flow] {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.5rem;
+}
+
+#content[data-reader-layout] [data-reader-flow] > :not([data-reader-sidebar]) {
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+  grid-column: auto;
+}
+
+#content[data-reader-layout] [data-reader-sidebar] { display: none; }
+
+#content[data-reader-layout] .front-header,
+#content[data-reader-layout] .chapter-opening { margin-inline: 0; }
+#content[data-reader-layout] .chapter-opening { padding-inline: 0; }
+
+/* Running credits fit in the shared gutter, without taking space from the text. */
+#content[data-reader-layout] .front-rail {
+  width: 2.25rem;
+  left: 0.25rem;
+  right: auto;
+}
+#content[data-reader-layout] .front-publisher,
+#content[data-reader-layout] .front-book-name { padding-left: 0.3rem; padding-right: 0.3rem; }
+#content[data-reader-layout].page-numbers .front-rail { left: auto; right: 0.25rem; }
+
+@media (max-width: 640px) {
+  :root { --reader-gutter: 1rem; --reader-top-space: 1.5rem; }
+}
+
+@media print {
+  #content[data-reader-layout="standard"] { width: 100%; max-width: none; }
+}

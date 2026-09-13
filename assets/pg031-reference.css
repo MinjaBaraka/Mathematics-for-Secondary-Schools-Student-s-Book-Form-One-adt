@@ -1,0 +1,66 @@
+/* Printed page 25: inequalities, two number lines, and worked Example 2.12. */
+#content.page-inequalities .adt-body { line-height: 1.45; }
+#content.page-inequalities .inequalities-intro { margin: 0 0 1.25rem; }
+
+#content.page-inequalities .inequality-note {
+  margin: 0 0 2rem;
+  padding: 0.65rem 1rem 0.85rem;
+  border: 1px solid #b6e5ef;
+  border-radius: 0.25rem 0.25rem 0.85rem 0.85rem;
+  background: white;
+  box-shadow: 0 4px 7px #21adce66, inset 0 2px 9px #d9f4f8;
+}
+#content.page-inequalities .inequality-note h1 {
+  margin: 0;
+  color: var(--book-blue);
+}
+#content.page-inequalities .inequality-note ol {
+  list-style: decimal;
+  margin: 0;
+  padding-left: 1.5em;
+}
+#content.page-inequalities .inequality-note li {
+  padding-left: 0.2em;
+  line-height: 1.45;
+}
+
+#content.page-inequalities .number-line-intro { margin: 0; }
+#content.page-inequalities .inequality-number-line { margin: 0.5rem auto; }
+#content.page-inequalities .inequality-number-line img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+#content.page-inequalities .letter-number-line { max-width: 30rem; }
+#content.page-inequalities .integer-number-line { max-width: 30rem; margin-block: 0.5rem 1rem; }
+#content.page-inequalities .number-line-explanation { margin-bottom: 1.5rem; }
+#content.page-inequalities .number-line-explanation p { margin: 0; }
+
+#content.page-inequalities .worked-example {
+  border: 1px solid #b7d1dd;
+  background: #eaf5f5;
+  box-shadow: inset -2px -2px 2px #abc3ce;
+}
+#content.page-inequalities .worked-example-title {
+  margin: 0;
+  padding: 0.55rem 1.1rem;
+  color: white;
+  background:
+    repeating-radial-gradient(ellipse at 30% -50%, transparent 0 20px, #90b9cd33 22px 30px, transparent 32px 52px),
+    linear-gradient(100deg, #2772a4, #355f91 55%, #88a9bc);
+  border-bottom: 2px solid #638ea7;
+}
+#content.page-inequalities .worked-example-body { padding: 1rem 1.1rem 1.5rem; }
+#content.page-inequalities .worked-example-body p { margin: 0; }
+#content.page-inequalities .example-questions p,
+#content.page-inequalities .example-solution {
+  padding-left: 1.5em;
+  text-indent: -1.5em;
+}
+#content.page-inequalities .solution-title { margin: 1rem 0 0.25rem; }
+
+@media (max-width: 640px) {
+  #content.page-inequalities .inequality-note { padding-inline: 0.85rem; }
+  #content.page-inequalities .worked-example-title { padding-inline: 0.85rem; }
+  #content.page-inequalities .worked-example-body { padding-inline: 0.85rem; }
+}

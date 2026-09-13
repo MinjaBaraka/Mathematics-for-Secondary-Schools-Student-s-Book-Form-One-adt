@@ -10,7 +10,6 @@ import sys
 
 sys.dont_write_bytecode = True
 from refresh_embedded_resources import refresh_embedded_resources
-from build_reader_design import apply_design
 from audit_learning_content import audit_learning_content
 
 
@@ -36,7 +35,8 @@ def main():
         shutil.copy2(ROOT / name, OUTPUT / name)
     (OUTPUT / ".nojekyll").touch()
 
-    apply_design(OUTPUT)
+    # Export the reviewed page layouts verbatim. Re-inferring design attributes
+    # here can undo deliberate padding, heading, and equation-panel fixes.
     refresh_embedded_resources(OUTPUT)
 
     preloader_path = OUTPUT / "assets/offline-preloader.js"
