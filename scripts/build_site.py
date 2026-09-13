@@ -17,7 +17,8 @@ ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "_site"
 IGNORE = shutil.ignore_patterns(
     ".DS_Store", "._*", "__MACOSX", ".cache", "__pycache__",
-    "*.tmp", "*.temp", "*.swp", "*.swo", "*~",
+    "*.tmp", "*.temp", "*.swp", "*.swo", "*.bak", "*~", "*.map",
+    ".git", ".github", "node_modules", ".pytest_cache", "tmp", "temp",
 )
 
 

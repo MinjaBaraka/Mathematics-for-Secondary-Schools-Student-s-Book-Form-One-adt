@@ -1,0 +1,75 @@
+/* Shared mobile reader chrome. Keep this breakpoint in sync with useIsMobile
+   in the reader bundle and mobile-sheet-drag.js. Book typography is separate. */
+@media (max-width: 767.98px) {
+  [data-reader-dock] {
+    box-sizing: border-box;
+    max-width: 100%;
+    min-width: 0;
+    padding-left: max(8px, env(safe-area-inset-left));
+    padding-right: max(8px, env(safe-area-inset-right));
+    padding-bottom: max(8px, env(safe-area-inset-bottom));
+  }
+
+  [data-reader-dock] button {
+    flex-shrink: 0;
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  [data-reader-page-nav] {
+    min-width: 0;
+    flex-wrap: nowrap;
+  }
+
+  [data-reader-page-count] {
+    flex-shrink: 0;
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Use the visual viewport height on phones with expanding browser bars.
+     Scroll long menus inside the sheet, including in landscape orientation. */
+  [data-slot="sheet-content"][data-side="bottom"] {
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: calc(100vh - 16px);
+    max-height: calc(100dvh - 16px);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding-bottom: max(16px, env(safe-area-inset-bottom));
+  }
+
+  [data-reader-tools] {
+    border-radius: 16px 16px 0 0;
+    gap: 12px;
+    padding: 16px;
+    padding-bottom: max(16px, env(safe-area-inset-bottom));
+  }
+
+  [data-reader-tools-grid] {
+    display: flex;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    min-width: 0;
+  }
+
+  /* An odd final tool (Settings in the five-tool menu) centres naturally. */
+  [data-reader-tools-grid] > button {
+    box-sizing: border-box;
+    flex: 0 0 calc(50% - 4px);
+    width: calc(50% - 4px);
+    min-width: 0;
+    min-height: 72px;
+    padding: 12px;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
+  [data-reader-tools-grid] > button svg {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+  }
+}

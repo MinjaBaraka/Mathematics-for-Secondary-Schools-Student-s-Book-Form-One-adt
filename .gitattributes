@@ -1,2 +1,13 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Keep development metadata out of GitHub source archives.
+.github export-ignore
+.gitignore export-ignore
+.gitattributes export-ignore
+AGENTS.md export-ignore
+RESPONSIVE_READER.md export-ignore
+QA_*.md export-ignore
+scripts export-ignore
+_config.yml export-ignore
+assets/*.map export-ignore

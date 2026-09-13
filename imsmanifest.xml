@@ -237,6 +237,12 @@
       <file href="pg210_sec001.html"/>
       <file href="pg211_sec001.html"/>
       <file href="pg212_sec001.html"/>
+          <file href="assets/reader-mobile.css"/>
+      <file href="assets/mobile-sheet-drag.css"/>
+      <file href="assets/mobile-sheet-drag.js"/>
+      <file href="assets/base.bundle.local.js"/>
+      <file href="assets/offline-preloader.js"/>
+      <file href="assets/config.json"/>
     </resource>
   </resources>
 

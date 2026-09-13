@@ -24,3 +24,8 @@ node_modules/
 *.swp
 *.swo
 *~
+
+# Generated files are not part of an exported textbook.
+/tmp/
+/temp/
+*.bak
